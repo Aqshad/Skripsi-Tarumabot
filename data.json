@@ -1,0 +1,2567 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "Hai kak",
+        "helo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "bro",
+        "sis",
+        "kawan",
+        "pagi",
+        "selamat pagi",
+        "morning",
+        "goodmorning",
+        "siang",
+        "selamat siang",
+        "afternoon",
+        "good afternoon",
+        "sore",
+        "selamat sore",
+        "evening",
+        "good evening",
+        "malam",
+        "selamat malam",
+        "halo selamat pagi",
+        "halo selamat siang",
+        "halo selamat sore",
+        "halo selamat malam"
+      ],
+      "responses": [
+        "Hai! Tarumabot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Ada yang bisa Tarumabot bantu?"
+      ]
+    },
+    {
+      "tag": "tarumabot",
+      "patterns": [
+        "Apa itu tarumabot?",
+        "Siapa tarumabot?",
+        "kamu siapa?",
+        "kamu siapa sih?",
+        "Tarumabot apa",
+        "apasih tarumabot itu?"
+      ],
+      "responses": [
+        "Tarumabot adalah chatbot yang dirancang untuk memberikan informasi tentang Universitas Tarumanagara. Kamu bisa menanyakan berbagai hal seputar kampus, program studi, pendaftaran, dan kegiatan kampus lainnya!",
+        "Tarumabot adalah chatbot yang menyediakan informasi seputar Universitas Tarumanagara dengan cara yang cepat dan mudah. Kamu bisa bertanya apa saja seputar kampus di sini!"
+      ]
+    },
+    {
+      "tag": "pencipta_tarumabot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Tarumabot, yang buat kamu siapa sih?",
+        "siapa yang membuat kamu?",
+        "kamu dibuat oleh siapa?"
+      ],
+      "responses": [
+        "Halo! Tarumabot diciptakan oleh mahasiswa Fakultas Teknologi Informasi Universitas Tarumanagara. Kami berharap chatbot ini dapat membantu Anda menjawab berbagai pertanyaan seputar Universitas Tarumanagara. Jangan ragu untuk bertanya, kami di sini untuk membantu!"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "selamat tinggal",
+        "see you",
+        "bay",
+        "goodnight",
+        "dadah",
+        "dah",
+        "byee",
+        "good bye",
+        "sampai jumpa",
+        "sampai jumpa lagi",
+        "thankyou",
+        "thanks",
+        "thank you",
+        "terima kasih",
+        "terimakasih",
+        "makasih",
+        "makasih banyak",
+        "makasih atas jawabannya",
+        "terimakasih sudah membantu"
+      ],
+      "responses": [
+        "Terima kasih telah menghubungi Tarumabot! Jika ada pertanyaan yang belum terjawab atau kurang jelas, kami siap membantu Anda. Silakan hubungi kami melalui:\nEmail: admisi@tarumanagara.ac.id\nWhatsApp: +628117579727\nTelepon: 02156958723",
+        "Terima kasih telah menghubungi Tarumabot! Jika Anda membutuhkan klarifikasi atau informasi lebih lanjut, jangan ragu untuk menghubungi kami melalui:\nEmail: admisi@tarumanagara.ac.id\nWhatsApp: +628117579727\nTelepon: 02156958723."
+      ]
+    },
+    {
+      "tag": "program_studi",
+      "patterns": [
+        "Apa aja program studi yang ditawarkan di universitas Tarumanagara?",
+        "apa aja jurusan di universitas tarumanagara?",
+        "prodi apa saja yang ada di untar?",
+        "jurusan apa yang ditawarkan di kampus untar?",
+        "apa saja pilihan program studi di universitas tarumanagara?",
+        "program studi di untar ada apa saja?",
+        "apa jurusan yang tersedia di untar?",
+        "fakultas dan jurusan apa saja yang ada di universitas tarumanagara?",
+        "apa saja pilihan jurusan di untar?",
+        "jurusan mana saja yang bisa diambil di universitas tarumanagara?",
+        "Apa aja jurusan di Untar?",
+        "Jurusan Untar apa aja?",
+        "Jurusan apa yang ada di Untar?",
+        "Prodi di Untar ada apa aja?",
+        "Ada berapa jurusan di Untar?",
+        "Untar punya jurusan apa?",
+        "Di Untar bisa ambil jurusan apa aja?",
+        "Kuliah di Untar ada jurusan apa?",
+        "Jurusan yang tersedia di Untar apa?"
+      ],
+      "responses": [
+        "Berikut adalah program yang tersedia di Universitas Tarumanagara:\n\na. Sarjana (S1): Manajemen Bisnis, Akuntansi, Hukum, Arsitektur, Teknik Sipil, Perencanaan Wilayah dan Kota – Real Estat, Teknik Mesin, Teknik Elektro, Teknik Industri, Kedokteran, Psikologi, Teknik Informatika, Sistem Informasi, Desain Interior, Desain Komunikasi Visual, dan Ilmu Komunikasi.\n\nb. Magister (S2): Akuntansi, Manajemen, Ilmu Hukum, Kenotariatan, Teknik Sipil, Arsitektur, Perencanaan Wilayah dan Kota – Real Estat, Psikologi Sains.\n\nc. Doktor (S3): Ilmu Manajemen, Teknik Sipil, Ilmu Hukum.\n\nd. Profesi: Akuntan, Dokter, Psikolog.\n\nUntuk informasi lebih lanjut, silakan kunjungi situs resmi Universitas Tarumanagara <a href='https://untar.ac.id/' target='_blank'>klik di sini</a>."
+      ]
+    },
+    {
+      "tag": "biaya_kuliah",
+      "patterns": [
+        "Berapa Biaya kuliah di Universitas Tarumanagara? ",
+        "berapa uang kuliah di universitas tarumanagara?",
+        "berapa UKT di untar?",
+        "berapa biaya per semester di untar? ",
+        "berapa biaya pendidikan di universitas tarumanagara?",
+        "berapa biaya studi di kampus untar?",
+        "apakah biaya kuliah untar berbeda tergantung program studi?",
+        "di mana saya bisa melihat informasi lengkap biaya kuliah di untar?",
+        "berapa biaya pendidikan di untar tahun 2024/2025?",
+        "apakah ada perbedaan biaya antar program studi di universitas tarumanagara?",
+        "di mana saya bisa mendapatkan detail biaya kuliah di untar?",
+        "Biaya kuliah di Untar berapa ya?",
+        "UKT di Untar berapa sih?",
+        "Berapa sih uang kuliah per semester di Untar?",
+        "Bayar kuliah di Untar mahal gak?",
+        "Berapa biaya per semester di Untar?",
+        "Ada rincian biaya kuliah di Untar gak?",
+        "Untar biaya kuliahnya berapa ya?",
+        "Biaya kuliah di Untar tahun ini gimana?",
+        "Beda gak biaya tiap jurusan di Untar?",
+        "Dimana bisa lihat biaya kuliah di Untar?",
+        "Biaya kuliah Untar",
+        "mahal ga harganya?",
+        "pengen tau harga kuliah di untar"
+      ],
+      "responses": [
+        "Untuk Tahun Ajaran 2024/2025, biaya kuliah bervariasi tergantung pada program dan jenjang pendidikan yang Anda pilih. Informasi lengkap dapat Anda akses melalui:\n\na. <a href='https://drive.google.com/file/d/1kctzGxtUVnLNssFVimuo7v8zpqhuabe2/view' target='_blank'>Biaya Kuliah Reguler TA 2024/2025 A</a>\nb. <a href='https://drive.google.com/file/d/18V2nrIpb6biZ-a7GhUUGMohqVWbm4rmn/view' target='_blank'>Kelas Sore Reguler TA 2024/2025 B</a>\n\nJika Anda membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi tim kami melalui email: <a href='mailto:admisi@tarumanagara.ac.id'>admisi@tarumanagara.ac.id</a>."
+      ]
+    },
+    {
+      "tag": "kurikulum_universitas",
+      "patterns": [
+        "Apakah kurikulum di Universitas Tarumanagara sering diperbarui sesuai perkembangan industri?",
+        "apakah kurikulum di untar diperbarui secara rutin agar sesuai perkembangan industri?",
+        "kurikulum di universitas ini apakah sering diperbarui sesuai dengan perkembangan industri?",
+        "apakah kurikulum di untar selalu relevan dengan perkembangan industri?",
+        "apakah perkembangan industri mempengaruhi pembaruan kurikulum di untar?",
+        "apakah kurikulum untar sering mengalami pembaruan mengikuti perkembangan industri?",
+        "seberapa sering untar memperbarui kurikulum agar relevan dengan industri?",
+        "apakah untar memperbarui kurikulum sesuai dengan perkembangan industri terkini?",
+        "kurikulum di untar apakah diperbarui untuk mengikuti perkembangan industri?",
+        "apakah universitas tarumanagara rutin memperbarui kurikulum agar relevan dengan industri?",
+        "Kurikulum di Untar sering di-update gak sih biar sesuai industri?",
+        "Untar sering update kurikulum gak buat ngikutin tren industri?",
+        "Kurikulum di kampus Untar udah relevan sama industri belum?",
+        "Kurikulum di Untar di-update rutin gak biar sesuai perkembangan industri?",
+        "Kurikulum Untar sering ganti biar up-to-date sama industri gak?",
+        "Apakah kurikulum di Untar udah ngikutin perkembangan industri?",
+        "Untar suka update kurikulum buat ngikutin perubahan industri gak?",
+        "Ada pembaruan kurikulum di Untar supaya cocok sama industri?",
+        "Seberapa sering Untar update kurikulum sesuai industri?",
+        "Kurikulum Untar"
+      ],
+      "responses": [
+        "Kurikulum di Universitas Tarumanagara (UNTAR) selalu diperbarui agar selaras dengan perkembangan dunia industri. UNTAR juga menerapkan kebijakan Merdeka Belajar Kampus Merdeka (MBKM), yang memberi kesempatan bagi mahasiswa untuk memperluas pengalaman mereka di luar kelas—melalui magang, pertukaran pelajar, atau proyek riset dengan mitra industri. Setiap program studi dirancang agar mahasiswa tidak hanya memahami teori akademis tetapi juga menguasai keterampilan praktis yang dibutuhkan di dunia kerja dan teknologi yang terus berkembang."
+      ]
+    },
+    {
+      "tag": "alur_pendaftaran",
+      "patterns": [
+        "Bagaimana alur pendaftaran mahasiswa baru di universitas Tarumanagara?",
+        "bagaimana proses pendaftaran mahasiswa baru di universitas tarumanagara?",
+        "alur pendaftaran mahasiswa baru di untar seperti apa?",
+        "bagaimana langkah-langkah pendaftaran di universitas tarumanagara?",
+        "apa saja tahapan pendaftaran mahasiswa baru di untar?",
+        "alur pendaftaran untar untuk mahasiswa baru bagaimana?",
+        "bagaimana cara mendaftar sebagai mahasiswa baru di universitas tarumanagara?",
+        "proses pendaftaran di kampus untar bagaimana alurnya?",
+        "apa prosedur pendaftaran untuk mahasiswa baru di untar?",
+        "bagaimana alur registrasi mahasiswa baru di universitas tarumanagara?",
+        "pendaftaran mahasiswa baru di untar seperti apa alurnya?",
+        "Gimana sih cara daftar di Untar?",
+        "Alur pendaftaran mahasiswa baru di Untar gimana ya?",
+        "Kalo mau daftar di Untar, caranya gimana?",
+        "Proses daftar mahasiswa baru di Untar kayak gimana?",
+        "Langkah-langkah daftar di Untar apa aja?",
+        "Daftar jadi mahasiswa di Untar ribet gak sih?",
+        "Gimana cara daftar kuliah di Untar?",
+        "Tahapan pendaftaran di Untar apa aja?",
+        "Buat daftar mahasiswa baru di Untar, harus ngapain dulu?",
+        "Registrasi di Untar gimana alurnya?",
+        "Bagaimana cara mendaftar di Universitas Tarumanagara",
+        "pengen daftar diuntar gimana caranya?",
+        "gimana sih kl pengen daftar"
+      ],
+      "responses": [
+        "Alur pendaftaran mahasiswa baru di Universitas Tarumanagara (UNTAR) dapat dilakukan secara online melalui portal GO UNTAR. Berikut langkah-langkah umum yang perlu diikuti:\n\n1. Calon mahasiswa mengakses portal GO UNTAR dan melakukan registrasi dengan mengisi formulir pendaftaran.\n2. Pilih program studi yang ingin diikuti, baik di jenjang Sarjana, Magister, Profesi, atau Doktor.\n3. Lengkapi data pribadi dan unggah dokumen yang diperlukan, seperti ijazah (Khusus kelas sore), transkrip nilai, dan surat keterangan lainnya sesuai dengan persyaratan program.\n4. Isi nilai rapor atau ijazah (khusus kelas reguler sore).\n5. Lakukan pembayaran ke nomor rekening Free Biaya Pendaftaran.\n6. Tunggu pengumuman hasil seleksi di website Go Untar atau website Admisi.\n7. Jika diterima, hubungi pihak admisi UNTAR.\n\nJika Anda membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi tim kami melalui email: <a href='mailto:admisi@tarumanagara.ac.id'>admisi@tarumanagara.ac.id</a>."
+      ]
+    },
+    {
+      "tag": "penerimaan_jalur_prestasi",
+      "patterns": [
+        "Apakah universitas Tarumanagara menyediakan jalur prestasi untuk penerimaan mahasiswa baru? ",
+        "apakah untar menyediakan jalur prestasi untuk penerimaan mahasiswa baru?",
+        "universitas tarumanagara apakah memiliki jalur prestasi untuk mahasiswa baru?",
+        "jalur prestasi untuk penerimaan mahasiswa baru apakah tersedia di untar?",
+        "apakah ada jalur penerimaan mahasiswa baru melalui prestasi di untar?",
+        "untar apakah membuka jalur prestasi untuk penerimaan mahasiswa baru?",
+        "apakah mahasiswa baru di untar bisa diterima melalui jalur prestasi?",
+        "apakah ada penerimaan mahasiswa baru di untar melalui jalur prestasi?",
+        "universitas tarumanagara apakah menyediakan penerimaan jalur prestasi?",
+        "apakah untar memiliki program penerimaan mahasiswa baru dengan jalur prestasi?",
+        "jalur prestasi untuk penerimaan mahasiswa baru apakah tersedia di universitas tarumanagara?",
+        "Untar ada jalur prestasi gak buat masuk?",
+        "Gimana sih kalo mau daftar lewat jalur prestasi di Untar?",
+        "Untar buka penerimaan mahasiswa baru pake jalur prestasi gak?",
+        "Ada gak jalur prestasi buat daftar di Untar?",
+        "Bisa daftar di Untar lewat prestasi gak?",
+        "Masuk Untar lewat jalur prestasi susah gak?",
+        "Untar punya program penerimaan lewat jalur prestasi gak?",
+        "Kalo punya prestasi, bisa gak masuk Untar tanpa tes?",
+        "Ada beasiswa jalur prestasi di Untar gak?",
+        "Gimana cara daftar di Untar lewat jalur prestasi?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) menyediakan jalur penerimaan mahasiswa baru melalui program Jalur Prestasi Unggulan (JPU). Program ini ditujukan bagi lulusan SMA atau sederajat yang memiliki prestasi akademik atau non-akademik yang unggul.\n\nJPU merupakan bentuk apresiasi UNTAR terhadap siswa berprestasi dari berbagai sekolah di Indonesia, sebagai bagian dari komitmen universitas dalam mendukung pendidikan berkualitas dan pembangunan sumber daya manusia."
+      ]
+    },
+    {
+      "tag": "dokumen_yang_diperlukan",
+      "patterns": [
+        "Apa saja dokumen yang diperlukan untuk pendaftaran?",
+        "apa saja dokumen yang dibutuhkan untuk pendaftaran?",
+        "dokumen apa saja yang diperlukan untuk mendaftar di untar?",
+        "apa saja berkas yang dibutuhkan untuk proses pendaftaran?",
+        "untuk pendaftaran, dokumen apa saja yang harus disiapkan?",
+        "dokumen apa yang diperlukan untuk registrasi di universitas tarumanagara?",
+        "apa saja persyaratan dokumen untuk pendaftaran di untar?",
+        "berkas apa saja yang harus dikumpulkan untuk pendaftaran di untar?",
+        "untuk mendaftar di untar, dokumen apa saja yang dibutuhkan?",
+        "apa saja dokumen yang harus diserahkan saat pendaftaran?",
+        "apa berkas-berkas penting untuk proses pendaftaran di universitas tarumanagara?",
+        "Dokumen apa aja yang harus disiapin buat daftar di Untar?",
+        "Buat daftar di Untar, perlu berkas apa aja?",
+        "Apa aja yang harus dikumpulin buat pendaftaran di Untar?",
+        "Persyaratan dokumen daftar di Untar apa aja?",
+        "Untar butuh berkas apa buat registrasi?",
+        "Kalo mau daftar di Untar, dokumennya apa aja?",
+        "Apa aja syarat dokumen buat daftar mahasiswa baru di Untar?",
+        "Berkas penting apa yang dibutuhin buat daftar di Untar?",
+        "Daftar di Untar, harus bawa dokumen apa?",
+        "Dokumen pendaftaran di Untar ada apa aja sih?",
+        "Dokumen Pendaftaran Untar"
+      ],
+      "responses": [
+        "Untuk pendaftaran mahasiswa baru di Universitas Tarumanagara (UNTAR), kamu perlu menyiapkan dokumen seperti ijazah atau rapor terbaru sebagai bukti akademik, serta pas foto terbaru untuk administrasi. Beberapa program studi mungkin memiliki persyaratan tambahan. \n\nUntuk informasi lebih lanjut mengenai pendaftaran, silakan hubungi tim admisi di nomor 08117579727."
+      ]
+    },
+    {
+      "tag": "waktu_pendaftaran_ulang",
+      "patterns": [
+        "Kapan waktu pendaftaran ulang di Universitas Tarumanagara?",
+        "Kapan jadwal pendaftaran ulang di Universitas Tarumanagara?",
+        "Kapan pendaftaran ulang dibuka di Universitas Tarumanagara?",
+        "Kapan waktu pelaksanaan pendaftaran ulang di Untar?",
+        "Kapan periode pendaftaran ulang di Universitas Tarumanagara?",
+        "Kapan jadwal pendaftaran ulang kampus Untar?",
+        "Kapan mahasiswa harus melakukan pendaftaran ulang di Untar?",
+        "Kapan pendaftaran ulang dimulai di Universitas Tarumanagara?",
+        "Pendaftaran ulang di Untar kapan berlangsung?",
+        "Kapan waktu untuk melakukan pendaftaran ulang di Untar?",
+        "Pendaftaran ulang Universitas Tarumanagara dibuka kapan?",
+        "Kapan sih jadwal daftar ulang di Untar?",
+        "Daftar ulang di Untar mulai kapan?",
+        "Pendaftaran ulang di Untar kapan dibuka?",
+        "Kapan harus daftar ulang di Untar?",
+        "Jadwal daftar ulang di Untar kapan ya?",
+        "Untar buka pendaftaran ulang kapan?",
+        "Daftar ulang di Untar mulai dari tanggal berapa?",
+        "Kapan waktunya daftar ulang di Untar?",
+        "Periode daftar ulang di Untar kapan aja?",
+        "Kapan mahasiswa baru wajib daftar ulang di Untar?",
+        "Waktu pendaftaran ulang"
+      ],
+      "responses": [
+        "Waktu pendaftaran ulang di Universitas Tarumanagara (UNTAR) bervariasi setiap tahun dan umumnya diumumkan melalui portal resmi registrasi atau laman akademik. Untuk informasi terbaru mengenai jadwal pendaftaran ulang, mahasiswa disarankan untuk mengakses portal pendaftaran atau menghubungi bagian admisi"
+      ]
+    },
+    {
+      "tag": "prosedur_pendaftaran_ulang",
+      "patterns": [
+        "Bagaimana prosedur pendaftaran ulang di Universitas Tarumanagara?",
+        "Bagaimana cara pendaftaran ulang di Universitas Tarumanagara?",
+        "Apa langkah-langkah pendaftaran ulang di Untar?",
+        "Bagaimana alur pendaftaran ulang di kampus Untar?",
+        "Apa saja tahapan pendaftaran ulang di Universitas Tarumanagara?",
+        "Bagaimana proses pendaftaran ulang di Untar?",
+        "Apa prosedur lengkap untuk pendaftaran ulang di Universitas Tarumanagara?",
+        "Bagaimana langkah registrasi ulang di kampus Untar?",
+        "Apa saja syarat dan prosedur pendaftaran ulang di Untar?",
+        "Bagaimana alur registrasi ulang di Universitas Tarumanagara?",
+        "Apa saja yang harus dilakukan untuk pendaftaran ulang di Untar?",
+        "Gimana sih cara daftar ulang di Untar?",
+        "Langkah-langkah daftar ulang di Untar apa aja?",
+        "Alur daftar ulang di kampus Untar gimana ya?",
+        "Apa aja tahapan buat daftar ulang di Untar?",
+        "Proses daftar ulang di Untar gimana sih?",
+        "Apa prosedur lengkap daftar ulang di Untar?",
+        "Gimana cara registrasi ulang di Untar?",
+        "Apa aja syarat buat daftar ulang di Untar?",
+        "Alur registrasi ulang di Untar kayak gimana?",
+        "Buat daftar ulang di Untar, harus ngapain aja?",
+        "Daftar ulang"
+      ],
+      "responses": [
+        "Prosedur pendaftaran ulang di Universitas Tarumanagara (UNTAR) dilakukan secara online melalui portal LINTAR. Mahasiswa diharapkan untuk mengisi formulir pendaftaran ulang secara lengkap dan dapat melakukannya kapan saja.\n\nJika ada kendala dalam proses registrasi silahkan hubungi admisi ke nomor 08117579727."
+      ]
+    },
+    {
+      "tag": "komponen_biaya",
+      "patterns": [
+        "Apa saja komponen biaya yang harus dibayarkan?",
+        "Komponen biaya apa saja yang perlu dibayarkan?",
+        "Apa saja biaya yang harus dibayar oleh mahasiswa?",
+        "Biaya apa saja yang termasuk dalam pembayaran?",
+        "Apa saja rincian biaya yang harus dibayarkan?",
+        "Komponen pembayaran apa saja yang wajib diselesaikan?",
+        "Apa saja jenis biaya yang dikenakan?",
+        "Apa saja biaya yang perlu dibayar saat kuliah?",
+        "Rincian biaya apa saja yang perlu dilunasi?",
+        "Apa aja yang harus saya bayar?",
+        "Komponen biaya kuliah di Untar apa aja sih?",
+        "Apa aja rincian biaya yang mesti dibayar?",
+        "Jenis biaya apa aja yang dikenakan di Untar?",
+        "Kalo kuliah di Untar, bayar apa aja?",
+        "Ada biaya apa aja yang harus dilunasi?",
+        "Komponen pembayaran kuliah di Untar apa aja ya?",
+        "Apa aja yang termasuk dalam biaya kuliah di Untar?",
+        "Rincian pembayaran kuliah di Untar apa aja?",
+        "Buat kuliah di Untar, perlu bayar apa aja?",
+        "Komponen biaya"
+      ],
+      "responses": [
+        "Berikut komponen biaya kuliah di Universitas Tarumanagara:\n<ul><li><b>Sumbangan Pengembangan Pendidikan (SPP)</b>: Dibayar satu kali di awal.</li><li><b>Biaya Penyelenggaraan Pendidikan (BPP)</b>: Dibayar setiap semester.</li><li><b>Biaya SKS</b>: Sesuai jumlah SKS yang diambil.</li><li><b>Biaya Blok</b>: Khusus untuk Kedokteran, dibayar per blok kuliah.</li></ul>\nBiaya dan detail lebih lengkap dapat dilihat berdasarkan program studi masing-masing. Jika ada pertanyaan lebih lanjut, hubungi admisi ke nomor <b>08117579727</b>."
+      ]
+    },
+    {
+      "tag": "kerjasama_beasiswa",
+      "patterns": [
+        "Apakah universitas Tarumanagara bekerja sama dengan perusahaan atau institusi lain untuk menyediakan beasiswa?",
+        "Apakah Untar memiliki kerja sama dengan perusahaan untuk menyediakan beasiswa?",
+        "Apakah Universitas Tarumanagara bekerja sama dengan institusi lain dalam pemberian beasiswa?",
+        "Apakah kampus Untar menjalin kerja sama dengan perusahaan untuk program beasiswa?",
+        "Apakah ada kolaborasi antara Untar dan institusi lain untuk menawarkan beasiswa?",
+        "Apakah Universitas Tarumanagara memiliki mitra perusahaan untuk beasiswa?",
+        "Apakah Untar bekerja sama dengan lembaga eksternal untuk menyediakan beasiswa?",
+        "Apakah ada beasiswa yang disediakan melalui kerja sama Untar dengan perusahaan?",
+        "Apakah Untar menawarkan beasiswa hasil kerja sama dengan pihak lain?",
+        "Apakah kampus Untar memiliki program beasiswa melalui kemitraan dengan institusi?",
+        "Apakah Untar menjalin kerja sama dengan perusahaan atau lembaga untuk menyediakan beasiswa?",
+        "Untar ada kerja sama sama perusahaan buat kasih beasiswa gak?",
+        "Kampus Untar punya mitra perusahaan buat beasiswa gak sih?",
+        "Untar kerja bareng institusi lain buat program beasiswa gak?",
+        "Ada gak beasiswa di Untar hasil kerja sama sama perusahaan?",
+        "Untar kasih beasiswa dari kolaborasi sama lembaga lain gak?",
+        "Kalo mau beasiswa di Untar, ada yang dari kerja sama sama perusahaan gak?",
+        "Untar punya program beasiswa bareng mitra perusahaan gak?",
+        "Beasiswa di Untar ada yang disediakan lewat kemitraan gak?",
+        "Kampus Untar kerja sama sama lembaga eksternal buat beasiswa gak ya?",
+        "Beasiswa di Untar bisa didapet dari kerja sama sama institusi gak?",
+        "Kerjasama beasiswa"
+      ],
+      "responses": [
+        "Universitas Tarumanagara bekerja sama dengan berbagai perusahaan dan institusi dalam menyediakan program beasiswa. Contoh kerjasama tersebut termasuk dengan BCA melalui program beasiswa dan magang di BCA Learning Institute, serta KAP KPMG yang menawarkan beasiswa bagi mahasiswa Akuntansi untuk tiga semester dan kesempatan magang di Indonesia maupun Singapura. Selain itu, UNTAR juga menjalin kolaborasi dengan perusahaan seperti Akulaku, yang memberikan beasiswa kepada mahasiswa berprestasi dengan syarat akademik tertentu."
+      ]
+    },
+    {
+      "tag": "dispensasi_biaya",
+      "patterns": [
+        "Apakah biaya kuliah bisa ditunda jika ada kendala finansial?",
+        "Apakah pembayaran kuliah bisa ditunda jika mengalami kesulitan finansial?",
+        "Apakah Untar memberikan opsi penundaan pembayaran jika ada masalah keuangan?",
+        "Bisakah biaya kuliah di Untar ditunda karena kendala finansial?",
+        "Apakah ada kebijakan penundaan pembayaran kuliah di Untar?",
+        "Apakah kampus Untar mengizinkan penundaan pembayaran jika ada kesulitan ekonomi?",
+        "Apakah pembayaran kuliah bisa dicicil atau ditunda saat mengalami masalah keuangan?",
+        "Apakah Universitas Tarumanagara menyediakan opsi penundaan pembayaran kuliah?",
+        "Apakah ada bantuan berupa penundaan pembayaran bagi mahasiswa yang kesulitan finansial?",
+        "Bagaimana kebijakan Untar terkait penundaan biaya kuliah jika ada kendala finansial?",
+        "Apakah mahasiswa bisa mengajukan penundaan biaya kuliah di Untar?",
+        "Bagaimana kebijakan Untar terkait penundaan biaya kuliah jika ada kendala finansial?",
+        "Apakah ada bantuan berupa penundaan pembayaran bagi mahasiswa yang kesulitan finansial?",
+        "Apakah Universitas Tarumanagara menyediakan opsi penundaan pembayaran kuliah?",
+        "Kalo ada masalah keuangan, bisa tunda bayar kuliah di Untar gak?",
+        "Untar ngasih opsi buat tunda pembayaran gak sih kalo lagi kesulitan finansial?",
+        "Bayar kuliah di Untar bisa dicicil atau ditunda gak kalo lagi susah?",
+        "Ada gak kebijakan tunda bayar di Untar kalo ada kendala ekonomi?",
+        "Kampus Untar izinin penundaan pembayaran gak kalo ada masalah finansial?",
+        "Kalo lagi gak ada uang, bisa ajukan penundaan pembayaran di Untar gak?",
+        "Gimana kebijakan Untar soal penundaan biaya kuliah?",
+        "Ada bantuan buat tunda pembayaran di Untar gak kalo lagi kesulitan?",
+        "Mahasiswa bisa ajukan penundaan bayar kuliah di Untar gak ya?",
+        "Untar kasih fasilitas buat nunda pembayaran gak sih?",
+        "Tunda biaya"
+      ],
+      "responses": [
+        "Biaya kuliah di Universitas Tarumanagara dapat ditunda dengan mengajukan dispensasi biaya kuliah untuk komponen Biaya Penyelenggara Pendidikan (BPP) dan Satuan Kredit Semester (SKS). Proses pengajuan dilakukan melalui LINTAR, kemudian mahasiswa menunggu keputusan dekan terkait persetujuan atau penolakan pengajuan tersebut. Untuk memastikan prosedur berjalan dengan lancar, pastikan semua syarat pengajuan dipenuhi sesuai kebijakan yang sudah dibuat."
+      ]
+    },
+    {
+      "tag": "beasiswa_berprestasi",
+      "patterns": [
+        "Apakah universitas Tarumanagara menyediakan beasiswa khusus untuk mahasiswa berprestasi?",
+        "Apakah Untar menyediakan beasiswa bagi mahasiswa berprestasi?",
+        "Apakah ada beasiswa khusus di Untar untuk mahasiswa dengan prestasi akademik?",
+        "Apakah mahasiswa berprestasi bisa mendapatkan beasiswa di Universitas Tarumanagara?",
+        "Apakah Untar menawarkan beasiswa bagi mahasiswa berprestasi?",
+        "Apakah ada program beasiswa prestasi di Universitas Tarumanagara?",
+        "Apakah Untar memiliki beasiswa untuk penghargaan prestasi mahasiswa?",
+        "Apakah Universitas Tarumanagara memberikan beasiswa kepada mahasiswa berprestasi?",
+        "Apakah ada beasiswa di Untar untuk mahasiswa dengan prestasi akademik atau non-akademik?",
+        "Apakah mahasiswa berprestasi mendapatkan beasiswa khusus di Untar?",
+        "Apakah Untar menawarkan beasiswa prestasi bagi mahasiswanya?",
+        "Untar ada beasiswa buat mahasiswa berprestasi gak?",
+        "Kampus Untar kasih beasiswa gak buat yang berprestasi?",
+        "Mahasiswa berprestasi bisa dapet beasiswa di Untar gak?",
+        "Untar punya program beasiswa prestasi gak?",
+        "Ada gak beasiswa khusus buat mahasiswa berprestasi di Untar?",
+        "Beasiswa Untar tersedia buat prestasi akademik atau non-akademik gak?",
+        "Kalo punya prestasi, bisa dapet beasiswa di Untar gak?",
+        "Ada penghargaan prestasi mahasiswa dalam bentuk beasiswa di Untar?",
+        "Mahasiswa berprestasi dapet beasiswa di Untar gak sih?",
+        "Untar nawarin beasiswa buat mahasiswanya yang berprestasi gak?",
+        "Beasiswa prestasi"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) menyediakan beasiswa khusus bagi mahasiswa berprestasi melalui program beasiswa internal. Beasiswa ini mencakup beberapa kategori, seperti prestasi akademik, prestasi ekstrakurikuler, dan bantuan bagi mahasiswa dari keluarga kurang mampu. Setiap kategori memiliki syarat dan ketentuan tersendiri."
+      ]
+    },
+    {
+      "tag": "perubahan_biaya_kuliah",
+      "patterns": [
+        "Apakah biaya kuliah dapat berubah setiap tahun?",
+        "Apakah biaya kuliah di Untar berubah setiap tahun?",
+        "Apakah ada perubahan biaya kuliah setiap tahunnya di Universitas Tarumanagara?",
+        "Apakah biaya kuliah di Untar bisa mengalami kenaikan setiap tahun?",
+        "Apakah kampus Untar menyesuaikan biaya kuliah tiap tahun?",
+        "Apakah biaya pendidikan di Universitas Tarumanagara berubah setiap tahun?",
+        "Apakah ada kemungkinan perubahan biaya kuliah setiap tahun di Untar?",
+        "Apakah tarif kuliah di Untar bisa berbeda setiap tahunnya?",
+        "Apakah biaya kuliah di Untar selalu sama atau berubah tiap tahun?",
+        "Apakah Untar menetapkan biaya kuliah berbeda setiap tahun ajaran?",
+        "Apakah kampus Untar memperbarui biaya kuliah setiap tahun?",
+        "Biaya kuliah di Untar tiap tahun berubah gak sih?",
+        "Kampus Untar naikin biaya kuliah tiap tahun gak?",
+        "Biaya kuliah di Untar sama terus atau berubah tiap tahun?",
+        "Ada perubahan biaya kuliah gak tiap tahun di Untar?",
+        "Tarif kuliah di Untar bisa beda tiap tahun gak?",
+        "Untar sering update biaya kuliah tiap tahun gak sih?",
+        "Biaya pendidikan di Untar bisa naik tiap tahun gak ya?",
+        "Untar selalu nyesuain biaya kuliah tiap tahun gak?",
+        "Tiap tahun ajaran baru, biaya kuliah Untar berubah gak?",
+        "Ada kemungkinan biaya kuliah di Untar naik tiap tahun gak?",
+        "Perubahan biaya"
+      ],
+      "responses": [
+        "Biaya kuliah di Universitas Tarumanagara dapat berubah setiap tahunnya. Penyesuaian ini biasanya didasarkan pada berbagai faktor, termasuk peningkatan kualitas fasilitas dan layanan pendidikan yang diberikan. Informasi terbaru mengenai biaya kuliah akan diumumkan secara resmi di awal tahun akademik melalui situs web Untar atau dapat langsung dikonfirmasi dengan menghubungi bagian admisi.\n\nJika Anda membutuhkan bantuan lebih lanjut, jangan ragu untuk menghubungi tim kami melalui email: admisi@tarumanagara.ac.id."
+      ]
+    },
+    {
+      "tag": "hubungan_dunia_industri",
+      "patterns": [
+        "Bagaimana hubungan universitas Tarumanagara dengan dunia industri?",
+        "Seperti apa hubungan Untar dengan dunia industri?",
+        "Bagaimana keterkaitan Universitas Tarumanagara dengan sektor industri?",
+        "Apakah Untar memiliki kerja sama dengan perusahaan-perusahaan industri?",
+        "Bagaimana kolaborasi Universitas Tarumanagara dengan dunia industri?",
+        "Sejauh mana Untar menjalin hubungan dengan sektor industri?",
+        "Apakah Universitas Tarumanagara terhubung dengan industri untuk mendukung pendidikan?",
+        "Bagaimana peran Untar dalam menjalin hubungan dengan dunia industri?",
+        "Apakah kampus Untar memiliki jaringan dengan perusahaan industri?",
+        "Bagaimana Universitas Tarumanagara bekerja sama dengan industri dalam pendidikan dan pelatihan?",
+        "Seberapa erat hubungan Untar dengan industri dalam mendukung lulusannya?",
+        "Gimana sih hubungan Untar sama dunia industri?",
+        "Untar punya kerja sama sama perusahaan industri gak?",
+        "Seberapa erat sih hubungan Untar dengan sektor industri?",
+        "Kampus Untar terhubung sama industri gak buat dukung pendidikan?",
+        "Ada kolaborasi Untar sama perusahaan-perusahaan industri gak?",
+        "Gimana keterlibatan Untar di dunia industri?",
+        "Untar sering kerja sama sama perusahaan industri gak?",
+        "Jaringan Untar sama industri gimana ya?",
+        "Untar punya hubungan kuat gak sama sektor industri buat lulusannya?",
+        "Gimana kolaborasi Untar sama industri dalam pendidikan dan pelatihan?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki hubungan yang erat dengan dunia industri, baik di tingkat nasional maupun internasional. Melalui kerja sama yang luas dengan berbagai perusahaan dan organisasi, Untar menyediakan peluang bagi mahasiswa untuk mengikuti program magang, proyek kolaboratif, dan penelitian bersama. Kerja sama ini membantu mahasiswa memperoleh pengalaman praktis dan keterampilan yang relevan dengan kebutuhan industri saat ini. Untar juga secara rutin mengadakan seminar, workshop, dan acara job fair yang melibatkan pihak industri untuk memperluas jaringan dan memberikan wawasan tentang tren dan kesempatan karier."
+      ]
+    },
+    {
+      "tag": "kerjasama_magang",
+      "patterns": [
+        "Apakah ada program magang atau kerja sama dengan perusahaan?",
+        "Apakah Universitas Tarumanagara memiliki kerja sama dengan perusahaan untuk magang?",
+        "Apakah mahasiswa Untar bisa mengikuti program magang di perusahaan mitra?",
+        "Apakah kampus Untar menawarkan program magang melalui kerja sama dengan perusahaan?",
+        "Apakah ada kesempatan magang bagi mahasiswa Untar di perusahaan tertentu?",
+        "Apakah Universitas Tarumanagara bekerja sama dengan perusahaan untuk program magang?",
+        "Apakah mahasiswa Untar diwajibkan mengikuti magang melalui kerja sama dengan perusahaan?",
+        "Apakah ada program magang yang disediakan oleh Untar melalui mitra industri?",
+        "Apakah Untar memiliki program kerja sama dengan perusahaan untuk penempatan magang?",
+        "Apakah kampus Untar rutin menawarkan magang bagi mahasiswanya di perusahaan mitra?",
+        "Untar ada program magang buat mahasiswa gak?",
+        "Mahasiswa Untar bisa ikut magang di perusahaan mitra gak?",
+        "Kampus Untar punya kerja sama sama perusahaan buat magang gak?",
+        "Untar sering nawarin program magang di perusahaan gak sih?",
+        "Ada kesempatan magang di perusahaan buat mahasiswa Untar gak?",
+        "Mahasiswa Untar wajib ikut magang gak?",
+        "Program magang di Untar disediain lewat mitra industri gak?",
+        "Untar punya kerja sama buat penempatan magang gak ya?",
+        "Ada gak program magang rutin di Untar lewat perusahaan mitra?",
+        "Gimana cara mahasiswa Untar dapet magang di perusahaan mitra?",
+        "Program magang"
+      ],
+      "responses": [
+        "Universitas Tarumanagara menyediakan program magang dan kerja sama dengan berbagai perusahaan di berbagai bidang. Program magang ini dirancang untuk memberikan pengalaman praktis kepada mahasiswa, membantu mereka mengembangkan keterampilan profesional, dan mempersiapkan diri untuk dunia kerja. Selain itu, Untar juga bekerja sama dengan banyak perusahaan untuk membuka peluang magang dan rekrutmen langsung bagi mahasiswa dan lulusan."
+      ]
+    },
+    {
+      "tag": "menghadapi_dunia_kerja",
+      "patterns": [
+        "Bagaimana universitas Tarumanagara mendukung mahasiswa dalam mempersiapkan diri menghadapi dunia kerja?",
+        "Apa saja program yang disediakan Untar untuk membantu mahasiswa siap kerja?",
+        "Bagaimana Untar membantu mahasiswa mempersiapkan diri menghadapi dunia profesional?",
+        "Apa langkah-langkah Universitas Tarumanagara dalam membekali mahasiswa untuk dunia kerja?",
+        "Apakah ada pelatihan karir bagi mahasiswa Untar?",
+        "Bagaimana kampus Untar memfasilitasi mahasiswa agar siap memasuki dunia kerja?",
+        "Apa saja dukungan yang diberikan Untar untuk mahasiswa dalam memasuki dunia kerja?",
+        "Apakah Untar menyediakan program persiapan karir bagi mahasiswanya?",
+        "Bagaimana Universitas Tarumanagara membantu mahasiswa menghadapi tantangan dunia kerja?",
+        "Apa saja layanan atau fasilitas Untar untuk menunjang kesiapan mahasiswa di dunia profesional?",
+        "Bagaimana Untar membekali mahasiswa dengan keterampilan yang relevan untuk dunia kerja?",
+        "Untar punya program apa aja buat bantu mahasiswa siap kerja?",
+        "Gimana sih cara Untar ngebantu mahasiswanya biar siap masuk dunia kerja?",
+        "Untar kasih pelatihan karir buat mahasiswa gak?",
+        "Kampus Untar bantu mahasiswa persiapan kerja dengan cara apa aja?",
+        "Ada program khusus dari Untar biar mahasiswa siap masuk dunia profesional gak?",
+        "Layanan apa aja yang disediain Untar buat mahasiswa biar siap kerja?",
+        "Untar punya fasilitas apa buat bantu mahasiswa hadapi dunia kerja?",
+        "Mahasiswa Untar dapet dukungan apa aja buat siap-siap kerja?",
+        "Untar ada program persiapan karir buat mahasiswa gak?",
+        "Gimana cara Untar ngajarin keterampilan yang relevan buat dunia kerja?",
+        "Menghadapi dunia kerja"
+      ],
+      "responses": [
+        "Universitas Tarumanagara mendukung persiapan mahasiswa untuk dunia kerja melalui program magang, kesempatan mengajar, dan kolaborasi dengan industri. UNTAR juga menyediakan berbagai seminar dan lokakarya yang melibatkan praktisi profesional untuk memberi wawasan praktis bagi mahasiswa."
+      ]
+    },
+    {
+      "tag": "pengembangan_kewirausahaan",
+      "patterns": [
+        "Apakah ada program pengembangan kewirausahaan bagi mahasiswa?",
+        "Apakah Untar memiliki program untuk mengembangkan jiwa kewirausahaan mahasiswa?",
+        "Apakah Universitas Tarumanagara menyediakan program kewirausahaan bagi mahasiswanya?",
+        "Apakah ada program khusus di Untar untuk mahasiswa yang tertarik pada kewirausahaan?",
+        "Apakah kampus Untar mendukung mahasiswa dalam memulai usaha sendiri?",
+        "Apakah Untar menyediakan pelatihan kewirausahaan untuk mahasiswa?",
+        "Apakah ada kegiatan kewirausahaan yang bisa diikuti mahasiswa di Untar?",
+        "Apakah Universitas Tarumanagara memiliki inkubator bisnis untuk mahasiswa?",
+        "Bagaimana Untar membantu mahasiswa dalam mengembangkan keterampilan berwirausaha?",
+        "Apakah mahasiswa di Untar bisa mengikuti program startup atau kewirausahaan?",
+        "Apakah kampus Untar menawarkan program pembinaan usaha bagi mahasiswa?",
+        "Untar punya program buat ngembangin jiwa wirausaha mahasiswa gak?",
+        "Ada gak program kewirausahaan di Untar buat mahasiswa?",
+        "Kalo tertarik bisnis, ada program khusus di Untar gak?",
+        "Kampus Untar dukung mahasiswa buat mulai usaha sendiri gak?",
+        "Untar kasih pelatihan kewirausahaan buat mahasiswa gak?",
+        "Ada kegiatan kewirausahaan apa aja di Untar yang bisa diikutin?",
+        "Untar punya inkubator bisnis buat mahasiswa gak?",
+        "Gimana Untar bantu mahasiswa ngembangin keterampilan wirausaha?",
+        "Mahasiswa Untar bisa ikut program startup atau kewirausahaan gak?",
+        "Kampus Untar nawarin program pembinaan usaha buat mahasiswa gak?",
+        "Program kewirausahaan"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) memiliki program pengembangan kewirausahaan bagi mahasiswa. Melalui inisiatif Merdeka Belajar Kampus Merdeka (MBKM) Kewirausahaan, UNTAR mendukung mahasiswa untuk mengembangkan keterampilan bisnis mereka. Program ini memungkinkan mahasiswa untuk memulai usaha sambil menempuh pendidikan."
+      ]
+    },
+    {
+      "tag": "pelatihan_keterampilan",
+      "patterns": [
+        "Apakah universitas Tarumanagara menyediakan pelatihan keterampilan tambahan bagi mahasiswa?",
+        "Apakah Untar menawarkan pelatihan keterampilan tambahan untuk mahasiswa?",
+        "Apakah ada program pelatihan keterampilan di Universitas Tarumanagara?",
+        "Apakah mahasiswa Untar bisa mengikuti pelatihan keterampilan tambahan?",
+        "Apakah kampus Untar menyediakan kursus keterampilan bagi mahasiswanya?",
+        "Apakah ada pelatihan soft skill dan hard skill di Untar?",
+        "Apakah mahasiswa di Untar mendapatkan akses ke pelatihan keterampilan tambahan?",
+        "Apakah kampus Untar memiliki program pengembangan keterampilan non-akademik?",
+        "Apakah Untar menyediakan kelas atau workshop keterampilan bagi mahasiswa?",
+        "Apakah mahasiswa bisa mengikuti program pelatihan keterampilan di luar kurikulum di Untar?",
+        "Apakah ada program keterampilan tambahan untuk menunjang karir mahasiswa di Untar?",
+        "Untar ada pelatihan keterampilan tambahan buat mahasiswa gak?",
+        "Mahasiswa Untar bisa ikut kursus keterampilan tambahan gak?",
+        "Kampus Untar nawarin workshop keterampilan gak sih?",
+        "Ada gak program pelatihan soft skill dan hard skill di Untar?",
+        "Mahasiswa Untar dapet akses ke pelatihan keterampilan tambahan gak?",
+        "Untar punya kelas keterampilan non-akademik buat mahasiswa gak?",
+        "Ada pelatihan keterampilan di luar kurikulum di Untar gak?",
+        "Gimana cara ikut program keterampilan tambahan di Untar?",
+        "Untar ada workshop atau kursus buat ningkatin skill mahasiswa gak?",
+        "Ada program skill tambahan buat persiapan karir di Untar gak?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara menyediakan pelatihan keterampilan tambahan bagi mahasiswa, termasuk workshop, kuliah umum, dan kegiatan ekstrakurikuler. Mahasiswa dapat mengikuti lokakarya industri, seperti desain interior, dan kuliah umum untuk pengembangan diri. Selain itu, fasilitas olahraga seperti Tarumanagara Arena juga tersedia untuk mendukung aktivitas non-akademik mahasiswa."
+      ]
+    },
+    {
+      "tag": "cara_membayar_spp",
+      "patterns": [
+        "Bagaimana cara membayar Sumbangan Pengembangan Pendidikan (SPP) atau Uang Kuliah Tunggal (UKT) di UNTAR?",
+        "Bagaimana prosedur pembayaran SPP atau UKT di Untar?",
+        "Bagaimana cara melakukan pembayaran uang kuliah di Universitas Tarumanagara?",
+        "Apa saja metode pembayaran SPP atau UKT di Untar?",
+        "Bagaimana langkah-langkah untuk membayar UKT di Untar?",
+        "Dimana mahasiswa bisa membayar SPP atau UKT di Universitas Tarumanagara?",
+        "Apakah pembayaran UKT di Untar bisa dilakukan secara online?",
+        "Apa saja kanal pembayaran yang tersedia untuk SPP di Untar?",
+        "Bagaimana cara membayar uang kuliah jika dilakukan dari luar kampus Untar?",
+        "Apakah Untar menerima pembayaran UKT melalui transfer bank?",
+        "Bagaimana alur pembayaran SPP atau UKT bagi mahasiswa baru di Untar?",
+        "Gimana sih cara bayar UKT di Untar?",
+        "Prosedur pembayaran SPP di Untar gimana ya?",
+        "Bisa gak bayar uang kuliah di Untar lewat online?",
+        "Langkah-langkah buat bayar UKT di Untar gimana?",
+        "Di mana aja bisa bayar SPP Untar?",
+        "Apa aja metode pembayaran UKT di Untar?",
+        "Bisa transfer bank buat bayar UKT di Untar gak?",
+        "Kalo mau bayar kuliah UKT di Untar gimana?",
+        "Kanal pembayaran buat SPP di Untar ada apa aja?",
+        "Bayar UKT Untar",
+        "Alur pembayaran SPP bagi mahasiswa baru di Untar gimana?"
+      ],
+      "responses": [
+        "Cara Pembayaran SPP atau UKT di UNTAR:\n\n1. Unduh dan cetak Form B (instruksi pengunduhan ada pada poin 16 di panduan terkait).\n2. Baca jadwal pembayaran dan peraturan terkait SPP/UKT.\n3. Pada jadwal pembayaran, nominal, tanggal jatuh tempo, dan nomor virtual account tertera di Form B.\n4. Pastikan untuk memahami dan mematuhi semua aturan dan kebijakan yang berlaku.\n5. Simpan bukti pembayaran hingga proses registrasi ulang selesai.\n\nPembayaran dilakukan melalui Virtual Account (VA) dengan berbagai bank, termasuk BRI, CIMB Niaga, Permata, Danamon, Mandiri, dan BCA."
+      ]
+    },
+    {
+      "tag": "pascasarjana_doktoral",
+      "patterns": [
+        "Apakah Universitas Tarumanagara (UNTAR) memiliki program Pascasarjana dan Doktoral?",
+        "Apakah Untar menyediakan program Pascasarjana dan Doktoral?",
+        "Apakah ada program Magister dan Doktor di Universitas Tarumanagara?",
+        "Apakah kampus Untar memiliki jenjang pendidikan Pascasarjana dan Doktoral?",
+        "Apakah Untar menawarkan program S2 dan S3?",
+        "Apakah ada program studi Pascasarjana di Untar?",
+        "Apakah Universitas Tarumanagara membuka program Doktoral?",
+        "Apakah ada pilihan program Magister dan Doktor di Untar?",
+        "Apakah mahasiswa bisa melanjutkan ke jenjang S2 atau S3 di Untar?",
+        "Apakah Untar memiliki program pendidikan lanjutan hingga tingkat Doktoral?",
+        "Apakah Untar menyediakan fasilitas dan program untuk jenjang Pascasarjana dan Doktoral?",
+        "Untar ada program S2 dan S3 gak sih?",
+        "Kampus Untar punya program Magister dan Doktor gak?",
+        "Bisa lanjut kuliah S2 atau S3 di Untar gak?",
+        "Untar buka program Pascasarjana dan Doktoral gak?",
+        "Ada pilihan program Pascasarjana di Untar gak?",
+        "Kalo mau ambil S3, Untar ada programnya gak?",
+        "Untar nawarin pendidikan sampai jenjang Doktoral gak?",
+        "Apa Untar punya fasilitas buat kuliah S2 dan S3?",
+        "Bisa lanjut kuliah lanjutan di Untar sampai Doktor gak ya?",
+        "Ada gak program studi lanjutan Magister dan Doktor di Untar?",
+        "Program pascasarjana dan doktoral"
+      ],
+      "responses": [
+        "UNTAR menawarkan berbagai program Pascasarjana dan Doktoral. Program Pascasarjana meliputi bidang Bisnis (Akuntansi dan Manajemen), Hukum (Hukum dan Kenotariatan), serta Teknik (Arsitektur, Teknik Sipil, Pengembangan Perkotaan dan Real Estate, Psikologi Profesional, dan Program Akuntansi Profesional). Untuk program Doktoral, tersedia Doktor di bidang Hukum dan Teknik Sipil."
+      ]
+    },
+    {
+      "tag": "xinya_college",
+      "patterns": [
+        "Apa itu Tarumanagara Xinya College?",
+        "Apa yang dimaksud dengan Tarumanagara Xinya College?",
+        "Bisa jelaskan apa itu Tarumanagara Xinya College?",
+        "Apa tujuan dari Tarumanagara Xinya College?",
+        "Apa program yang ditawarkan di Tarumanagara Xinya College?",
+        "Apa peran Tarumanagara Xinya College di Universitas Tarumanagara?",
+        "Apa saja kegiatan di Tarumanagara Xinya College?",
+        "Apa fokus pendidikan di Tarumanagara Xinya College?",
+        "Tarumanagara Xinya College itu program apa?",
+        "Bagaimana sistem pendidikan di Tarumanagara Xinya College?",
+        "Apakah Tarumanagara Xinya College terbuka untuk semua mahasiswa Untar?",
+        "Apa sih Tarumanagara Xinya College itu?",
+        "Bisa jelasin gak apa itu Tarumanagara Xinya College?",
+        "Tarumanagara Xinya College itu buat apa?",
+        "Program apa aja yang ada di Tarumanagara Xinya College?",
+        "Apa tujuan dari Tarumanagara Xinya College di Untar?",
+        "Kegiatan apa aja yang diadain di Tarumanagara Xinya College?",
+        "Fokus pendidikan di Tarumanagara Xinya College apa ya?",
+        "Tarumanagara Xinya College itu program kayak gimana?",
+        "Gimana sistem belajar di Tarumanagara Xinya College?",
+        "Tarumanagara Xinya College bisa diikuti semua mahasiswa Untar gak?",
+        "Tarumanagara Xinya College"
+      ],
+      "responses": [
+        "Tarumanagara Xinya College menawarkan pendidikan sastra dan bahasa Mandarin berbasis kurikulum internasional untuk membentuk pemimpin profesional dan wirausahawan. Mahasiswa dapat meraih gelar internasional setelah lulus:\n<ul><li><b>Program Pendidikan (Bachelor of Arts)</b>: Mahasiswa mempelajari bahasa Mandarin (lisan dan tulisan) selama 3 tahun di Tarumanagara Xinya College dan 1 tahun di Fujian Normal University, Fuzhou.</li><li><b>Program Bisnis (Bachelor of Arts)</b>: Mahasiswa belajar di Xinya College selama 2 tahun, kemudian melanjutkan 2 tahun di HuaQiao University, Xiamen.</li></ul>"
+      ]
+    },
+    {
+      "tag": "stikes_tarumanagara",
+      "patterns": [
+        "Apa itu STIKes Tarumanagara?",
+        "Apa yang dimaksud dengan STIKes Tarumanagara?",
+        "Bisa jelaskan apa itu STIKes Tarumanagara?",
+        "Apa saja program studi yang ditawarkan di STIKes Tarumanagara?",
+        "Apa fokus pendidikan di STIKes Tarumanagara?",
+        "STIKes Tarumanagara itu sekolah apa?",
+        "Apakah STIKes Tarumanagara bagian dari Universitas Tarumanagara?",
+        "Bagaimana sistem pembelajaran di STIKes Tarumanagara?",
+        "Apa sih STIKes Tarumanagara itu?",
+        "Bisa jelasin gak STIKes Tarumanagara itu apa?",
+        "STIKes Tarumanagara punya program studi apa aja?",
+        "Fokus pendidikan di STIKes Tarumanagara apa ya?",
+        "STIKes Tarumanagara itu sekolah apa sih?",
+        "STIKes Tarumanagara termasuk bagian dari Untar gak?",
+        "Gimana sistem belajar di STIKes Tarumanagara?",
+        "Apa bedanya STIKes Tarumanagara sama Universitas Tarumanagara?",
+        "STIKes Tarumanagara fokus di bidang apa aja?",
+        "Apa aja kegiatan belajar di STIKes Tarumanagara?",
+        "STIKes Tarumanagara"
+      ],
+      "responses": [
+        "STIKes Tarumanagara adalah institusi pendidikan di bidang kesehatan yang menawarkan beberapa program studi, yaitu:\n<ul><li>Sarjana Farmasi (S.Farm.)</li><li>Sarjana Keperawatan (S.Kep.)</li><li>Diploma Teknologi Informasi Kesehatan (A.Md.)</li>\n</ul>"
+      ]
+    },
+    {
+      "tag": "fakultas_untar",
+      "patterns": [
+        "Fakultas apa saja yang ditawarkan oleh Universitas Tarumanagara?",
+        "Apa saja fakultas yang tersedia di Universitas Tarumanagara?",
+        "Fakultas apa saja yang ada di kampus Untar?",
+        "Apa saja pilihan fakultas di Universitas Tarumanagara?",
+        "Berapa jumlah fakultas di Untar dan apa saja?",
+        "Apa saja bidang studi yang tersedia di fakultas-fakultas Untar?",
+        "Apakah Untar memiliki fakultas di bidang teknik dan ekonomi?",
+        "Fakultas apa saja yang bisa dipilih mahasiswa di Universitas Tarumanagara?",
+        "Apa saja program studi yang tersedia di setiap fakultas Untar?",
+        "Fakultas mana saja di Untar yang menerima mahasiswa baru?",
+        "Bagaimana pembagian fakultas di Universitas Tarumanagara?",
+        "Fakultas apa aja yang ada di Untar?",
+        "Untar punya berapa fakultas sih?",
+        "Pilihan fakultas di Untar apa aja ya?",
+        "Ada fakultas teknik dan ekonomi di Untar gak?",
+        "Fakultas apa aja yang bisa dipilih di Untar?",
+        "Bidang studi di tiap fakultas Untar apa aja?",
+        "Fakultas mana aja di Untar yang buka pendaftaran mahasiswa baru?",
+        "Gimana sih pembagian fakultas di Untar?",
+        "Di Untar, ada fakultas apa aja yang bisa diambil?",
+        "Fakultas Untar"
+      ],
+      "responses": [
+        "UNTAR menawarkan berbagai fakultas dan program studi dengan akreditasi unggul dari BAN-PT, antara lain:\n<ul><li><b>Fakultas Ekonomi:</b> Manajemen Bisnis, Akuntansi</li><li><b>Fakultas Hukum</b></li><li><b>Fakultas Teknik:</b> Arsitektur, Teknik Sipil, Teknik Mesin, dan lainnya</li><li><b>Fakultas Kedokteran dan Psikologi</b></li><li><b>Fakultas Teknologi Informasi:</b> Informatika</li><li><b>Fakultas Seni dan Desain</b></li><li><b>Fakultas Ilmu Komunikasi:</b> Jurnalistik, Hubungan Masyarakat, Periklanan</li>\n</ul>"
+      ]
+    },
+    {
+      "tag": "pengembalian_biaya_spp",
+      "patterns": [
+        "Bagaimana jika saya diterima di Perguruan Tinggi Negeri (PTN) atau universitas lain?",
+        "Apa yang harus saya lakukan jika diterima di PTN atau universitas lain?",
+        "Bagaimana prosedur jika saya memutuskan kuliah di PTN setelah diterima di Untar?",
+        "Apakah ada kebijakan Untar jika saya diterima di universitas lain?",
+        "Bagaimana pengajuan pengunduran diri jika saya diterima di PTN atau kampus lain?",
+        "Apakah uang pendaftaran bisa dikembalikan jika saya memilih PTN?",
+        "Bagaimana cara membatalkan pendaftaran di Untar jika saya diterima di universitas lain?",
+        "Apa langkah selanjutnya jika saya ingin pindah ke PTN setelah diterima di Untar?",
+        "Apakah saya bisa membatalkan kuliah di Untar jika diterima di kampus lain?",
+        "Bagaimana kebijakan pengembalian biaya jika saya memilih universitas lain?",
+        "Apakah ada sanksi jika saya membatalkan pendaftaran di Untar untuk kuliah di PTN?",
+        "Kalo saya diterima di PTN, gimana ya prosesnya buat batalin di Untar?",
+        "Bisa gak uang pendaftaran di Untar dikembaliin kalo saya pilih PTN?",
+        "Gimana cara ngajuin pengunduran diri dari Untar kalo diterima di kampus lain?",
+        "Untar ada kebijakan apa kalo saya mau batal kuliah karena diterima di PTN?",
+        "Bisa gak saya batalin kuliah di Untar kalo masuk kampus lain?",
+        "Apa langkah-langkah buat berhenti di Untar kalo saya diterima di universitas lain?",
+        "Untar kasih sanksi gak kalo saya batalin kuliah karena milih PTN?",
+        "Gimana pengembalian biaya kuliah kalo saya pindah ke PTN?",
+        "Pengembalian biaya SPP"
+      ],
+      "responses": [
+        "Biaya registrasi dan Sumbangan Pengembangan Pendidikan (SPP) yang sudah dibayarkan tidak dapat dikembalikan dengan alasan apa pun, termasuk jika Anda diterima di PTN atau universitas lain. Pengecualian hanya diberikan apabila Anda gagal lulus dari Sekolah Menengah Atas (SMTA). Pastikan untuk mempertimbangkan semua pilihan dengan cermat sebelum melakukan pembayaran."
+      ]
+    },
+    {
+      "tag": "beasiswa_untar",
+      "patterns": [
+        "beasiswa",
+        "apa aja beasiswa untar",
+        "Beasiswa apa saja yang ditawarkan oleh Universitas Tarumanagara?",
+        "Apa saja jenis beasiswa yang tersedia di Universitas Tarumanagara?",
+        "Beasiswa apa saja yang bisa diikuti mahasiswa di Untar?",
+        "Apa saja program beasiswa yang ditawarkan oleh Untar?",
+        "Apakah Untar menyediakan beasiswa akademik dan non-akademik?",
+        "Apa saja pilihan beasiswa di Universitas Tarumanagara?",
+        "Apakah ada beasiswa untuk mahasiswa baru di Untar?",
+        "Jenis beasiswa apa saja yang ditawarkan kepada mahasiswa Untar?",
+        "Beasiswa apa aja yang ada di Untar?",
+        "Untar punya program beasiswa apa aja buat mahasiswa?",
+        "Ada pilihan beasiswa apa aja di Untar?",
+        "Bisa dapet beasiswa akademik atau non-akademik di Untar gak?",
+        "Jenis-jenis beasiswa di Untar ada apa aja ya?",
+        "Mahasiswa baru di Untar bisa dapet beasiswa gak?",
+        "Untar nawarin beasiswa prestasi dan bantuan keuangan gak?",
+        "Kalo berprestasi, bisa dapet beasiswa apa di Untar?",
+        "Program beasiswa di Untar ada apa aja yang bisa diikutin?",
+        "Beasiswa di Untar cuma buat prestasi atau ada bantuan keuangan juga?",
+        "Beasiswa Untar",
+        "Apakah UNTAR menyediakan program beasiswa?"
+      ],
+      "responses": [
+        "Yayasan Tarumanagara menyediakan beasiswa hingga 100% untuk Sumbangan Pengembangan Pendidikan (SPP). Mahasiswa dapat mendaftar melalui Jalur Penelusuran Prestasi (JPP) dan/atau Ujian Saringan Masuk (USM). Selain itu, UNTAR juga menawarkan beasiswa semester berdasarkan Indeks Prestasi Kumulatif (IPK) dan pencapaian non-akademik, seperti turnamen atau acara tertentu."
+      ]
+    },
+    {
+      "tag": "psikotes_fakultas_kedokteran",
+      "patterns": [
+        "Bagaimana cara mengikuti psikotes untuk Fakultas Kedokteran dan Farmasi di UNTAR?",
+        "Apa prosedur mengikuti psikotes untuk Fakultas Kedokteran dan Farmasi di Untar?",
+        "Bagaimana alur pendaftaran psikotes untuk masuk Fakultas Kedokteran dan Farmasi Untar?",
+        "Apa saja syarat mengikuti psikotes untuk Fakultas Kedokteran dan Farmasi di Untar?",
+        "Bagaimana langkah-langkah mengikuti psikotes di Untar untuk calon mahasiswa Kedokteran dan Farmasi?",
+        "Di mana lokasi dan waktu pelaksanaan psikotes untuk Fakultas Kedokteran dan Farmasi Untar?",
+        "Apakah ada biaya tambahan untuk mengikuti psikotes Fakultas Kedokteran dan Farmasi di Untar?",
+        "Apa saja dokumen yang dibutuhkan untuk mengikuti psikotes di Untar?",
+        "Bagaimana cara registrasi psikotes bagi calon mahasiswa Fakultas Kedokteran dan Farmasi Untar?",
+        "Apakah psikotes untuk Kedokteran dan Farmasi di Untar wajib bagi semua calon mahasiswa?",
+        "Apakah ada panduan khusus untuk mengikuti psikotes Fakultas Kedokteran dan Farmasi di Untar?",
+        "Gimana sih cara ikut psikotes buat masuk Kedokteran atau Farmasi di Untar?",
+        "Apa aja syarat ikut psikotes di Untar buat Kedokteran dan Farmasi?",
+        "Alur pendaftaran psikotes buat Kedokteran dan Farmasi di Untar gimana ya?",
+        "Kapan dan di mana pelaksanaan psikotes buat Kedokteran dan Farmasi di Untar?",
+        "Ada biaya tambahan gak buat ikut psikotes di Untar?",
+        "Dokumen apa aja yang perlu disiapin buat psikotes di Untar?",
+        "Gimana registrasi psikotes untuk calon mahasiswa Kedokteran dan Farmasi di Untar?",
+        "Psikotes buat Kedokteran dan Farmasi di Untar wajib buat semua calon mahasiswa gak?",
+        "Untar kasih panduan khusus gak buat ikut psikotes Kedokteran dan Farmasi?",
+        "Langkah-langkah ikut psikotes di Untar buat calon mahasiswa gimana sih?",
+        "Psikotes Untar"
+      ],
+      "responses": [
+        "Psikotes dapat dilakukan setelah melengkapi seluruh dokumen yang diperlukan. Tes ini dilakukan secara daring menggunakan laptop atau PC dengan webcam aktif. Jadwal psikotes diatur oleh psikolog yang bekerja sama dengan UNTAR. Pastikan untuk mengikuti instruksi dan ketentuan yang berlaku untuk kelancaran proses."
+      ]
+    },
+    {
+      "tag": "tes_buta_warna",
+      "patterns": [
+        "Bagaimana cara mendapatkan tes buta warna?",
+        "Di mana saya bisa mengikuti tes buta warna?",
+        "Apa prosedur untuk melakukan tes buta warna?",
+        "Bagaimana langkah-langkah mendapatkan tes buta warna di Untar?",
+        "Apakah tes buta warna bisa dilakukan di kampus Untar?",
+        "Apakah ada jadwal khusus untuk tes buta warna di Untar?",
+        "Apakah tes buta warna memerlukan pendaftaran terlebih dahulu?",
+        "Bagaimana cara mendaftar untuk tes buta warna di Untar?",
+        "Apakah tes buta warna tersedia di klinik kampus atau mitra kesehatan Untar?",
+        "Gimana cara ikut tes buta warna di Untar?",
+        "Tes buta warna bisa dilakuin di kampus Untar gak?",
+        "Ada jadwal khusus gak buat tes buta warna di Untar?",
+        "Kalo mau tes buta warna, harus daftar dulu gak ya?",
+        "Dimana saya bisa ikut tes buta warna?",
+        "Langkah-langkah buat tes buta warna di Untar gimana?",
+        "Tes buta warna di Untar bisa daftar online gak?",
+        "Ada gak fasilitas tes buta warna di klinik kampus Untar?",
+        "Tes buta warna di Untar ada kerja sama sama mitra kesehatan gak?",
+        "Apa aja prosedur buat tes buta warna di Untar?",
+        "Tes buta warna"
+      ],
+      "responses": [
+        "Anda dapat menjalani tes buta warna di beberapa tempat, seperti:\n<ul><li>Rumah sakit</li><li>Klinik</li><li>Toko optik</li><li>Puskesmas atau layanan kesehatan lain yang menyediakan tes tersebut</li></ul>\nPastikan untuk memilih tempat yang terpercaya agar hasil tes akurat sesuai kebutuhan Anda."
+      ]
+    },
+    {
+      "tag": "hasil_seleksi",
+      "patterns": [
+        "Bagaimana cara mendapatkan hasil tes seleksi (Form B) di UNTAR?",
+        "Bagaimana cara mengecek hasil tes seleksi Form B di Untar?",
+        "Di mana saya bisa melihat hasil tes seleksi Form B di Untar?",
+        "Apa prosedur untuk mendapatkan hasil tes seleksi Form B di Untar?",
+        "Bagaimana langkah-langkah untuk memperoleh hasil tes seleksi Form B?",
+        "Apakah hasil tes seleksi Form B bisa diakses secara online?",
+        "Kapan dan di mana hasil tes seleksi Form B diumumkan?",
+        "Bagaimana cara mengambil hasil seleksi Form B jika diumumkan secara offline?",
+        "Apakah ada pemberitahuan khusus untuk hasil tes Form B di Untar?",
+        "Apa saja yang harus dibawa untuk mengambil hasil tes seleksi Form B?",
+        "Bagaimana cara mengetahui jadwal pengumuman hasil Form B di Untar?",
+        "Gimana cara cek hasil tes Form B di Untar?",
+        "Di mana bisa liat hasil seleksi Form B Untar?",
+        "Hasil tes Form B di Untar bisa dicek online gak?",
+        "Kapan dan di mana pengumuman hasil Form B Untar keluar?",
+        "Ada pemberitahuan khusus gak buat hasil tes Form B?",
+        "Apa aja langkah-langkah buat cek hasil Form B di Untar?",
+        "Kalo hasil diumumin offline, gimana cara ngambilnya?",
+        "Buat ambil hasil Form B, harus bawa apa aja?",
+        "Cara dapet jadwal pengumuman hasil Form B di Untar gimana?",
+        "Apa prosedur buat liat hasil tes seleksi Form B di Untar?",
+        "Hasil tes seleksi"
+      ],
+      "responses": [
+        "Untuk melihat hasil tes seleksi, ikuti langkah berikut:\n<ol><li>Kunjungi situs <a href='https://admisi.tarumanagara.ac.id' target='_blank'>admisi.tarumanagara.ac.id</a>.</li><li>Masuk dengan <i>User ID</i> dan <i>Password</i> Anda.</li><li>Pilih informasi registrasi, kemudian klik \"status pendaftaran dan kelulusan.\"</li><li>Unduh Form B, lalu tandatangani di atas materai Rp6.000.</li><li>Kirim Form B ke Kantor Admisi UNTAR secara langsung atau melalui pos.</li></ol>\nProses selesai setelah dokumen diterima."
+      ]
+    },
+    {
+      "tag": "usm_jpp",
+      "patterns": [
+        "Bisakah saya mendaftar melalui USM dan JPP sekaligus? Apa perbedaan antara kedua program tersebut?",
+        "Apakah saya bisa mengikuti pendaftaran USM dan JPP secara bersamaan?",
+        "Apa saja perbedaan antara jalur USM dan JPP di Untar?",
+        "Apakah memungkinkan untuk mendaftar di USM dan JPP sekaligus?",
+        "Apa keuntungan masing-masing dari program USM dan JPP?",
+        "Bagaimana prosedur jika saya ingin mendaftar melalui USM dan JPP?",
+        "Apakah ada persyaratan khusus untuk mengikuti kedua jalur, USM dan JPP?",
+        "Apakah saya harus memilih antara USM atau JPP, atau bisa keduanya?",
+        "Apakah biaya pendaftaran berbeda untuk USM dan JPP di Untar?",
+        "Bisa gak daftar USM dan JPP barengan di Untar?",
+        "Apa bedanya jalur USM sama JPP di Untar?",
+        "Kalo mau daftar di USM dan JPP sekaligus, bisa gak?",
+        "Apa aja keuntungan dari jalur USM dan JPP di Untar?",
+        "Gimana prosedur buat daftar di USM dan JPP bareng?",
+        "Ada persyaratan khusus gak buat ikut USM dan JPP sekaligus?",
+        "Harus pilih salah satu atau bisa ikut USM dan JPP dua-duanya?",
+        "Biaya pendaftaran USM sama JPP di Untar beda gak?",
+        "Untar ngasih opsi daftar dua jalur sekaligus gak?",
+        "Lebih baik daftar di USM atau JPP, atau bisa dua-duanya?",
+        "Jalur pendaftaran"
+      ],
+      "responses": [
+        "Jika Anda akan lulus tahun ini, Anda bisa mendaftar melalui Jalur Penelusuran Prestasi (JPP) dan Ujian Saringan Masuk (USM) sekaligus. Pilih salah satu program setelah menerima hasil dari keduanya. Jika sudah lulus sebelum 2019, hanya USM yang tersedia.\n\nKeduanya menawarkan beasiswa hingga 100%:\n<ul><li><b>JPP</b>: Berdasarkan nilai rapor.</li><li><b>USM</b>: Berdasarkan hasil ujian.</li>\n</ul>Silakan pilih jalur yang sesuai dengan kebutuhan dan persyaratan Anda."
+      ]
+    },
+    {
+      "tag": "visi_misi_untar",
+      "patterns": [
+        "Apa visi dan misi Universitas Tarumanagara?",
+        "Bagaimana visi dan misi Universitas Tarumanagara?",
+        "Apa saja tujuan utama dalam visi dan misi Untar?",
+        "Apa visi Universitas Tarumanagara dalam jangka panjang?",
+        "Apa misi yang diusung oleh Universitas Tarumanagara?",
+        "Bagaimana Untar merumuskan visi dan misinya?",
+        "Apa fokus utama dalam misi pendidikan Untar?",
+        "Apa saja nilai-nilai yang tercermin dalam visi dan misi Untar?",
+        "Bagaimana visi dan misi Untar mendukung pengembangan mahasiswa?",
+        "Apa peran visi dan misi dalam menentukan arah kebijakan Untar?",
+        "Di mana saya bisa menemukan informasi resmi tentang visi dan misi Untar?",
+        "Apa sih visi dan misi Untar itu?",
+        "Gimana visi dan misi Untar buat masa depan?",
+        "Apa aja tujuan utama dari visi dan misi Untar?",
+        "Visi jangka panjang Untar kayak gimana?",
+        "Misi Untar itu fokusnya di bidang apa aja?",
+        "Gimana Untar merumuskan visi dan misinya?",
+        "Apa nilai-nilai yang dipegang Untar dalam visi dan misinya?",
+        "Visi dan misi Untar mendukung pengembangan mahasiswa gimana ya?",
+        "Peran visi dan misi dalam arah kebijakan Untar apa aja?",
+        "Di mana bisa liat info resmi tentang visi dan misi Untar?",
+        "Visi misi Untar"
+      ],
+      "responses": [
+        "Visi Universitas Tarumanagara adalah menjadi universitas entrepreneurial unggul yang berlandaskan nilai-nilai Integritas, Profesionalisme, dan Entrepreneurship (IPE) di Asia Tenggara.\n\nMisi Universitas Tarumanagara:\na. Menyelenggarakan pendidikan yang berlandaskan nilai-nilai IPE.\nb. Mengembangkan kegiatan Tri Dharma bagi seluruh sivitas akademika.\nc. Menyediakan kegiatan yang mendukung kesejahteraan masyarakat melalui pemanfaatan ilmu, teknologi, dan seni.\nd. Memperluas jejaring melalui kerja sama yang saling menguntungkan, baik di dalam maupun luar negeri."
+      ]
+    },
+    {
+      "tag": "berdirinya_untar",
+      "patterns": [
+        "Sejak kapan Universitas Tarumanagara berdiri?",
+        "Kapan Universitas Tarumanagara didirikan?",
+        "Pada tahun berapa Untar mulai berdiri?",
+        "Berapa lama Universitas Tarumanagara telah berdiri?",
+        "Kapan kampus Untar resmi beroperasi?",
+        "Sejak tahun berapa Universitas Tarumanagara beroperasi?",
+        "Sudah berapa tahun Untar berdiri hingga sekarang?",
+        "Apa sejarah berdirinya Universitas Tarumanagara?",
+        "Pada periode apa Universitas Tarumanagara didirikan?",
+        "Kapan tanggal resmi pendirian Universitas Tarumanagara?",
+        "Berapa usia Universitas Tarumanagara saat ini?",
+        "Untar berdiri sejak kapan sih?",
+        "Tahun berapa Untar mulai ada?",
+        "Udah berapa lama Untar berdiri?",
+        "Kapan kampus Untar mulai beroperasi resmi?",
+        "Sejak tahun berapa Untar jalan?",
+        "Berapa usia Untar sampai sekarang?",
+        "Kapan tanggal resmi pendirian Untar?",
+        "Udah berapa tahun Untar beroperasi?",
+        "Tahun berdirinya Untar",
+        "siapa yang mendirikan untar?",
+        "siapa pendiri untar?",
+        "untar didirikan oleh siapa?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) berdiri sejak tahun 1959, didirikan oleh sekelompok sosiawan di lingkungan Perhimpunan Sosial Candra Naya atas prakarsa Drs. Kwee Hwat Djien bersama tokoh-tokoh lainnya yang membentuk Yayasan Tarumanagara. Berlokasi strategis di Jakarta Barat, UNTAR terus berkembang menjadi salah satu universitas swasta unggulan di Indonesia. Dengan lebih dari 60 tahun pengalaman, UNTAR dikenal berkomitmen mencetak lulusan berkompetensi tinggi dan berwawasan luas, selaras dengan tuntutan industri di tingkat nasional dan internasional."
+      ]
+    },
+    {
+      "tag": "penghargaan_untar",
+      "patterns": [
+        "Apa saja penghargaan atau akreditasi yang dimiliki Universitas Tarumanagara?",
+        "Apa penghargaan yang pernah diraih Universitas Tarumanagara?",
+        "Akreditasi apa saja yang dimiliki oleh Untar?",
+        "Apakah Untar memiliki akreditasi unggul atau A?",
+        "Apa saja sertifikasi atau akreditasi resmi yang diperoleh Untar?",
+        "Penghargaan apa yang pernah diterima oleh Universitas Tarumanagara?",
+        "Bagaimana status akreditasi fakultas dan program studi di Untar?",
+        "Apa penghargaan nasional dan internasional yang diraih oleh Untar?",
+        "Apakah Universitas Tarumanagara memiliki akreditasi BAN-PT?",
+        "Apakah Untar memiliki penghargaan terkait kualitas pendidikan?",
+        "Apa saja pencapaian yang pernah diraih oleh Untar?",
+        "Penghargaan apa aja yang pernah diraih Untar?",
+        "Untar udah dapet akreditasi apa aja?",
+        "Kampus Untar punya akreditasi unggul atau A gak sih?",
+        "Ada sertifikasi resmi apa aja yang dimiliki Untar?",
+        "Penghargaan nasional dan internasional apa aja yang pernah diterima Untar?",
+        "Gimana status akreditasi fakultas dan prodi di Untar?",
+        "Untar punya akreditasi BAN-PT gak?",
+        "Ada penghargaan kualitas pendidikan yang diraih Untar gak?",
+        "Apa aja pencapaian besar yang pernah dicapai Untar?",
+        "Akreditasi dan sertifikasi terbaru Untar apa aja ya?",
+        "Penghargaan Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki berbagai penghargaan dan akreditasi yang membuktikan kualitas pendidikannya. UNTAR telah terakreditasi 'Unggul' oleh BAN-PT, mengukuhkan posisi kami sebagai salah satu universitas terbaik di Indonesia. Kami juga memperoleh peringkat bintang 4 dari QS University Rating, dan bintang 5 khusus untuk pembelajaran daring. Beberapa program studi teknik kami sudah terakreditasi secara internasional melalui Indonesian Accreditation Board for Engineering Education (IABEE). Selain itu, UNTAR dianugerahi Bronze Award dalam Anugerah Diktiristek sebagai pengakuan atas dukungan kami terhadap program Merdeka Belajar."
+      ]
+    },
+    {
+      "tag": "reputasi_untar",
+      "patterns": [
+        "Bagaimana reputasi Universitas Tarumanagara di tingkat nasional dan internasional?",
+        "Seperti apa reputasi Universitas Tarumanagara di Indonesia dan dunia?",
+        "Bagaimana peringkat Untar di kancah nasional dan internasional?",
+        "Apakah Universitas Tarumanagara dikenal di tingkat global?",
+        "Bagaimana citra Untar di antara universitas lain di Indonesia?",
+        "Apakah Untar masuk dalam daftar universitas terbaik di Indonesia dan dunia?",
+        "Bagaimana Untar diakui oleh institusi pendidikan internasional?",
+        "Apa saja prestasi Untar yang mendukung reputasinya di tingkat internasional?",
+        "Bagaimana perbandingan Untar dengan universitas lain di Asia?",
+        "Apakah mahasiswa Untar sering mengikuti kompetisi internasional?",
+        "Bagaimana penilaian alumni dan mahasiswa tentang reputasi Untar?",
+        "Gimana reputasi Untar di Indonesia dan internasional?",
+        "Untar masuk peringkat universitas terbaik gak sih?",
+        "Apakah Untar dikenal di luar negeri?",
+        "Gimana sih citra Untar di antara kampus-kampus lain di Indonesia?",
+        "Untar diakui di tingkat global gak ya?",
+        "Prestasi apa aja yang bikin Untar dikenal internasional?",
+        "Mahasiswa Untar sering ikut kompetisi internasional gak?",
+        "Gimana posisi Untar dibanding universitas lain di Asia?",
+        "Apa kata alumni dan mahasiswa soal reputasi Untar?",
+        "Untar pernah dapet pengakuan dari institusi internasional gak?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) memiliki reputasi yang baik di tingkat nasional dan internasional. UNTAR meraih akreditasi “Unggul” dari BAN-PT, serta mendapat peringkat bintang 4 dari QS University Rating dan bintang 5 untuk kategori pembelajaran daring. Di tingkat internasional, kami juga aktif dalam penyelenggaraan konferensi akademik global seperti Tarumanagara International Conference on the Application of Social Sciences & Humanities (TICASH) dan memiliki kolaborasi dengan banyak institusi di seluruh dunia."
+      ]
+    },
+    {
+      "tag": "alamat_untar",
+      "patterns": [
+        "Dimana alamat Universitas Tarumanagara?",
+        "Apa alamat lengkap Universitas Tarumanagara?",
+        "Di mana lokasi kampus Untar berada?",
+        "Di mana Universitas Tarumanagara berlokasi?",
+        "Apa alamat utama kampus Untar?",
+        "Bagaimana cara menuju kampus Universitas Tarumanagara?",
+        "Untar terletak di daerah mana?",
+        "Apa alamat resmi Universitas Tarumanagara?",
+        "Di wilayah mana kampus Untar berada?",
+        "Di mana saya bisa menemukan kampus Universitas Tarumanagara?",
+        "Alamat kampus utama Untar ada di mana?",
+        "Di mana sih kampus Untar?",
+        "Apa alamat lengkap kampus Untar?",
+        "Kampus Untar lokasinya di mana?",
+        "Gimana cara ke Universitas Tarumanagara?",
+        "Untar ada di daerah mana ya?",
+        "Alamat utama kampus Untar apa?",
+        "Universitas Tarumanagara terletak di wilayah mana?",
+        "Di mana saya bisa nemuin kampus Untar?",
+        "Alamat resmi Untar di mana ya?",
+        "Kampus utama Untar ada di mana sih?",
+        "Alamat Untar",
+        "Lokasi Untar",
+        "kampusnya dimana?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki dua kampus utama yang keduanya berlokasi di Jakarta. Kampus 1 berada di Jalan Letjen S. Parman No. 1, sedangkan Kampus 2 terletak di Jalan Tanjung Duren Utara No. 1, Jakarta."
+      ]
+    },
+    {
+      "tag": "jumlah_mahasiswa",
+      "patterns": [
+        "Berapa jumlah mahasiswa aktif di Universitas Tarumanagara?",
+        "Berapa total mahasiswa yang aktif di Untar saat ini?",
+        "Berapa banyak mahasiswa yang terdaftar di Universitas Tarumanagara?",
+        "Berapa jumlah keseluruhan mahasiswa aktif di Untar?",
+        "Berapa populasi mahasiswa di Universitas Tarumanagara?",
+        "Ada berapa mahasiswa yang masih aktif kuliah di Untar?",
+        "Berapa angka mahasiswa aktif setiap tahun di Untar?",
+        "Berapa estimasi jumlah mahasiswa yang aktif saat ini di Universitas Tarumanagara?",
+        "Berapa banyak mahasiswa reguler yang terdaftar di Untar?",
+        "Berapa jumlah mahasiswa yang mengikuti perkuliahan di Untar?",
+        "Berapa rata-rata mahasiswa yang aktif per semester di Universitas Tarumanagara?",
+        "Berapa sih total mahasiswa yang aktif di Untar sekarang?",
+        "Ada berapa mahasiswa yang terdaftar di Untar?",
+        "Berapa jumlah mahasiswa aktif di Untar saat ini?",
+        "Populasi mahasiswa Untar ada berapa ya?",
+        "Berapa banyak mahasiswa yang masih kuliah di Untar?",
+        "Setiap tahun ada berapa mahasiswa aktif di Untar?",
+        "Kira-kira berapa jumlah mahasiswa yang aktif sekarang di Untar?",
+        "Berapa banyak mahasiswa reguler yang terdaftar di Untar?",
+        "Ada berapa mahasiswa yang lagi ikut kuliah di Untar?",
+        "Rata-rata ada berapa mahasiswa aktif per semester di Untar?",
+        "Jumlah mahasiswa Untar"
+      ],
+      "responses": [
+        "Saat ini Universitas Tarumanagara memiliki kurang lebih 15.000 mahasiswa aktif yang terdaftar di berbagai program studi di seluruh fakultas."
+      ]
+    },
+    {
+      "tag": "rektor_untar",
+      "patterns": [
+        "Siapa rektor Universitas Tarumanagara saat ini?",
+        "Siapa yang menjabat sebagai rektor Untar saat ini?",
+        "Siapa pimpinan Universitas Tarumanagara saat ini?",
+        "Siapa rektor aktif di Untar sekarang?",
+        "Siapa yang menjadi rektor Universitas Tarumanagara saat ini?",
+        "Siapa nama rektor Untar periode sekarang?",
+        "Siapa kepala universitas di Untar saat ini?",
+        "Siapa pemimpin tertinggi di Universitas Tarumanagara?",
+        "Siapa yang memimpin Untar sebagai rektor sekarang?",
+        "Siapa rektor Universitas Tarumanagara saat ini dan sejak kapan menjabat?",
+        "Siapa rektor Untar sekarang?",
+        "Siapa yang jadi rektor Untar saat ini?",
+        "Siapa pimpinan kampus Untar sekarang?",
+        "Rektor aktif di Untar siapa ya?",
+        "Siapa nama rektor Untar periode ini?",
+        "Siapa kepala universitas di Untar saat ini?",
+        "Siapa pemimpin tertinggi Untar sekarang?",
+        "Siapa yang memimpin Untar sekarang sebagai rektor?",
+        "Rektor Untar sekarang siapa dan sejak kapan jabat?",
+        "Siapa rektor Untar yang menjabat saat ini?",
+        "Rektor Untar"
+      ],
+      "responses": [
+        "Rektor Universitas Tarumanagara (Untar) saat ini adalah Prof. Dr. Amad Sudiro, S.H., M.H., M.Kn., M.M. Ia dilantik pada 29 Agustus 2024 untuk menjabat sebagai rektor periode 2024–2028. Prof. Amad merupakan rektor ke-13 Untar dan menggantikan Prof. Dr. Ir. Agustinus Purna Irawan yang menjabat selama dua periode."
+      ]
+    },
+    {
+      "tag": "sejarah_berdirinya_untar",
+      "patterns": [
+        "Bagaimana sejarah berdirinya Universitas Tarumanagara?",
+        "Kapan dan bagaimana Universitas Tarumanagara didirikan?",
+        "Apa latar belakang berdirinya Universitas Tarumanagara?",
+        "Bagaimana awal mula pendirian kampus Untar?",
+        "Apa yang melatarbelakangi berdirinya Universitas Tarumanagara?",
+        "Bagaimana perkembangan Untar sejak awal berdirinya?",
+        "Siapa pendiri Universitas Tarumanagara dan kapan didirikan?",
+        "Apa visi awal saat Universitas Tarumanagara didirikan?",
+        "Bagaimana proses pembentukan dan perkembangan awal Untar?",
+        "Apa peran Untar dalam dunia pendidikan sejak pertama kali berdiri?",
+        "Bagaimana Untar berkembang hingga menjadi seperti sekarang?",
+        "Gimana sih sejarah berdirinya Untar?",
+        "Kapan dan gimana awal mula Untar didirikan?",
+        "Apa latar belakang didirikannya kampus Untar?",
+        "Siapa yang mendirikan Untar dan kapan berdirinya?",
+        "Gimana perkembangan Untar sejak pertama kali berdiri?",
+        "Gimana proses pembentukan Untar di awal berdirinya?",
+        "Gimana perjalanan Untar sampai jadi seperti sekarang?",
+        "Sejarah Untar",
+        "pengen tau sejarah untar",
+        "sejarah untar gimana sih"
+      ],
+      "responses": [
+        "Berikut adalah garis besar Sejarah berdirinya Universitas Tarumanagara:\n\n<ul>\n<li><b>1959</b>: UNTAR didirikan sebagai Sekolah Tinggi Ilmu Ekonomi (STIE) Tarumanagara di Jakarta. Misi awal adalah memberikan pendidikan tinggi yang berkualitas dalam bidang ekonomi.</li>\n<li><b>1981</b>: STIE Tarumanagara diakui sebagai Universitas, dan resmi berubah nama menjadi Universitas Tarumanagara. Pada tahap ini, UNTAR mulai menawarkan program studi lain, termasuk hukum, teknik, dan ilmu komunikasi.</li>\n<li><b>1990-an</b>: UNTAR terus berkembang, menambah fakultas dan program studi baru, serta meningkatkan fasilitas pendidikan dan penelitian. Kampus ini juga meraih akreditasi dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT).</li>\n<li><b>2000-an</b>: UNTAR semakin memperkuat reputasinya sebagai salah satu universitas swasta unggulan di Indonesia dengan peningkatan kualitas pengajaran dan penelitian. Program studi yang terakreditasi \"Unggul\" semakin banyak.</li>\n<li><b>2016</b>: Prof. Dr. Ir. Agustinus Purna Irawan diangkat sebagai Rektor UNTAR. Di bawah kepemimpinannya, UNTAR mengadopsi visi untuk menjadi universitas yang berorientasi pada kewirausahaan dan inovasi, serta meningkatkan kerja sama internasional.</li>\n<li><b>2022</b>: UNTAR meraih akreditasi \"Unggul\" dari BAN-PT, menegaskan statusnya sebagai universitas berkualitas tinggi di Indonesia. Kampus ini juga berhasil meraih peringkat bintang 4 dari QS University Rating.</li>\n<li><b>2024</b>: Hingga tahun ini, UNTAR terus berkomitmen untuk meningkatkan kualitas pendidikan, penelitian, dan pengabdian kepada masyarakat. Kami memiliki lebih dari 15.000 mahasiswa aktif dan lebih dari 500 dosen, serta memperluas jejaring kerja sama dengan berbagai institusi di dalam dan luar negeri.</li>\n</ul>"
+      ]
+    },
+    {
+      "tag": "kelebihan_untar",
+      "patterns": [
+        "Apa keunggulan Universitas Tarumanagara dibandingkan universitas lain?",
+        "Apa saja kelebihan Universitas Tarumanagara dibanding kampus lain?",
+        "Apa yang membuat Untar unggul di antara universitas lain?",
+        "Apa faktor pembeda Universitas Tarumanagara dari universitas lainnya?",
+        "Mengapa memilih Untar sebagai tempat kuliah dibanding kampus lain?",
+        "Apa saja aspek yang menjadi keunggulan Untar di bidang pendidikan?",
+        "Apa yang membuat Universitas Tarumanagara memiliki reputasi lebih baik?",
+        "Apa program unggulan di Untar yang tidak dimiliki kampus lain?",
+        "Bagaimana Untar bersaing dengan universitas lain di tingkat nasional?",
+        "Apa keunggulan Untar dalam bidang akademik dan non-akademik?",
+        "Apa faktor yang menjadikan Untar pilihan favorit calon mahasiswa?",
+        "Apa sih kelebihan Untar dibanding kampus lain?",
+        "Kenapa Untar bisa unggul di antara universitas lain?",
+        "Apa yang bikin Untar beda dari kampus lainnya?",
+        "Kenapa harus pilih Untar buat kuliah dibanding kampus lain?",
+        "Apa aja keunggulan Untar di bidang pendidikan?",
+        "Gimana Untar bisa punya reputasi lebih baik dibanding kampus lain?",
+        "Ada program unggulan apa di Untar yang gak ada di kampus lain?",
+        "Gimana Untar bersaing sama universitas lain di Indonesia?",
+        "Apa aja kelebihan Untar di bidang akademik dan non-akademik?",
+        "Kenapa Untar sering jadi pilihan favorit calon mahasiswa?",
+        "Kelebihan Untar",
+        "Keunggulan Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki berbagai keunggulan dibandingkan universitas lain, termasuk akreditasi 'Unggul' dari BAN-PT yang menunjukkan kualitas pendidikan tinggi, serta menawarkan lebih dari 30 program studi beragam. Fokus kami pada kewirausahaan melalui program Merdeka Belajar Kampus Merdeka (MBKM) memberi mahasiswa kesempatan untuk mengembangkan keterampilan. Dosen kami yang berkualitas dan berpengalaman, serta fasilitas modern yang lengkap dan nyaman mendukung proses pembelajaran yang efektif."
+      ]
+    },
+    {
+      "tag": "alumni_terkenal",
+      "patterns": [
+        "Apakah Universitas Tarumanagara memiliki alumni-alumni terkenal?",
+        "Siapa saja alumni terkenal dari Universitas Tarumanagara?",
+        "Apakah ada tokoh publik yang merupakan alumni Untar?",
+        "Siapa saja figur terkenal yang pernah kuliah di Untar?",
+        "Apakah alumni Untar banyak yang berkarier di bidang profesional?",
+        "Siapa saja alumni Untar yang memiliki prestasi di tingkat nasional atau internasional?",
+        "Apakah ada selebriti atau artis yang merupakan lulusan Untar?",
+        "Bagaimana kontribusi alumni Untar di berbagai bidang?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara telah melahirkan sejumlah alumni terkenal yang berkontribusi di berbagai bidang, seperti Tina Toon, seorang penyanyi yang juga menjabat sebagai anggota DPRD DKI Jakarta, serta Edric Tjandra, yang dikenal sebagai entertainer dan presenter di industri hiburan Indonesia. Alumni lainnya termasuk Mona Ratuliu, seorang artis dan presenter yang populer di televisi."
+      ]
+    },
+    {
+      "tag": "revolusi_industri",
+      "patterns": [
+        "Bagaimana Universitas Tarumanagara menghadapi era revolusi industri?",
+        "Apa langkah-langkah Untar dalam menghadapi revolusi industri?",
+        "Bagaimana Untar mempersiapkan mahasiswa untuk era revolusi industri 4.0?",
+        "Apa strategi Universitas Tarumanagara dalam menyesuaikan diri dengan revolusi industri?",
+        "Bagaimana Untar mengintegrasikan teknologi dalam proses pembelajarannya?",
+        "Apa inovasi yang dilakukan Untar di era revolusi industri 4.0?",
+        "Bagaimana Untar beradaptasi dengan perkembangan teknologi dan digitalisasi?",
+        "Apakah kurikulum Untar disesuaikan dengan kebutuhan industri modern?",
+        "Apa peran Untar dalam mendukung mahasiswa agar siap menghadapi tantangan industri 4.0?",
+        "Bagaimana Universitas Tarumanagara memanfaatkan teknologi digital di era industri saat ini?",
+        "Apakah ada program khusus di Untar untuk era revolusi industri 4.0?",
+        "Gimana Untar menghadapi revolusi industri?",
+        "Apa aja langkah Untar buat ngadepin revolusi industri 4.0?",
+        "Untar nyiapin mahasiswa gimana buat era industri 4.0?",
+        "Apa strategi Untar buat menyesuaikan diri dengan perkembangan industri?",
+        "Gimana Untar pakai teknologi dalam proses belajar-mengajarnya?",
+        "Ada inovasi apa aja di Untar di era revolusi industri ini?",
+        "Untar beradaptasi gimana sama teknologi dan digitalisasi?",
+        "Apakah kurikulum Untar udah disesuaikan dengan kebutuhan industri modern?",
+        "Apa peran Untar buat bantu mahasiswa siap hadapi tantangan industri 4.0?",
+        "Untar punya program khusus gak buat revolusi industri 4.0?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara menghadapi era revolusi industri dengan mengintegrasikan teknologi dalam proses belajar mengajar. UNTAR menerapkan program Merdeka Belajar Kampus Merdeka (MBKM), yang mendorong mahasiswa untuk belajar secara mandiri dan menerapkan pengetahuan mereka dalam proyek-proyek nyata. Untar juga memperkuat kurikulum dengan penekanan pada keterampilan digital dan kewirausahaan, serta menjalin kerja sama dengan industri untuk memastikan bahwa pendidikan yang diberikan relevan dengan kebutuhan pasar."
+      ]
+    },
+    {
+      "tag": "fasilitas_untar",
+      "patterns": [
+        "Apa saja fasilitas kampus yang tersedia di Universitas Tarumanagara?",
+        "Fasilitas apa saja yang disediakan oleh Universitas Tarumanagara?",
+        "Apa saja sarana dan prasarana yang ada di kampus Untar?",
+        "Apa fasilitas utama yang tersedia bagi mahasiswa di Untar?",
+        "Apa saja fasilitas akademik yang bisa digunakan di Universitas Tarumanagara?",
+        "Apa saja layanan penunjang mahasiswa yang tersedia di kampus Untar?",
+        "Apa aja fasilitas kampus yang ada di Untar?",
+        "Untar nyediain fasilitas apa aja buat mahasiswa?",
+        "Sarana dan prasarana di Untar ada apa aja?",
+        "Fasilitas utama di kampus Untar apa aja ya?",
+        "Fasilitas akademik di Untar apa aja yang bisa dipakai mahasiswa?",
+        "Layanan penunjang mahasiswa di Untar ada apa aja?",
+        "Gimana fasilitas kampus Untar buat kegiatan belajar?",
+        "Apa aja ruang atau tempat khusus yang disediakan Untar buat mahasiswa?",
+        "Ada fasilitas apa di Untar buat dukung kegiatan non-akademik?",
+        "Fasilitas Untar",
+        "Apa aja fasilitas untar?"
+      ],
+      "responses": [
+        "UNTAR menyediakan fasilitas kampus yang beragam, termasuk ruang kelas modern, perpustakaan, ruang belajar kelompok, studio seni dan kreatif, studio green screen, studio rekaman, aula konser Graha Swara, bioskop, sport hall, fitness center, dan kolam renang. Ada juga fasilitas ibadah seperti musholla, altar Buddha, dan kapel Katolik, serta rumah sakit Royal Taruma dan klinik kesehatan. Untuk detail lebih lengkap, Anda bisa melihat di https://untar.ac.id/fasilitas/<a href='https://untar.ac.id/fasilitas/' target='_blank'></a>"
+      ]
+    },
+    {
+      "tag": "kualitas_laboratorium",
+      "patterns": [
+        "Bagaimana kualitas laboratorium di UNTAR",
+        "Seperti apa fasilitas laboratorium di Universitas Tarumanagara?",
+        "Apakah laboratorium di Untar memenuhi standar pendidikan?",
+        "Bagaimana peralatan di laboratorium Untar mendukung kegiatan praktikum?",
+        "Apakah laboratorium Untar dilengkapi dengan teknologi modern?",
+        "Bagaimana laboratorium di Untar membantu mahasiswa dalam penelitian?",
+        "Apakah setiap fakultas di Untar memiliki laboratorium sendiri?",
+        "Bagaimana kondisi dan pemeliharaan laboratorium di kampus Untar?",
+        "Bagaimana Untar memastikan kualitas dan keamanan di laboratoriumnya?",
+        "Apakah ada laboratorium khusus untuk program studi tertentu di Untar?",
+        "Gimana sih kualitas laboratorium di Untar?",
+        "Fasilitas lab di Untar kayak gimana ya?",
+        "Lab di Untar udah memenuhi standar pendidikan belum?",
+        "Peralatan di lab Untar mendukung praktikum mahasiswa gak?",
+        "Lab di Untar dilengkapi teknologi modern gak sih?",
+        "Gimana peran lab Untar buat bantu mahasiswa riset?",
+        "Setiap fakultas di Untar punya lab sendiri gak?",
+        "Gimana kondisi dan perawatan lab di Untar?",
+        "Untar jamin kualitas dan keamanan lab-nya gimana?",
+        "Ada lab khusus buat program studi tertentu di Untar gak?",
+        "Laboratorium Untar",
+        "Lab Untar"
+      ],
+      "responses": [
+        "Kualitas laboratorium di Universitas Tarumanagara (UNTAR) sangat mendukung kegiatan akademik, penelitian, dan pengabdian kepada masyarakat. UNTAR memastikan bahwa laboratorium-laboratoriumnya telah tersertifikasi, berlisensi, dan terus ditingkatkan kualitasnya. Laboratorium ini dirancang agar mahasiswa dapat belajar dengan standar yang tinggi dalam berbagai bidang, terutama untuk mendukung fakultas yang memerlukan fasilitas praktikum khusus, seperti Fakultas Teknik dan Kedokteran."
+      ]
+    },
+    {
+      "tag": "perpustakaan_digital",
+      "patterns": [
+        "Apakah UNTAR memiliki perpustakaan digital?",
+        "Apakah Universitas Tarumanagara menyediakan perpustakaan digital?",
+        "Apakah Untar memiliki koleksi e-book atau jurnal online?",
+        "Bagaimana cara mengakses perpustakaan digital di Untar?",
+        "Apakah ada layanan perpustakaan online untuk mahasiswa Untar?",
+        "Apakah Untar menawarkan akses ke jurnal internasional secara digital?",
+        "Apakah koleksi perpustakaan Untar tersedia dalam format digital?",
+        "Bagaimana kualitas dan ketersediaan sumber daya digital di perpustakaan Untar?",
+        "Untar punya perpustakaan digital gak sih?",
+        "Ada koleksi e-book atau jurnal online di Untar gak?",
+        "Gimana cara akses perpustakaan digital di Untar?",
+        "Mahasiswa Untar bisa pakai layanan perpustakaan online gak?",
+        "Untar kasih akses ke jurnal internasional secara digital gak?",
+        "Koleksi perpustakaan Untar tersedia dalam format digital gak?",
+        "Perpustakaan online di Untar kualitasnya gimana ya?",
+        "Gimana sih cara pakai e-library di Untar?",
+        "Ada gak sumber daya digital yang lengkap di perpustakaan Untar?",
+        "Untar nyediain layanan baca jurnal online buat mahasiswa gak?",
+        "Perpustakaan digital Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) memiliki perpustakaan digital yang berfungsi sebagai sumber daya untuk mendukung proses pembelajaran dan penelitian mahasiswa serta dosen. Perpustakaan ini menyediakan akses ke berbagai koleksi digital, termasuk jurnal, buku elektronik, dan sumber referensi ilmiah lainnya yang dapat diakses secara online melalui <a href='http://repository.untar.ac.id/' target='_blank'>http://repository.untar.ac.id/</a>."
+      ]
+    },
+    {
+      "tag": "kantin_untar",
+      "patterns": [
+        "Apakah UNTAR memiliki fasilitas kantin atau tempat makan di dalam kampus?",
+        "Apakah ada kantin di dalam area kampus Untar?",
+        "Apakah mahasiswa Untar bisa menemukan tempat makan di dalam kampus?",
+        "Bagaimana fasilitas kantin di Universitas Tarumanagara?",
+        "Apakah Untar menyediakan beberapa pilihan tempat makan di kampus?",
+        "Apakah ada kantin khusus di tiap fakultas di Untar?",
+        "Bagaimana variasi menu di kantin kampus Untar?",
+        "Apakah kantin di Untar buka sepanjang hari kuliah?",
+        "Apakah tersedia area makan nyaman bagi mahasiswa di Untar?",
+        "Apakah ada cafe atau restoran kecil di dalam lingkungan kampus Untar?",
+        "Ada kantin di dalam kampus Untar gak sih?",
+        "Gimana fasilitas kantin di Untar?",
+        "Untar punya beberapa pilihan tempat makan di kampus gak?",
+        "Setiap fakultas di Untar ada kantinnya gak?",
+        "Menu di kantin Untar bervariasi gak ya?",
+        "Kantin di Untar buka seharian selama hari kuliah gak?",
+        "Ada area makan nyaman buat mahasiswa di Untar?",
+        "Di Untar ada kafe atau restoran kecil gak sih?",
+        "Kantin Untar",
+        "kalo laper makan dimana ya",
+        "ada kantin ga",
+        "apa aja kantin di untar?",
+        "apa aja restoran di untar?",
+        "apa aja cafe di untar?",
+        "ada cafe ga sih di untar?",
+        "ada restoran ga di untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara menyediakan berbagai pilihan kuliner di dalam kampus melalui fasilitas kantin yang lengkap dan ramah lingkungan. Kantin UNTAR bahkan pernah meraih penghargaan Juara Pertama dalam Lomba 'Kantin Sehat' untuk kategori perguruan tinggi, yang diberikan oleh Kementerian Kesehatan pada Hari Kesehatan Nasional ke-54. Selain itu, area kampus juga dilengkapi dengan restoran dan gerai terkenal seperti A&W, Dallas Chicken, Starbucks, serta minimarket seperti Lawson, Indomaret, dan Alfamart."
+      ]
+    },
+    {
+      "tag": "ruang_belajar_bersama",
+      "patterns": [
+        "Apakah UNTAR memiliki ruang co-working atau ruang studi bersama untuk mahasiswa?",
+        "Apakah Untar menyediakan ruang co-working bagi mahasiswa?",
+        "Apakah ada ruang studi bersama di kampus Untar?",
+        "Apakah mahasiswa bisa menggunakan ruang co-working di Untar?",
+        "Apakah Untar memiliki fasilitas ruang belajar bersama?",
+        "Bagaimana cara mengakses ruang co-working di Untar?",
+        "Apakah ada ruang khusus untuk diskusi kelompok di kampus Untar?",
+        "Apakah Untar menyediakan ruang kerja bersama dengan fasilitas lengkap?",
+        "Apakah ada ruangan yang nyaman untuk belajar bersama di Untar?",
+        "Apakah ruang co-working di Untar bisa digunakan untuk kegiatan organisasi?",
+        "Bagaimana jadwal dan aturan penggunaan ruang studi bersama di Untar?",
+        "Untar punya ruang co-working buat mahasiswa gak sih?",
+        "Ada ruang belajar bareng di kampus Untar gak?",
+        "Mahasiswa Untar bisa pakai ruang co-working gak?",
+        "Ada fasilitas ruang belajar bersama di Untar?",
+        "Gimana cara akses ruang co-working di Untar?",
+        "Untar nyediain ruang buat diskusi kelompok gak?",
+        "Ada ruang kerja bareng dengan fasilitas lengkap di Untar gak?",
+        "Ada ruang yang nyaman buat belajar bersama di Untar gak?",
+        "Ruang co-working di Untar bisa dipakai kegiatan organisasi gak?",
+        "Gimana aturan dan jadwal penggunaan ruang belajar bersama di Untar?",
+        "Ruang diskusi Untar",
+        "Ruang belajar bersama Untar",
+        "kalo pengen belajar bersama dimana ya",
+        "ruang belajar bareng"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki ruang studi bersama atau group study room untuk mahasiswa yang dapat digunakan sebagai area belajar kolaboratif. Selain itu, UNTAR juga menyediakan berbagai fasilitas yang mendukung kreativitas dan diskusi, seperti studio seni, studio green screen, dan ruang konser Graha Swara yang digunakan untuk kegiatan akademik dan non-akademik. Semua fasilitas ini tersedia di kampus UNTAR di Jakarta Barat."
+      ]
+    },
+    {
+      "tag": "sistem_keamanan",
+      "patterns": [
+        "Bagaimana sistem keamanan di lingkungan kampus?",
+        "Seperti apa sistem keamanan di kampus Untar?",
+        "Apakah Untar memiliki petugas keamanan yang bertugas 24 jam?",
+        "Bagaimana prosedur keamanan di area kampus Untar?",
+        "Apakah Untar memiliki sistem CCTV di lingkungan kampus?",
+        "Apakah mahasiswa harus menunjukkan identitas saat memasuki kampus Untar?",
+        "Bagaimana Untar memastikan keamanan mahasiswa dan staf di kampus?",
+        "Apakah ada gerbang khusus dengan penjagaan di kampus Untar?",
+        "Apakah Untar memiliki sistem evakuasi atau tanggap darurat?",
+        "Apakah keamanan di Untar mencakup area parkir mahasiswa?",
+        "Gimana sih sistem keamanan di kampus Untar?",
+        "Untar punya petugas keamanan 24 jam gak?",
+        "Apa aja prosedur keamanan di area kampus Untar?",
+        "Kampus Untar ada CCTV-nya gak?",
+        "ada satpam ga di untar?",
+        "satpam di untar ada berapa?",
+        "Mahasiswa harus nunjukin identitas pas masuk kampus Untar gak?",
+        "Gimana Untar memastikan keamanan mahasiswa dan staf?",
+        "Ada gerbang khusus yang dijaga di Untar gak?",
+        "Untar punya sistem evakuasi atau tanggap darurat gak?",
+        "Seberapa ketat sistem keamanan di Untar?",
+        "Keamanan Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) menjaga keamanan kampus dengan sistem pengamanan yang mencakup kehadiran petugas keamanan di seluruh area kampus serta pemantauan akses di beberapa fasilitas untuk memastikan keamanan bagi seluruh sivitas akademika."
+      ]
+    },
+    {
+      "tag": "fasilitas_parkir",
+      "patterns": [
+        "Apakah kampus UNTAR memiliki fasilitas parkir yang luas?",
+        "Apakah kampus Untar memiliki fasilitas parkir yang memadai?",
+        "Apakah tersedia area parkir khusus di kampus Untar?",
+        "Apakah Untar menyediakan fasilitas parkir untuk mahasiswa dan staf?",
+        "Apakah kampus Untar memiliki parkir untuk kendaraan roda dua dan roda empat?",
+        "Apakah area parkir di Untar cukup luas untuk semua pengguna?",
+        "Apakah Untar menyediakan parkir di setiap gedung fakultas?",
+        "Di mana lokasi fasilitas parkir di kampus Untar?",
+        "Apakah kampus Untar memiliki fasilitas parkir bertingkat?",
+        "Apakah parkir di Untar cukup luas untuk menampung kendaraan mahasiswa?",
+        "Apakah Untar menyediakan fasilitas parkir gratis untuk mahasiswa?",
+        "Parkiran di kampus Untar luas gak sih?",
+        "Untar punya fasilitas parkir yang memadai gak?",
+        "Ada area parkir khusus di Untar gak?",
+        "Untar nyediain parkir buat mahasiswa dan staf gak?",
+        "Parkiran di Untar cukup buat kendaraan roda dua dan roda empat gak?",
+        "Area parkir di Untar luas gak buat semua pengguna?",
+        "Setiap gedung fakultas di Untar ada parkirnya gak?",
+        "Dimana aja lokasi parkiran di kampus Untar?",
+        "Untar punya fasilitas parkir bertingkat gak?",
+        "Parkir di Untar gratis buat mahasiswa gak?",
+        "Parkiran Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) memiliki fasilitas parkir yang memadai, termasuk area parkir di gedung bertingkat yang dirancang untuk menampung kendaraan mahasiswa, dosen, dan staf.\n\nUntuk mengetahui lebih detail tentang kapasitas dan lokasi tepat dari fasilitas parkir ini, silahkan hubungi admisi ke nomor 08117579727"
+      ]
+    },
+    {
+      "tag": "ruang_auditorium",
+      "patterns": [
+        "Apakah UNTAR memiliki auditorium atau ruang konferensi besar untuk acara-acara kampus?",
+        "Apakah Untar memiliki auditorium untuk kegiatan kampus?",
+        "Apakah tersedia ruang konferensi besar di kampus Untar?",
+        "Apakah kampus Untar memiliki gedung serbaguna untuk acara besar?",
+        "Apakah Untar menyediakan auditorium untuk seminar atau konferensi?",
+        "Di mana lokasi auditorium atau ruang konferensi di Untar?",
+        "Apakah mahasiswa bisa menggunakan auditorium untuk acara kampus?",
+        "Apakah Untar memiliki fasilitas ruang konferensi dengan kapasitas besar?",
+        "Apakah ada gedung khusus di Untar untuk acara wisuda atau seminar?",
+        "Apakah auditorium di Untar terbuka untuk kegiatan organisasi mahasiswa?",
+        "Untar punya auditorium buat kegiatan kampus gak?",
+        "Ada ruang konferensi besar di kampus Untar gak?",
+        "Untar punya gedung serbaguna buat acara besar gak?",
+        "Auditorium di Untar bisa dipakai buat seminar atau konferensi gak?",
+        "Di mana lokasi auditorium di Untar?",
+        "Mahasiswa boleh gak pakai auditorium buat acara kampus?",
+        "Ada ruang konferensi di Untar dengan kapasitas besar gak?",
+        "Gedung khusus buat wisuda atau seminar ada di Untar gak?",
+        "Auditorium di Untar terbuka buat kegiatan organisasi mahasiswa gak?",
+        "Gimana cara akses auditorium buat acara kampus di Untar?",
+        "Ruang auditorium",
+        "Ruang konferensi besar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki beberapa auditorium dan ruang konferensi besar yang digunakan untuk berbagai acara kampus, seminar, dan kegiatan akademik lainnya. Salah satu auditorium utama berada di Lantai 8 Gedung M, Kampus 1, Jakarta Barat. Ruangan ini sering digunakan untuk acara-acara penting seperti seminar nasional dan berbagai kegiatan pertemuan akademik. UNTAR juga memiliki beberapa ruang besar lainnya yang didesain untuk menampung jumlah peserta yang banyak, sehingga sangat mendukung penyelenggaraan acara skala besar."
+      ]
+    },
+    {
+      "tag": "studio_seni",
+      "patterns": [
+        "Apakah ada studio kreatif atau laboratorium seni untuk mahasiswa di UNTAR?",
+        "Apakah Untar memiliki studio kreatif untuk kegiatan mahasiswa?",
+        "Apakah tersedia laboratorium seni di Untar untuk mahasiswa?",
+        "Apakah kampus Untar menyediakan fasilitas studio seni bagi mahasiswa?",
+        "Apakah ada ruang khusus untuk kegiatan kreatif di Untar?",
+        "Apakah mahasiswa seni di Untar memiliki akses ke studio atau lab seni?",
+        "Apakah Untar memiliki fasilitas laboratorium untuk desain dan seni rupa?",
+        "Apakah ada studio fotografi atau multimedia di Untar?",
+        "Apakah tersedia laboratorium seni dan kreatif di setiap fakultas di Untar?",
+        "Apakah mahasiswa bisa menggunakan studio kreatif untuk proyek pribadi atau tugas kuliah?",
+        "Apakah Untar memiliki fasilitas studio kreatif dan laboratorium seni?",
+        "Untar punya studio kreatif buat mahasiswa gak?",
+        "Ada lab seni di Untar buat kegiatan mahasiswa gak?",
+        "Kampus Untar nyediain studio seni gak buat mahasiswanya?",
+        "Ada ruang khusus buat kegiatan kreatif di Untar gak?",
+        "Mahasiswa seni di Untar bisa akses studio atau lab seni gak?",
+        "Untar punya lab buat desain dan seni rupa gak?",
+        "Ada studio fotografi atau multimedia di Untar gak?",
+        "Setiap fakultas di Untar punya lab seni dan kreatif gak?",
+        "Mahasiswa boleh pakai studio kreatif buat tugas atau proyek pribadi gak?",
+        "Untar nyediain fasilitas studio kreatif dan lab seni gak?",
+        "Studio seni",
+        "Studio kreatif"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki studio kreatif dan laboratorium seni yang berada di bawah naungan Fakultas Seni Rupa dan Desain (FSRD). Fasilitas ini mencakup studio desain, studio green screen, dan studio rekaman yang dirancang untuk mendukung kegiatan praktikum dan kreatif mahasiswa. Studio-studio ini memberikan kesempatan bagi mahasiswa untuk mengembangkan keterampilan seni dan desain dengan dukungan fasilitas yang lengkap dan modern"
+      ]
+    },
+    {
+      "tag": "asrama_mahasiswa",
+      "patterns": [
+        "Apakah universitas Tarumanagara menyediakan asrama bagi mahasiswa?",
+        "Apakah Untar menyediakan asrama bagi mahasiswanya?",
+        "Apakah tersedia asrama untuk mahasiswa di Universitas Tarumanagara?",
+        "Apakah mahasiswa Untar bisa tinggal di asrama kampus?",
+        "Apakah Universitas Tarumanagara memiliki fasilitas asrama bagi mahasiswa?",
+        "Apakah di Untar ada asrama untuk mahasiswa?",
+        "Apakah Untar memiliki asrama untuk mahasiswanya?",
+        "Apakah Untar menyediakan tempat tinggal berupa asrama bagi mahasiswa?",
+        "Apakah tersedia fasilitas asrama di kampus Untar untuk mahasiswa?",
+        "Asrama bagi mahasiswa tersedia di Universitas Tarumanagara, bukan?",
+        "Apakah Untar menyediakan layanan asrama untuk mahasiswa yang membutuhkan?",
+        "Untar punya asrama buat mahasiswa gak sih?",
+        "Mahasiswa Untar bisa tinggal di asrama kampus gak?",
+        "Ada asrama di Untar buat mahasiswa gak?",
+        "Kampus Untar nyediain tempat tinggal berupa asrama gak?",
+        "Untar punya fasilitas asrama buat mahasiswanya gak?",
+        "Asrama di kampus Untar tersedia buat mahasiswa gak?",
+        "Ada layanan asrama di Untar buat yang butuh tempat tinggal gak?",
+        "Untar nyediain asrama di dalam kampus gak?",
+        "Mahasiswa baru di Untar bisa tinggal di asrama gak?",
+        "Gimana cara akses asrama di Untar kalo ada?",
+        "Asrama Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) tidak memiliki fasilitas asrama khusus di dalam kampus untuk mahasiswa. Namun, UNTAR berada di kawasan strategis di Jakarta Barat yang dikelilingi oleh berbagai pilihan kos dan apartemen di sekitar area kampus, seperti di daerah Tawakal, Tomang, Tanjung Duren, dan Grogol."
+      ]
+    },
+    {
+      "tag": "kualitas_ruang_kelas",
+      "patterns": [
+        "Bagaimana kualitas ruang kelas di universitas Tarumanagara?",
+        "Bagaimana kondisi ruang kelas di Universitas Tarumanagara?",
+        "Apakah ruang kelas di Untar memiliki fasilitas yang memadai?",
+        "Seperti apa kualitas ruang kelas di kampus Untar?",
+        "Apakah ruang kelas di Untar nyaman untuk proses belajar mengajar?",
+        "Bagaimana fasilitas ruang kelas yang disediakan Untar?",
+        "Apakah ruang kelas di Universitas Tarumanagara modern dan nyaman?",
+        "Bagaimana standar fasilitas ruang kelas di Untar?",
+        "Apakah Untar menyediakan ruang kelas dengan fasilitas berkualitas?",
+        "Seberapa baik kondisi ruang kelas di Universitas Tarumanagara?",
+        "Apakah mahasiswa merasa nyaman dengan kualitas ruang kelas di Untar?",
+        "Gimana kualitas ruang kelas di Untar?",
+        "Kelas di Untar nyaman nggak?",
+        "Fasilitas kelas di Untar oke nggak?",
+        "Ruang kelas di Untar bagus nggak?",
+        "Kondisi ruang kelas di Untar gimana?",
+        "Untar punya kelas yang nyaman nggak?",
+        "Di Untar ruang kelasnya enak buat belajar nggak?",
+        "Fasilitas kelas di Untar lengkap nggak?",
+        "Kelas-kelas di Untar modern nggak sih?",
+        "Ruang kelas di Untar kualitasnya oke nggak?",
+        "Ruang kelas Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (UNTAR) menyediakan ruang kelas dengan kualitas tinggi yang mendukung kenyamanan dan efektivitas pembelajaran. Ruang kelas UNTAR dilengkapi dengan fasilitas modern seperti proyektor, sistem audio yang baik, dan tata ruang yang baik untuk menunjang proses belajar-mengajar."
+      ]
+    },
+    {
+      "tag": "fasilitas_olahraga",
+      "patterns": [
+        "Apakah universitas Tarumanagara memiliki pusat kebugaran atau fasilitas olahraga?",
+        "Apakah Untar menyediakan pusat kebugaran atau fasilitas olahraga?",
+        "Apakah Universitas Tarumanagara memiliki gym atau sarana olahraga?",
+        "Apakah di Untar tersedia pusat kebugaran dan fasilitas olahraga?",
+        "Apakah kampus Untar memiliki fasilitas olahraga atau gym untuk mahasiswa?",
+        "Apakah Untar menyediakan tempat kebugaran dan sarana olahraga?",
+        "Apakah di Universitas Tarumanagara terdapat gym atau fasilitas olahraga?",
+        "Apakah mahasiswa Untar bisa mengakses pusat kebugaran atau fasilitas olahraga?",
+        "Apakah Universitas Tarumanagara memiliki gym dan sarana olahraga untuk mahasiswa?",
+        "Seperti apa fasilitas olahraga dan pusat kebugaran di Untar?",
+        "Apakah tersedia fasilitas olahraga dan pusat kebugaran di Untar?",
+        "Untar ada gym atau fasilitas olahraga nggak?",
+        "Di Untar ada tempat olahraga nggak?",
+        "Kampus Untar punya pusat kebugaran?",
+        "Ada gym di Untar buat mahasiswa?",
+        "Fasilitas olahraga di Untar lengkap nggak?",
+        "Mahasiswa Untar bisa pakai gym kampus nggak?",
+        "Untar punya fasilitas olahraga apa aja?",
+        "Kampus Untar ada gym dan tempat olahraga?",
+        "Di Untar bisa olahraga di kampus nggak?",
+        "Pusat kebugaran di Untar ada nggak?",
+        "ada fasilitas olahraga gak"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki pusat kebugaran serta fasilitas olahraga bagi mahasiswa. Salah satu fasilitas utamanya adalah Tarumanagara Arena, lapangan olahraga indoor yang dapat digunakan untuk berbagai aktivitas olahraga seperti basket dan bulu tangkis. Selain itu UNTAR juga menyediakan fasilitas pusat kebugaran (fitness center). Fasilitas ini mendukung pengembangan minat mahasiswa dalam kegiatan non-akademik dan olahraga di lingkungan kampus."
+      ]
+    },
+    {
+      "tag": "fasilitas_perpustakaan",
+      "patterns": [
+        "Bagaimana cara mengakses fasilitas perpustakaan?",
+        "Bagaimana prosedur mengakses fasilitas perpustakaan?",
+        "Apa saja langkah-langkah untuk menggunakan fasilitas perpustakaan?",
+        "Bagaimana cara mahasiswa mengakses perpustakaan kampus?",
+        "Apa syarat untuk dapat menggunakan fasilitas perpustakaan di Untar?",
+        "Bagaimana mekanisme akses ke perpustakaan Universitas Tarumanagara?",
+        "Apakah ada prosedur khusus untuk masuk ke perpustakaan?",
+        "Bagaimana tata cara penggunaan perpustakaan di kampus Untar?",
+        "Apa saja ketentuan untuk mengakses fasilitas perpustakaan Untar?",
+        "Bagaimana cara memanfaatkan layanan di perpustakaan Universitas Tarumanagara?",
+        "Gimana cara pakai fasilitas perpustakaan di Untar?",
+        "Prosedur masuk perpustakaan Untar gimana?",
+        "Mahasiswa Untar bisa akses perpustakaan gimana caranya?",
+        "Ada syarat buat masuk perpustakaan di Untar nggak?",
+        "Gimana sih cara akses perpustakaan kampus Untar?",
+        "Perlu ikuti aturan khusus buat masuk perpustakaan Untar nggak?",
+        "Gimana langkah-langkah pakai perpustakaan di Untar?",
+        "Cara pakai layanan perpustakaan di Untar gimana?",
+        "Gimana cara akses perpustakaan Untar buat mahasiswa?",
+        "Ada ketentuan khusus buat masuk perpustakaan di Untar?"
+      ],
+      "responses": [
+        "Untuk mengakses fasilitas perpustakaan di Universitas Tarumanagara, mahasiswa biasanya perlu memiliki kartu mahasiswa atau ID yang terdaftar di sistem perpustakaan Untar. Perpustakaan menyediakan akses ke berbagai sumber daya, seperti buku teks, jurnal ilmiah, e-book, dan materi multimedia."
+      ]
+    },
+    {
+      "tag": "fasilitas_wifi",
+      "patterns": [
+        "Apakah kampus menyediakan akses internet gratis bagi mahasiswa?",
+        "Apakah Untar menyediakan akses Wi-Fi gratis bagi mahasiswa?",
+        "Apakah Untar menyediakan akses wifi gratis bagi mahasiswa?",
+        "Apakah tersedia internet gratis untuk mahasiswa di kampus Untar?",
+        "Ada Wi-Fi nggak sih di kampus Untar?",
+        "Bagaimana cara mahasiswa Untar mengakses Wi-Fi kampus?",
+        "Bagaimana cara mahasiswa Untar mengakses wifi kampus?",
+        "Apakah kampus Untar memiliki jaringan Wi-Fi gratis?",
+        "Apakah kampus Untar memiliki jaringan WiFi gratis?",
+        "Untar itu ada Wi-Fi gratis nggak ya buat mahasiswa?",
+        "Untar itu ada WiFi gratis nggak ya buat mahasiswa?",
+        "Apakah mahasiswa Untar bisa mengakses internet tanpa biaya di kampus?",
+        "Apakah Wi-Fi kampus Untar tersedia di seluruh area kampus?",
+        "Bagaimana cara mahasiswa Untar mendapatkan akses internet gratis?",
+        "Apakah Untar menyediakan internet gratis untuk kegiatan akademik mahasiswa?",
+        "Kampus Untar ada Wi-Fi gratis buat mahasiswa nggak?",
+        "Di Untar ada internet gratis nggak buat mahasiswa?",
+        "Wi-Fi di Untar bisa diakses mahasiswa nggak?",
+        "Mahasiswa Untar bisa pakai Wi-Fi kampus gratis nggak?",
+        "Ada Wi-Fi di kampus Untar nggak?",
+        "Cara dapetin akses Wi-Fi di Untar gimana?",
+        "Internet di Untar gratis buat mahasiswa nggak sih?",
+        "Kampus Untar punya jaringan Wi-Fi gratis?",
+        "Wi-Fi kampus Untar ada di semua area kampus nggak?",
+        "Gimana cara mahasiswa bisa akses internet gratis di Untar?",
+        "Wi-Fi gratis",
+        "Internet gratis"
+      ],
+      "responses": [
+        "Universitas Tarumanagara menyediakan akses internet gratis bagi mahasiswa melalui jaringan Wi-Fi yang tersedia di seluruh area kampus."
+      ]
+    },
+    {
+      "tag": "fasilitas_kesehatan",
+      "patterns": [
+        "Apakah universitas memiliki klinik atau fasilitas kesehatan?",
+        "Apakah Untar memiliki klinik atau layanan kesehatan bagi mahasiswa?",
+        "Apakah tersedia fasilitas kesehatan di kampus Untar?",
+        "Kampus Untar ada klinik nggak sih?",
+        "Apakah mahasiswa bisa mengakses layanan kesehatan di Untar?",
+        "Untar itu punya fasilitas kesehatan nggak ya?",
+        "Apakah Universitas Tarumanagara menyediakan klinik untuk mahasiswanya?",
+        "Apakah di Untar ada layanan kesehatan untuk mahasiswa?",
+        "Apakah kampus Untar memiliki klinik yang bisa diakses oleh mahasiswa?",
+        "Apakah tersedia pusat kesehatan di kampus Untar untuk mahasiswa?",
+        "Bagaimana mahasiswa Untar bisa mendapatkan layanan kesehatan di kampus?",
+        "Di Untar ada klinik buat mahasiswa nggak?",
+        "Kampus Untar punya fasilitas kesehatan nggak?",
+        "Mahasiswa Untar bisa akses layanan kesehatan di kampus nggak?",
+        "Klinik di Untar ada nggak buat mahasiswa?",
+        "Ada fasilitas kesehatan di Untar nggak sih?",
+        "Kampus Untar ada layanan kesehatan?",
+        "Gimana cara mahasiswa Untar pakai layanan kesehatan kampus?",
+        "Fasilitas kesehatan di Untar lengkap nggak?",
+        "Untar punya klinik buat mahasiswa?",
+        "Layanan kesehatan di kampus Untar bisa diakses mahasiswa nggak?",
+        "Layanan Kesehatan Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara menyediakan fasilitas kesehatan bagi mahasiswa, yang mencakup layanan pemeriksaan kesehatan dan bantuan medis darurat."
+      ]
+    },
+    {
+      "tag": "ukm_untar",
+      "patterns": [
+        "Apa saja unit kegiatan mahasiswa (UKM) yang tersedia di UNTAR?",
+        "Apa saja UKM yang bisa diikuti mahasiswa di Untar?",
+        "Untar punya unit kegiatan mahasiswa apa saja ya?",
+        "Ada UKM apa aja sih di kampus Untar?",
+        "Apa saja pilihan UKM yang tersedia di Universitas Tarumanagara?",
+        "Di Untar ada UKM apa aja buat mahasiswa?",
+        "UKM apa saja yang ditawarkan di kampus Untar?",
+        "Untar menyediakan unit kegiatan mahasiswa apa saja?",
+        "Apakah Untar punya banyak pilihan UKM untuk mahasiswa?",
+        "UKM di Untar ada apa aja?",
+        "Di Untar mahasiswa bisa ikut UKM apa aja?",
+        "Untar punya UKM apa aja sih?",
+        "Kampus Untar ada UKM apa aja?",
+        "Ada pilihan UKM apa di Untar?",
+        "UKM yang bisa diikuti di Untar ada apa aja?",
+        "Mahasiswa Untar bisa gabung UKM apa aja?",
+        "Untar punya banyak UKM nggak buat mahasiswa?",
+        "Di kampus Untar UKM-nya ada apa aja?",
+        "UKM yang tersedia di Untar apa aja?",
+        "UKM Untar",
+        "Unit kegiatan mahasiswa Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (Untar) menawarkan berbagai Unit Kegiatan Mahasiswa (UKM) yang mencakup kegiatan olahraga, seni budaya, dan pengembangan diri lainnya."
+      ]
+    },
+    {
+      "tag": "organisasi_daftar",
+      "patterns": [
+        "Bagaimana cara bergabung dengan organisasi mahasiswa di UNTAR?",
+        "Apa saja langkah untuk bergabung dengan organisasi mahasiswa di Untar?",
+        "Gimana caranya ikut organisasi mahasiswa di kampus Untar?",
+        "Bagaimana proses pendaftaran organisasi mahasiswa di Untar?",
+        "Apakah ada syarat khusus untuk bergabung dengan organisasi mahasiswa di Untar?",
+        "Di Untar, gimana sih cara masuk organisasi mahasiswa?",
+        "Apa prosedur untuk bergabung dengan organisasi mahasiswa di Universitas Tarumanagara?",
+        "Bagaimana mahasiswa bisa terlibat dalam organisasi kampus di Untar?",
+        "Apakah mahasiswa baru bisa langsung daftar organisasi di Untar?",
+        "Apa saja tahapan untuk menjadi anggota organisasi mahasiswa di Untar?",
+        "Gimana cara mahasiswa Untar ikut aktif di organisasi kampus?",
+        "Gimana cara gabung organisasi mahasiswa di Untar?",
+        "Cara daftar organisasi mahasiswa di Untar gimana?",
+        "Mahasiswa Untar bisa masuk organisasi kampus gimana caranya?",
+        "Ada syarat buat gabung organisasi di Untar nggak?",
+        "Proses gabung organisasi di Untar gimana sih?",
+        "Mahasiswa baru bisa langsung join organisasi di Untar nggak?",
+        "Langkah-langkah buat gabung organisasi di Untar apa aja?",
+        "Di Untar, cara jadi anggota organisasi kampus gimana?",
+        "Mahasiswa Untar bisa ikut organisasi kampus gimana caranya?",
+        "Untar ada prosedur khusus buat daftar organisasi mahasiswa nggak?"
+      ],
+      "responses": [
+        "Mahasiswa yang berminat bergabung biasanya perlu menunggu hingga periode open recruitment, di mana masing-masing organisasi akan membuka kesempatan pendaftaran serta menjelaskan proses seleksi dan persyaratannya."
+      ]
+    },
+    {
+      "tag": "organisasi_minatdanbakat",
+      "patterns": [
+        "Apa saja organisasi atau komunitas mahasiswa yang aktif di UNTAR?",
+        "Apakah UNTAR memiliki organisasi mahasiswa berbasis minat atau bakat?",
+        "Apakah di Untar ada organisasi mahasiswa berdasarkan minat dan bakat?",
+        "Untar punya organisasi mahasiswa yang sesuai minat atau bakat nggak ya?",
+        "Di Untar ada nggak sih organisasi mahasiswa yang fokus pada bakat tertentu?",
+        "Apakah kampus Untar menyediakan organisasi mahasiswa berbasis hobi atau bakat?",
+        "Apakah tersedia komunitas di Untar yang sesuai minat dan bakat mahasiswa?",
+        "Untar ada nggak organisasi mahasiswa untuk mengembangkan bakat?",
+        "Apakah Untar menyediakan organisasi untuk mahasiswa yang ingin menyalurkan minatnya?",
+        "Di kampus Untar, ada organisasi khusus buat minat atau bakat nggak?",
+        "Apakah ada pilihan organisasi mahasiswa di Untar yang berfokus pada bakat?",
+        "Bagaimana cara menemukan organisasi mahasiswa berbasis minat di Untar?",
+        "Organisasi mahasiswa Untar",
+        "Organisasi Untar",
+        "Apakah ada organisasi mahasiswa atau kegiatan ekstrakurikuler di UNTAR?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki berbagai organisasi mahasiswa berbasis minat dan bakat yang mencakup bidang olahraga, seni, budaya, dan pengembangan keterampilan khusus. UNTAR mendukung pengembangan bakat mahasiswa melalui unit kegiatan mahasiswa (UKM) dan kegiatan non-akademik lainnya, seperti penyelenggaraan acara budaya, kompetisi nasional, dan kegiatan sosial."
+      ]
+    },
+    {
+      "tag": "dukungan_kompetisi",
+      "patterns": [
+        "Apakah UNTAR mendukung kegiatan mahasiswa dalam mengikuti kompetisi nasional atau internasional?",
+        "Apakah Untar memberi dukungan bagi mahasiswa yang ikut kompetisi nasional atau internasional?",
+        "Untar mendukung mahasiswa ikut lomba di tingkat nasional dan internasional nggak ya?",
+        "Apakah Untar memfasilitasi mahasiswa untuk ikut kompetisi?",
+        "Di Untar, mahasiswa didukung nggak sih buat ikut kompetisi luar kampus?",
+        "Apakah Untar memberikan bantuan bagi mahasiswa dalam mengikuti lomba nasional atau internasional?",
+        "Gimana sih bentuk dukungan Untar buat mahasiswa yang ikut kompetisi?",
+        "Apakah Untar mendorong mahasiswa untuk berprestasi di kompetisi nasional atau internasional?",
+        "Untar mendanai mahasiswa yang ikut lomba nasional atau internasional nggak?",
+        "Apakah ada dukungan khusus dari Untar bagi mahasiswa yang ikut kompetisi?",
+        "Bagaimana Untar membantu mahasiswa dalam mengikuti kompetisi nasional dan internasional?",
+        "Untar dukung mahasiswa ikut lomba nasional atau internasional nggak?",
+        "Mahasiswa Untar bisa dapet bantuan buat ikut kompetisi luar kampus nggak?",
+        "Di Untar, mahasiswa didukung ikut lomba nasional dan internasional nggak?",
+        "Kampus Untar memfasilitasi mahasiswa buat kompetisi nggak sih?",
+        "Ada bantuan dari Untar buat mahasiswa yang mau ikut lomba nasional?",
+        "Gimana Untar dukung mahasiswa yang ikut kompetisi?",
+        "Mahasiswa Untar bisa dapet dana buat lomba nasional atau internasional nggak?",
+        "Apa Untar kasih dukungan buat mahasiswa yang ikut kompetisi?",
+        "Bentuk dukungan Untar buat mahasiswa yang lomba di luar kampus gimana?",
+        "Untar bantu mahasiswa ikut kompetisi nasional dan internasional nggak?",
+        "Kompetisi nasional",
+        "Kompetisi internasional",
+        "Kompetisi mahasiswa"
+      ],
+      "responses": [
+        "Universitas Tarumanagara sangat mendukung kegiatan mahasiswa dalam berpartisipasi di kompetisi nasional maupun internasional. Sebagai bukti dukungan, UNTAR tidak hanya menyediakan fasilitas untuk latihan dan pengembangan bakat, tetapi juga sering kali menjadi tuan rumah bagi berbagai kompetisi bergengsi."
+      ]
+    },
+    {
+      "tag": "untar_bem",
+      "patterns": [
+        "Apakah UNTAR memiliki badan eksekutif mahasiswa (BEM)?",
+        "Apakah Untar punya Badan Eksekutif Mahasiswa (BEM)?",
+        "Di Untar ada BEM nggak sih?",
+        "Untar memiliki BEM atau tidak ya?",
+        "Apakah kampus Untar menyediakan wadah organisasi BEM?",
+        "Apakah ada Badan Eksekutif Mahasiswa di Universitas Tarumanagara?",
+        "Untar itu ada BEM buat mahasiswa nggak?",
+        "Bagaimana cara bergabung dengan BEM di Untar?",
+        "Apakah Untar punya organisasi mahasiswa setingkat BEM?",
+        "Di Untar, BEM aktif nggak ya?",
+        "Apakah Untar memiliki BEM sebagai organisasi mahasiswa utama?",
+        "Untar ada BEM nggak?",
+        "Di kampus Untar ada BEM nggak sih?",
+        "Kampus Untar punya organisasi BEM nggak?",
+        "Mahasiswa Untar bisa gabung BEM nggak?",
+        "Untar itu punya BEM atau nggak?",
+        "BEM di Untar aktif nggak ya?",
+        "Di Untar ada BEM buat mahasiswa nggak?",
+        "Untar punya organisasi mahasiswa setingkat BEM nggak?",
+        "Kalau mau gabung BEM di Untar gimana caranya?",
+        "BEM di kampus Untar ada nggak?",
+        "BEM Untar",
+        "Badan Eksekutif Mahasiswa Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki Badan Eksekutif Mahasiswa (BEM) yang berfungsi sebagai organisasi utama untuk menampung aspirasi dan mengkoordinasikan kegiatan kemahasiswaan."
+      ]
+    },
+    {
+      "tag": "peran_bem",
+      "patterns": [
+        "Bagaimana peran BEM dalam kehidupan mahasiswa di UNTAR?",
+        "Apa saja peran BEM dalam kegiatan mahasiswa di Untar?",
+        "Seberapa penting peran BEM bagi mahasiswa Untar?",
+        "BEM di Untar ngapain aja sih untuk mahasiswa?",
+        "Bagaimana kontribusi BEM terhadap mahasiswa Untar?",
+        "Apa peran utama BEM dalam mendukung mahasiswa di Untar?",
+        "Gimana peran BEM Untar dalam kehidupan kampus?",
+        "Apakah BEM Untar terlibat dalam kegiatan mahasiswa sehari-hari?",
+        "Apa saja program BEM yang berdampak bagi mahasiswa Untar?",
+        "Bagaimana BEM Untar membantu meningkatkan pengalaman mahasiswa?",
+        "Apa saja kegiatan BEM yang mempengaruhi kehidupan mahasiswa Untar?"
+      ],
+      "responses": [
+        "Badan Eksekutif Mahasiswa (BEM) Universitas Tarumanagara berperan sebagai wadah aspirasi dan pusat koordinasi kegiatan kemahasiswaan. BEM UNTAR berfungsi untuk menjembatani komunikasi antara mahasiswa dan pihak universitas, menyelenggarakan berbagai program yang mendukung pengembangan kepemimpinan, serta mendorong keterlibatan mahasiswa dalam kegiatan sosial, akademik, dan budaya. Melalui BEM, mahasiswa dapat aktif berkontribusi dalam kehidupan kampus, mengembangkan potensi diri, serta memperluas jaringan dan pengalaman yang bermanfaat bagi masa depan mereka."
+      ]
+    },
+    {
+      "tag": "kompetisi_internal",
+      "patterns": [
+        "Apakah ada program kompetisi internal di UNTAR untuk meningkatkan prestasi mahasiswa?",
+        "Apakah Untar punya kompetisi internal untuk mendorong prestasi mahasiswa?",
+        "Di Untar ada lomba internal nggak sih buat mahasiswa?",
+        "Apakah ada program lomba internal di Untar untuk mahasiswa?",
+        "Untar mengadakan kompetisi internal buat mahasiswa nggak?",
+        "Apakah kampus Untar rutin mengadakan kompetisi internal untuk meningkatkan prestasi mahasiswa?",
+        "Untar punya program khusus nggak buat lomba di lingkungan kampus?",
+        "Apakah Untar menyelenggarakan kompetisi antar mahasiswa di dalam kampus?",
+        "Ada lomba internal nggak di Untar buat mengembangkan potensi mahasiswa?",
+        "Apakah mahasiswa Untar bisa ikut kompetisi yang diadakan di dalam kampus?",
+        "Untar sering adain lomba internal buat mahasiswa nggak ya?",
+        "Di Untar ada lomba internal buat mahasiswa nggak?",
+        "Untar punya kompetisi internal buat mahasiswa nggak sih?",
+        "Kampus Untar rutin adain lomba internal nggak?",
+        "Mahasiswa Untar bisa ikut kompetisi di dalam kampus nggak?",
+        "Ada program lomba internal di Untar nggak?",
+        "Untar sering ngadain kompetisi antar mahasiswa nggak?",
+        "Lomba internal di Untar buat mahasiswa ada nggak?",
+        "Gimana Untar mendorong prestasi mahasiswa lewat lomba internal?",
+        "Untar punya program lomba khusus di kampus buat mahasiswa nggak?",
+        "Kompetisi di dalam kampus Untar buat mahasiswa ada nggak?",
+        "Lomba Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara mengadakan berbagai kompetisi internal untuk mendorong prestasi mahasiswa dalam bidang akademik dan non-akademik. Kompetisi ini mencakup lomba karya tulis ilmiah, debat, olahraga antar fakultas, kompetisi seni seperti paduan suara dan seni rupa, dan lainnya."
+      ]
+    },
+    {
+      "tag": "peran_untar_untuk_mahasiswa",
+      "patterns": [
+        "Bagaimana UNTAR membantu mahasiswa dalam mendapatkan pekerjaan setelah lulus?",
+        "Apa saja upaya Universitas Tarumanagara dalam membantu lulusan mendapatkan pekerjaan?",
+        "Apakah Untar menyediakan layanan karier bagi mahasiswa setelah lulus?",
+        "Kampus ini bantu alumni cari kerja nggak sih?",
+        "Bagaimana peran Universitas Tarumanagara dalam mempersiapkan mahasiswa menghadapi dunia kerja?",
+        "Apakah universitas ini punya program khusus untuk membantu lulusan mendapatkan pekerjaan?",
+        "Untar kasih support nggak ya biar mahasiswa cepat dapat kerja setelah lulus?",
+        "Apa saja fasilitas yang disediakan Universitas Tarumanagara untuk mendukung karier mahasiswa?",
+        "Apakah kampus ini mengadakan job fair atau bursa kerja untuk mahasiswa?",
+        "Ada program penyaluran kerja nggak di Untar buat para lulusannya?",
+        "Bagaimana Universitas Tarumanagara mempersiapkan mahasiswanya agar siap masuk dunia kerja?",
+        "Untar bantu lulusannya cari kerja gimana?",
+        "Setelah lulus, mahasiswa Untar dibantu cari kerja nggak?",
+        "Untar ada program buat bantu mahasiswa siap kerja nggak?",
+        "Kampus ini kasih support biar lulusannya cepat dapat kerja nggak?",
+        "Untar ada fasilitas apa aja buat dukung karier mahasiswa?",
+        "Program penyaluran kerja di Untar buat alumni ada nggak?",
+        "Untar bantu mahasiswa biar siap masuk dunia kerja gimana?",
+        "Apa aja usaha Untar biar lulusannya gampang dapat kerja?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara membantu mahasiswanya mempersiapkan karier setelah lulus melalui berbagai program pendukung. Salah satunya adalah dengan memfasilitasi mahasiswa untuk berwirausaha melalui program Merdeka Belajar Kampus Merdeka (MBKM) yang berfokus pada kewirausahaan. UNTAR juga menyediakan kesempatan magang bagi mahasiswa yang memungkinkan mereka mendapatkan pengalaman kerja langsung di industri sebelum lulus."
+      ]
+    },
+    {
+      "tag": "magang_kurikulum",
+      "patterns": [
+        "Apakah Universitas Tarumanagara memiliki program magang yang terintegrasi dengan kurikulum?",
+        "Apakah Universitas Tarumanagara memiliki program magang yang menjadi bagian dari kurikulum?",
+        "Apakah Untar menyediakan program magang yang terhubung dengan kurikulum?",
+        "Program magang di Untar terintegrasi dengan kurikulum nggak sih?",
+        "Apakah magang di Universitas Tarumanagara wajib dalam kurikulum?",
+        "Bagaimana program magang di Untar dihubungkan dengan mata kuliah?",
+        "Apakah mahasiswa Untar harus mengikuti magang sebagai bagian dari kurikulum?",
+        "Apakah magang di kampus ini sudah menjadi komponen wajib dalam kurikulum?",
+        "Untar punya program magang yang terstruktur dengan kurikulum nggak?",
+        "Apakah Universitas Tarumanagara mendukung magang sebagai bagian dari kurikulum akademik?",
+        "Bagaimana sistem magang di Untar diintegrasikan dengan kegiatan perkuliahan?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki program magang yang terintegrasi dengan kurikulum melalui implementasi Merdeka Belajar Kampus Merdeka (MBKM)."
+      ]
+    },
+    {
+      "tag": "peran_alumni",
+      "patterns": [
+        "Bagaimana jaringan alumni Universitas Tarumanagara mendukung karier lulusan?",
+        "Bagaimana peran jaringan alumni Universitas Tarumanagara dalam membantu karier lulusan?",
+        "Apakah alumni Untar aktif mendukung lulusan dalam mencari pekerjaan?",
+        "Seberapa kuat jaringan alumni Universitas Tarumanagara dalam mendukung karier?",
+        "Apakah Untar memiliki program khusus yang melibatkan alumni untuk membantu lulusan?",
+        "Jaringan alumni di Untar mendukung lulusan cari kerja nggak sih?",
+        "Bagaimana keterlibatan alumni Untar dalam membantu mahasiswa mendapatkan pekerjaan?",
+        "Apakah Universitas Tarumanagara memfasilitasi hubungan antara lulusan dan alumni?",
+        "Apakah ada platform bagi alumni Untar untuk membantu karier lulusan?",
+        "Bagaimana cara jaringan alumni Untar membantu lulusan mengembangkan karier?",
+        "Apakah hubungan dengan alumni Untar mempengaruhi peluang kerja lulusan?"
+      ],
+      "responses": [
+        "Alumni Universitas Tarumanagara (UNTAR) memberikan dukungan karier yang signifikan bagi para lulusan. Melalui kolaborasi yang erat dengan berbagai industri dan profesional di dalam jaringan alumni, UNTAR menciptakan peluang bagi lulusan untuk terhubung langsung dengan dunia kerja. Alumni UNTAR yang telah sukses di berbagai bidang sering kembali memberikan bimbingan, seminar, serta pelatihan untuk mempersiapkan mahasiswa menghadapi tantangan di lingkungan profesional. Dengan lebih dari 100.000 alumni tersebar di seluruh dunia, UNTAR juga memfasilitasi koneksi untuk magang, kerja sama bisnis, dan peluang karier lainnya yang mendukung lulusan dalam mengembangkan karier mereka."
+      ]
+    },
+    {
+      "tag": "kerjasama_rekrutmen",
+      "patterns": [
+        "Apakah Universitas Tarumanagara memiliki program kerja sama dengan perusahaan untuk rekrutmen lulusan?",
+        "Apakah Universitas Tarumanagara bekerja sama dengan perusahaan untuk rekrutmen lulusan?",
+        "Apakah Untar punya kemitraan dengan perusahaan untuk mempekerjakan lulusan?",
+        "Apakah kampus ini sering bekerja sama dengan perusahaan dalam rekrutmen lulusan?",
+        "Untar ada nggak program kerja sama dengan perusahaan buat penyaluran lulusan?",
+        "Apakah Universitas Tarumanagara memfasilitasi perekrutan lulusan melalui kerja sama perusahaan?",
+        "Apakah perusahaan terlibat aktif dalam rekrutmen lulusan Untar?",
+        "Bagaimana Untar menjalin kerja sama dengan perusahaan untuk mempekerjakan lulusannya?",
+        "Apakah ada program rekrutmen langsung dari perusahaan yang bekerja sama dengan Untar?",
+        "Apakah Untar sering mengadakan program dengan perusahaan untuk mencari lulusan terbaik?",
+        "Seperti apa bentuk kerja sama Untar dengan perusahaan dalam rekrutmen lulusan?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki berbagai program kerja sama dengan perusahaan untuk mendukung rekrutmen lulusan. Melalui kemitraan ini, UNTAR mengundang perusahaan-perusahaan untuk berpartisipasi dalam bursa kerja dan program magang, yang memungkinkan lulusan dan mahasiswa terhubung langsung dengan dunia industri."
+      ]
+    },
+    {
+      "tag": "event_job_fair",
+      "patterns": [
+        "Apakah Universitas Tarumanagara mengadakan job fair atau acara rekrutmen di kampus?",
+        "Apakah Universitas Tarumanagara rutin mengadakan job fair di kampus?",
+        "Apakah kampus Untar pernah menyelenggarakan acara rekrutmen perusahaan?",
+        "Di Untar ada job fair nggak sih buat mahasiswa?",
+        "Apakah mahasiswa bisa ikut job fair di Universitas Tarumanagara?",
+        "Untar sering adain acara rekrutmen di kampus nggak ya?",
+        "Apakah ada event job fair di Untar untuk membantu lulusan mencari kerja?",
+        "Bagaimana Universitas Tarumanagara memfasilitasi job fair untuk mahasiswanya?",
+        "Apakah Untar bekerja sama dengan perusahaan untuk mengadakan job fair?",
+        "Job fair di kampus Untar diadakan tiap tahun nggak?",
+        "Apakah mahasiswa Untar bisa menghadiri acara rekrutmen di dalam kampus?",
+        "Di Untar ada job fair buat mahasiswa nggak?",
+        "Untar sering adain acara rekrutmen di kampus nggak?",
+        "Kampus Untar pernah ngadain job fair nggak sih?",
+        "Mahasiswa Untar bisa ikut job fair di kampus nggak?",
+        "Untar ada event job fair buat bantu lulusan cari kerja nggak?",
+        "Gimana Untar memfasilitasi job fair buat mahasiswa?",
+        "Untar kerja sama dengan perusahaan buat adain job fair nggak?",
+        "Job fair di Untar diadain tiap tahun nggak?",
+        "Mahasiswa bisa hadir di acara rekrutmen kampus Untar nggak?",
+        "Kampus Untar sering ngadain job fair untuk mahasiswanya nggak?",
+        "Job fair Untar"
+      ],
+      "responses": [
+        "Universitas Tarumanagara rutin menyelenggarakan acara job fair dan rekrutmen kampus sebagai upaya mendukung mahasiswa dan lulusan dalam menemukan peluang karier. Job fair UNTAR dihadiri oleh lebih dari 20 perusahaan dari berbagai sektor, termasuk PT Astra Honda Motor dan PT Maybank Indonesia Finance. Kegiatan ini dirancang untuk memfasilitasi mahasiswa dalam menjalin koneksi dengan perusahaan dan mendapatkan wawasan langsung melalui seminar, workshop, serta sesi campus hiring yang diadakan secara rutin sepanjang tahun di UNTAR."
+      ]
+    },
+    {
+      "tag": "prosedur_cuti",
+      "patterns": [
+        "Bagaimana prosedur pengambilan cuti akademik di Universitas Tarumanagara?",
+        "Apa saja langkah-langkah untuk mengambil cuti akademik di Universitas Tarumanagara?",
+        "Bagaimana cara mahasiswa Untar mengajukan cuti akademik?",
+        "Di Untar, gimana sih prosedur pengajuan cuti akademik?",
+        "Apakah ada syarat tertentu untuk mengambil cuti akademik di Universitas Tarumanagara?",
+        "Bagaimana alur pengambilan cuti akademik di kampus Untar?",
+        "Untar punya aturan khusus nggak untuk mahasiswa yang mau cuti akademik?",
+        "Apa saja dokumen yang dibutuhkan untuk mengajukan cuti akademik di Untar?",
+        "Apakah mahasiswa harus memenuhi syarat tertentu untuk bisa cuti akademik di kampus ini?",
+        "Gimana prosedur dan persyaratan cuti akademik di Universitas Tarumanagara?",
+        "Bagaimana proses pendaftaran cuti akademik untuk mahasiswa Untar?",
+        "Gimana cara ambil cuti akademik di Untar?",
+        "Prosedur buat cuti akademik di Untar gimana sih?",
+        "Mahasiswa Untar bisa ajukan cuti akademik gimana caranya?",
+        "Di Untar, apa aja syarat buat cuti akademik?",
+        "Alur pengajuan cuti akademik di Untar gimana?",
+        "Untar ada aturan khusus buat mahasiswa yang mau cuti nggak?",
+        "Dokumen apa aja yang dibutuhin buat cuti akademik di Untar?",
+        "Mahasiswa Untar perlu syarat khusus nggak buat ambil cuti?",
+        "Gimana sih proses pengajuan cuti akademik di Untar?",
+        "Langkah-langkah buat cuti akademik di Untar apa aja?",
+        "Cuti akademik",
+        "Cuti kuliah"
+      ],
+      "responses": [
+        "mahasiswa yang hendak mengajukan cuti akademik perlu mengajukan permohonan melalui portal akademik dengan melampirkan dokumen pendukung sesuai persyaratan yang ditentukan. Pengajuan ini harus disetujui oleh dekan atau pihak terkait di fakultas masing-masing. Mahasiswa disarankan untuk menghubungi bagian administrasi fakultas guna memahami jadwal pengajuan serta dampak cuti terhadap masa studi, sehingga proses cuti dapat berjalan lancar dan sesuai dengan ketentuan akademik yang berlaku."
+      ]
+    },
+    {
+      "tag": "program_kkn",
+      "patterns": [
+        "Bagaimana cara mahasiswa melakukan kegiatan Kuliah Kerja Nyata di Universitas Tarumanagara?",
+        "Apa saja langkah-langkah untuk mengikuti KKN di Universitas Tarumanagara?",
+        "Bagaimana proses pendaftaran KKN bagi mahasiswa Untar?",
+        "Di Untar, gimana sih cara ikut kegiatan KKN?",
+        "Apakah ada syarat khusus untuk mengikuti KKN di Universitas Tarumanagara?",
+        "Mahasiswa Untar perlu daftar di mana untuk ikut KKN?",
+        "Apa saja persiapan yang harus dilakukan mahasiswa sebelum mengikuti KKN di Untar?",
+        "Bagaimana prosedur pendaftaran dan pelaksanaan KKN di Universitas Tarumanagara?",
+        "Apakah mahasiswa Untar wajib mengikuti KKN?",
+        "Gimana cara ikut KKN di Untar?",
+        "Proses pendaftaran KKN di Untar gimana?",
+        "Mahasiswa Untar daftar KKN di mana?",
+        "Apa aja langkah-langkah buat KKN di Untar?",
+        "Di Untar, syarat ikut KKN apa aja?",
+        "Untar punya aturan khusus buat mahasiswa yang mau ikut KKN nggak?",
+        "Persiapan apa aja yang perlu buat KKN di Untar?",
+        "KKN di Untar wajib buat mahasiswa nggak?",
+        "Gimana prosedur buat ikut KKN di Untar?",
+        "Mahasiswa Untar harus ngapain buat bisa ikut KKN?"
+      ],
+      "responses": [
+        "Mahasiswa Universitas Tarumanagara dapat berpartisipasi dalam Kuliah Kerja Nyata (KKN) melalui program pengabdian kepada masyarakat yang difasilitasi oleh universitas. UNTAR memiliki berbagai program yang memungkinkan mahasiswa terlibat langsung dalam kegiatan sosial dan pembangunan di masyarakat, yang biasanya melibatkan kerja sama dengan instansi pemerintahan atau lembaga sosial."
+      ]
+    },
+    {
+      "tag": "program_pertukaran_mahasiswa",
+      "patterns": [
+        "Apakah Universitas Tarumanagara memiliki program pertukaran mahasiswa dengan universitas lain?",
+        "Apakah Universitas Tarumanagara menawarkan program pertukaran mahasiswa?",
+        "Apakah Untar memiliki kerja sama pertukaran mahasiswa dengan universitas lain?",
+        "Untar ada program student exchange nggak sih?",
+        "Apakah mahasiswa Untar bisa ikut program pertukaran ke universitas lain?",
+        "Bagaimana cara mengikuti program pertukaran mahasiswa di Untar?",
+        "Apakah Universitas Tarumanagara bekerja sama dengan kampus lain untuk program pertukaran?",
+        "Untar punya program pertukaran mahasiswa internasional nggak ya?",
+        "Apakah ada program exchange bagi mahasiswa Untar ke luar negeri?",
+        "Apakah mahasiswa Untar bisa ikut pertukaran mahasiswa ke luar negeri dan dalam negeri?",
+        "Seperti apa program pertukaran mahasiswa di Universitas Tarumanagara?",
+        "Untar ada program pertukaran mahasiswa nggak?",
+        "Mahasiswa Untar bisa ikut exchange student ke kampus lain nggak?",
+        "Di Untar ada program pertukaran mahasiswa internasional?",
+        "Untar punya kerja sama pertukaran mahasiswa dengan kampus lain nggak?",
+        "Gimana cara ikut program exchange di Untar?",
+        "Mahasiswa Untar bisa pertukaran ke luar negeri nggak?",
+        "Untar ada program pertukaran ke kampus dalam negeri atau luar negeri?",
+        "Ada nggak program exchange di Untar buat mahasiswa?",
+        "Program pertukaran mahasiswa di Untar kayak gimana?",
+        "Untar kerja sama dengan kampus lain buat pertukaran mahasiswa nggak?",
+        "Pertukaran mahasiswa",
+        "Student exchange",
+        "Apakah UNTAR memiliki program pertukaran pelajar?",
+        "Apakah UNTAR memiliki program student exchange?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara menyediakan berbagai program pertukaran mahasiswa, termasuk yang dilakukan melalui program Merdeka Belajar Kampus Merdeka (MBKM) dan kolaborasi dengan universitas internasional."
+      ]
+    },
+    {
+      "tag": "fasilitas_layanan_konseling",
+      "patterns": [
+        "Apakah Universitas Tarumanagara menyediakan layanan konseling untuk mahasiswa?",
+        "Apakah Universitas Tarumanagara menyediakan layanan konseling bagi mahasiswanya?",
+        "Apakah Untar punya fasilitas konseling untuk mahasiswa?",
+        "Di Untar ada layanan konseling nggak sih buat mahasiswa?",
+        "Bagaimana cara mahasiswa Untar mengakses layanan konseling?",
+        "Apakah layanan konseling di Untar tersedia untuk semua mahasiswa?",
+        "Apakah ada konselor di Universitas Tarumanagara untuk membantu mahasiswa?",
+        "Untar menyediakan sesi konseling gratis nggak ya?",
+        "Bagaimana prosedur mahasiswa Untar untuk mendapatkan layanan konseling?",
+        "Apakah layanan konseling di Untar bisa diakses kapan saja?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara memiliki Pusat Bimbingan dan Konsultasi Psikologi (PBKP) yang menyediakan layanan konseling untuk mahasiswa dan seluruh civitas akademika."
+      ]
+    },
+    {
+      "tag": "syarat_kelulusan",
+      "patterns": [
+        "Apa saja syarat kelulusan di Universitas Tarumanagara?",
+        "Apa saja persyaratan untuk lulus dari Universitas Tarumanagara?",
+        "Bagaimana syarat kelulusan bagi mahasiswa Untar?",
+        "Apa saja yang harus dipenuhi mahasiswa Untar untuk bisa lulus?",
+        "Di Untar, gimana sih syarat kelulusan mahasiswa?",
+        "Apakah ada ketentuan khusus untuk lulus dari Universitas Tarumanagara?",
+        "Untar punya standar tertentu nggak untuk kelulusan mahasiswa?",
+        "Apa saja kewajiban yang harus dipenuhi mahasiswa Untar sebelum lulus?",
+        "Apakah ada syarat akademik tertentu untuk kelulusan di Universitas Tarumanagara?",
+        "Bagaimana aturan kelulusan mahasiswa di kampus Untar?",
+        "Apakah mahasiswa Untar perlu menyelesaikan skripsi untuk bisa lulus?",
+        "Syarat lulus di Untar apa aja sih?",
+        "Mahasiswa Untar perlu penuhi apa aja buat lulus?",
+        "Di Untar, syarat kelulusan mahasiswa gimana?",
+        "Ada ketentuan khusus buat lulus di Untar nggak?",
+        "Untar punya standar kelulusan tertentu nggak?",
+        "Apa kewajiban mahasiswa Untar sebelum lulus?",
+        "Syarat akademik buat lulus di Untar apa aja?",
+        "Aturan kelulusan di kampus Untar gimana?",
+        "Mahasiswa Untar perlu ngerjain skripsi buat lulus nggak?",
+        "Apa aja yang harus dipenuhi biar bisa lulus di Untar?",
+        "Syarat lulus Untar"
+      ],
+      "responses": [
+        "Untuk memenuhi syarat kelulusan, mahasiswa diwajibkan menyelesaikan seluruh mata kuliah dalam kurikulum yang telah ditetapkan dan melaksanakan tugas akhir. Selain itu, mahasiswa diwajibkan untuk menerbitkan jurnal ilmiah dan memperoleh SKPI yang menandakan kompetensi tambahan di luar bidang akademik. Semua syarat ini harus terpenuhi agar mahasiswa dapat mengikuti wisuda dan mendapatkan gelar akademik."
+      ]
+    },
+    {
+      "tag": "periode_semester_ganjil",
+      "patterns": [
+        "Kapan mulai dan berakhirnya semester ganjil?",
+        "Kapan semester ganjil di Universitas Tarumanagara dimulai dan berakhir?",
+        "Semester ganjil di Untar mulai kapan dan selesai kapan?",
+        "Apa saja tanggal penting untuk semester ganjil di kampus Untar?",
+        "Di Untar, semester ganjil biasanya berlangsung dari bulan apa sampai bulan apa?",
+        "Kapan jadwal resmi semester ganjil dimulai dan berakhir di Untar?",
+        "Untar mulai semester ganjil di bulan apa, dan kapan selesai?",
+        "Apakah ada perubahan jadwal untuk semester ganjil di kampus Untar tahun ini?",
+        "Berapa lama durasi semester ganjil di Universitas Tarumanagara?",
+        "Kapan awal dan akhir semester ganjil di kalender akademik Untar?",
+        "Semester ganjil Untar biasanya berlangsung dalam periode berapa bulan?",
+        "Semester ganjil di Untar mulai dan selesai kapan?",
+        "Di Untar, semester ganjil dimulai bulan apa dan selesai kapan?",
+        "Jadwal semester ganjil di Untar kapan aja?",
+        "Untar mulai semester ganjil biasanya kapan?",
+        "Ada tanggal penting semester ganjil di Untar nggak?",
+        "Kapan awal dan akhir semester ganjil di Untar?",
+        "Semester ganjil Untar tahun ini ada perubahan jadwal nggak?",
+        "Semester ganjil di Untar berlangsung berapa bulan?",
+        "Kalender akademik Untar, semester ganjil mulai kapan?",
+        "Biasanya semester ganjil di Untar jalan dari bulan apa sampai kapan?"
+      ],
+      "responses": [
+        "semester ganjil biasanya dimulai pada bulan Agustus dan berlangsung hingga Desember, tergantung pada penyesuaian kalender akademik tahunan."
+      ]
+    },
+    {
+      "tag": "periode_semester_genap",
+      "patterns": [
+        "Kapan mulai dan berakhirnya semester genap?",
+        "Kapan semester genap di Universitas Tarumanagara dimulai dan berakhir?",
+        "Semester genap di Untar mulai kapan dan selesai kapan?",
+        "Apa saja tanggal penting untuk semester genap di kampus Untar?",
+        "Di Untar, semester genap biasanya berlangsung dari bulan apa sampai bulan apa?",
+        "Kapan jadwal resmi semester genap dimulai dan berakhir di Untar?",
+        "Untar mulai semester genap di bulan apa, dan kapan selesai?",
+        "Apakah ada perubahan jadwal untuk semester genap di kampus Untar tahun ini?",
+        "Berapa lama durasi semester genap di Universitas Tarumanagara?",
+        "Kapan awal dan akhir semester genap di kalender akademik Untar?",
+        "Semester genap Untar biasanya berlangsung dalam periode berapa bulan?",
+        "Semester genap di Untar mulai dan selesai kapan?",
+        "Di Untar, semester genap dimulai bulan apa dan selesai kapan?",
+        "Jadwal semester genap di Untar kapan aja?",
+        "Untar mulai semester genap biasanya kapan?",
+        "Ada tanggal penting semester genap di Untar nggak?",
+        "Kapan awal dan akhir semester genap di Untar?",
+        "Semester genap Untar tahun ini ada perubahan jadwal nggak?",
+        "Semester genap di Untar berlangsung berapa bulan?",
+        "Kalender akademik Untar, semester genap mulai kapan?",
+        "Biasanya semester genap di Untar jalan dari bulan apa sampai kapan?"
+      ],
+      "responses": [
+        "semester genap biasanya dimulai pada bulan Februari dan berlangsung hingga Juli, tergantung pada penyesuaian kalender akademik tahunan."
+      ]
+    },
+    {
+      "tag": "libur_semester",
+      "patterns": [
+        "Kapan waktu libur semester di Universitas Tarumanagara?",
+        "Kapan libur semester di Universitas Tarumanagara dimulai?",
+        "Libur semester di Untar jatuh di bulan apa?",
+        "Di Untar, kapan mahasiswa mulai libur semester?",
+        "Kapan waktu libur semester berlangsung di kampus Untar?",
+        "Untar mulai libur semester dari kapan sampai kapan?",
+        "Apakah jadwal libur semester di Universitas Tarumanagara sudah ditentukan?",
+        "Libur semester di kampus Untar biasanya berlangsung berapa lama?",
+        "Kapan akhir semester di Untar dan kapan mulai libur?",
+        "Apakah Untar memberikan libur panjang setelah semester berakhir?",
+        "Kapan tanggal resmi libur semester di kalender akademik Untar?",
+        "Libur semester di Untar kapan mulainya?",
+        "Di Untar, mahasiswa mulai libur semester kapan?",
+        "Libur semester di Untar biasanya bulan apa?",
+        "Untar mulai libur semester dari kapan sampai kapan?",
+        "Jadwal libur semester di Untar sudah ditentukan belum?",
+        "Libur semester di kampus Untar berlangsung berapa lama?",
+        "Akhir semester di Untar kapan, dan liburnya kapan?",
+        "Untar kasih libur panjang setelah semester berakhir nggak?",
+        "Tanggal resmi libur semester di kalender akademik Untar kapan?",
+        "Biasanya libur semester di Untar dimulai dan berakhir kapan?",
+        "Libur semester"
+      ],
+      "responses": [
+        "Universitas Tarumanagara biasanya memberikan waktu libur setelah masa ujian akhir setiap semester. Libur semester ganjil berlangsung antara Desember hingga awal Februari, sementara libur semester genap biasanya berlangsung antara Juli hingga Agustus, tergantung kalender akademik tahun tersebut"
+      ]
+    },
+    {
+      "tag": "jadwal_kuliah",
+      "patterns": [
+        "Bagaimana cara melihat jadwal kuliah?",
+        "Bagaimana cara mahasiswa Untar mengecek jadwal kuliah?",
+        "Di mana saya bisa melihat jadwal kuliah di Universitas Tarumanagara?",
+        "Gimana sih cara cek jadwal kuliah di kampus Untar?",
+        "Apakah ada portal khusus untuk melihat jadwal kuliah di Untar?",
+        "Bagaimana cara mengakses jadwal perkuliahan di Universitas Tarumanagara?",
+        "Jadwal kuliah di Untar bisa dilihat di mana ya?",
+        "Apakah Untar menyediakan aplikasi untuk melihat jadwal kuliah?",
+        "Bagaimana mahasiswa Untar mendapatkan informasi jadwal kuliah terbaru?",
+        "Apa saja langkah untuk mengecek jadwal kuliah di Universitas Tarumanagara?",
+        "Apakah jadwal kuliah di Untar bisa diakses secara online?",
+        "Gimana cara lihat jadwal kuliah di Untar?",
+        "Mahasiswa Untar cek jadwal kuliah di mana?",
+        "Di Untar, jadwal kuliah bisa dicek di mana?",
+        "Ada portal khusus buat lihat jadwal kuliah di Untar nggak?",
+        "Jadwal kuliah Untar bisa diakses di mana ya?",
+        "Untar punya aplikasi buat lihat jadwal kuliah nggak?",
+        "Cara dapet info jadwal kuliah terbaru di Untar gimana?",
+        "Langkah-langkah cek jadwal kuliah di Untar apa aja?",
+        "Jadwal kuliah di Untar bisa dilihat online nggak?",
+        "Mahasiswa Untar cek jadwal kuliah gimana sih?",
+        "Jadwal kuliah Untar"
+      ],
+      "responses": [
+        "Mahasiswa UNTAR dapat melihat jadwal kuliah dengan mengakses portal Lintar melalui akun masing-masing. Portal tersebut menyediakan jadwal kuliah yang lengkap, termasuk informasi mata kuliah, ruang, dosen, dan perubahan yang mungkin terjadi. Pastikan untuk selalu mengecek portal secara berkala agar tidak ketinggalan informasi penting terkait jadwal kuliah Anda."
+      ]
+    },
+    {
+      "tag": "jadwal_ujian",
+      "patterns": [
+        "Bagaimana cara melihat jadwal ujian?",
+        "Bagaimana cara mahasiswa UNTAR mengecek jadwal ujian?",
+        "Di mana saya bisa melihat jadwal ujian di Universitas Tarumanagara?",
+        "Gimana sih cara cek jadwal ujian di kampus UNTAR?",
+        "Apakah ada portal khusus untuk melihat jadwal ujian di UNTAR?",
+        "Bagaimana cara mengakses jadwal ujian di Universitas Tarumanagara?",
+        "Jadwal ujian di UNTAR bisa dilihat di mana ya?",
+        "Apakah UNTAR menyediakan aplikasi untuk melihat jadwal ujian?",
+        "Bagaimana mahasiswa UNTAR mendapatkan informasi jadwal ujian terbaru?",
+        "Apa saja langkah untuk mengecek jadwal ujian di Universitas Tarumanagara?",
+        "Apakah jadwal ujian di UNTAR bisa diakses secara online?",
+        "Gimana cara lihat jadwal ujian di Untar?",
+        "Mahasiswa Untar cek jadwal ujian di mana?",
+        "Di Untar, jadwal ujian bisa dicek di mana?",
+        "Ada portal khusus buat lihat jadwal ujian di Untar nggak?",
+        "Jadwal ujian Untar bisa diakses di mana ya?",
+        "Untar punya aplikasi buat lihat jadwal ujian nggak?",
+        "Cara dapet info jadwal ujian terbaru di Untar gimana?",
+        "Langkah-langkah cek jadwal ujian di Untar apa aja?",
+        "Jadwal ujian di Untar bisa dilihat online nggak?",
+        "Mahasiswa Untar cek jadwal ujian gimana sih?",
+        "Jadwal ujian"
+      ],
+      "responses": [
+        "Jadwal ujian biasanya diumumkan melalui Microsoft Teams. Pastikan Anda terhubung dengan kelas dan dosen yang terkait di MS Teams, karena informasi tentang jadwal ujian dapat disampaikan di sana."
+      ]
+    },
+    {
+      "tag": "prosedur_pindah_jurusan",
+      "patterns": [
+        "Bagaimana cara mengajukan pindah jurusan?",
+        "Apa saja langkah-langkah untuk mengajukan pindah jurusan di Universitas Tarumanagara?",
+        "Bagaimana prosedur pindah jurusan bagi mahasiswa Untar?",
+        "Di Untar, gimana sih cara pindah jurusan?",
+        "Apakah ada syarat khusus untuk mengajukan pindah jurusan di Universitas Tarumanagara?",
+        "Bagaimana alur pengajuan pindah jurusan di kampus Untar?",
+        "Untar punya aturan tertentu nggak untuk mahasiswa yang mau pindah jurusan?",
+        "Apa saja dokumen yang dibutuhkan untuk mengajukan pindah jurusan di Untar?",
+        "Apakah ada biaya tambahan untuk pindah jurusan di Universitas Tarumanagara?",
+        "Bagaimana proses dan persyaratan untuk pindah jurusan di Untar?",
+        "Apakah mahasiswa Untar bisa langsung pindah jurusan setelah semester pertama?",
+        "Gimana cara pindah jurusan di Untar?",
+        "Mahasiswa Untar bisa ajukan pindah jurusan gimana caranya?",
+        "Di Untar, prosedur pindah jurusan gimana sih?",
+        "Syarat buat pindah jurusan di Untar apa aja?",
+        "Alur pengajuan pindah jurusan di Untar gimana?",
+        "Untar punya aturan khusus buat mahasiswa yang mau pindah jurusan nggak?",
+        "Dokumen apa aja yang dibutuhin buat pindah jurusan di Untar?",
+        "Ada biaya tambahan buat pindah jurusan di Untar nggak?",
+        "Proses dan persyaratan pindah jurusan di Untar gimana?",
+        "Mahasiswa Untar bisa langsung pindah jurusan setelah semester pertama nggak?",
+        "Pindah jurusan"
+      ],
+      "responses": [
+        "Untuk mengajukan pindah jurusan, mahasiswa perlu mengajukan permohonan resmi melalui bagian administrasi akademik kampus. Proses ini melibatkan persetujuan dari program studi asal dan program studi tujuan. Untuk informasi lebih lanjut mohon hubungi admisi ke nomor 08117579727"
+      ]
+    },
+    {
+      "tag": "prosedur_pengajuan_wisuda",
+      "patterns": [
+        "Bagaimana prosedur pengajuan wisuda?",
+        "Apa saja langkah-langkah pengajuan wisuda di Universitas Tarumanagara?",
+        "Bagaimana cara mendaftar wisuda di Untar?",
+        "Di Untar, gimana sih proses pengajuan wisuda?",
+        "Apakah ada syarat khusus untuk mengikuti wisuda di Universitas Tarumanagara?",
+        "Bagaimana alur pengajuan wisuda di kampus Untar?",
+        "Apa saja dokumen yang diperlukan untuk mendaftar wisuda di Untar?",
+        "Apakah ada biaya pendaftaran wisuda di Universitas Tarumanagara?",
+        "Kapan mahasiswa Untar bisa mengajukan wisuda?",
+        "Apa saja prosedur administrasi untuk mengikuti wisuda di Untar?",
+        "Bagaimana mahasiswa Untar mengetahui jadwal dan prosedur wisuda?",
+        "Gimana cara daftar wisuda di Untar?",
+        "Proses pengajuan wisuda di Untar gimana sih?",
+        "Mahasiswa Untar perlu syarat apa aja buat ikut wisuda?",
+        "Alur pengajuan wisuda di kampus Untar gimana?",
+        "Dokumen apa aja yang dibutuhin buat daftar wisuda di Untar?",
+        "Ada biaya pendaftaran wisuda di Untar nggak?",
+        "Kapan mahasiswa Untar bisa ajukan wisuda?",
+        "Prosedur administrasi buat ikut wisuda di Untar gimana?",
+        "Gimana cara tahu jadwal dan prosedur wisuda di Untar?",
+        "Apa langkah-langkah buat pengajuan wisuda di Untar?",
+        "Pengajuan wisuda"
+      ],
+      "responses": [
+        "Untuk mengajukan wisuda, mahasiswa harus memastikan semua persyaratan akademik terpenuhi dan tidak ada tunggakan administrasi. Pengajuan dilakukan secara online melalui portal akademik LINTAR. Setelah pengajuan, mahasiswa akan mendapatkan konfirmasi terkait jadwal dan teknis pelaksanaan wisuda. Jika ada pertanyaan atau kendala dalam proses ini, mahasiswa dapat menghubungi bagian administrasi akademik atau pusat layanan mahasiswa."
+      ]
+    },
+    {
+      "tag": "nilai_kuliah",
+      "patterns": [
+        "Bagaimana cara melihat nilai kuliah?",
+        "Bagaimana cara mahasiswa Untar mengecek nilai kuliah?",
+        "Di mana saya bisa melihat nilai kuliah di Universitas Tarumanagara?",
+        "Gimana sih cara cek nilai kuliah di kampus Untar?",
+        "Apakah ada portal khusus untuk melihat nilai kuliah di Untar?",
+        "Bagaimana cara mengakses nilai kuliah di Universitas Tarumanagara?",
+        "Nilai kuliah di Untar bisa dilihat di mana ya?",
+        "Apakah Untar menyediakan aplikasi untuk mengecek nilai kuliah?",
+        "Bagaimana mahasiswa Untar mendapatkan informasi nilai kuliah terbaru?",
+        "Apa saja langkah untuk melihat nilai kuliah di Universitas Tarumanagara?",
+        "Apakah nilai kuliah di Untar bisa diakses secara online?",
+        "Gimana cara lihat nilai kuliah di Untar?",
+        "Mahasiswa Untar cek nilai kuliah di mana?",
+        "Di Untar, nilai kuliah bisa dicek di mana?",
+        "Ada portal khusus buat lihat nilai kuliah di Untar nggak?",
+        "Nilai kuliah Untar bisa diakses di mana ya?",
+        "Untar punya aplikasi buat cek nilai kuliah nggak?",
+        "Cara dapet info nilai kuliah terbaru di Untar gimana?",
+        "Langkah-langkah buat lihat nilai kuliah di Untar apa aja?",
+        "Nilai kuliah di Untar bisa dilihat online nggak?",
+        "Mahasiswa Untar cek nilai kuliah gimana sih?",
+        "Nilai kuliah"
+      ],
+      "responses": [
+        "Untuk melihat nilai kuliah Anda, silakan akses melalui portal akademik kampus. Setelah login dengan akun mahasiswa, Anda bisa melihat nilai untuk setiap mata kuliah yang diambil pada semester berjalan maupun semester sebelumnya."
+      ]
+    },
+    {
+      "tag": "fasilitas_ibadah",
+      "patterns": [
+        "Apakah ada masjid di untar?",
+        "apakah ada gereja di untar?",
+        "apakah ada altar di untar?",
+        "apakah ada tempat ibadah di untar?",
+        "Apakah Untar menyediakan fasilitas ibadah?",
+        "Di Untar ada masjid nggak ya?",
+        "Ada gereja di kampus Untar nggak?",
+        "Tempat ibadah di Untar ada apa aja?",
+        "Apakah Untar punya masjid untuk mahasiswa?",
+        "Di Untar bisa ibadah di mana aja?",
+        "Ada fasilitas gereja di Untar nggak?",
+        "Untar punya tempat ibadah agama apa aja?",
+        "Apakah Untar menyediakan altar Buddha?",
+        "Dimana saja fasilitas ibadah di Untar?",
+        "di untar ada masjid ga?",
+        "di untar ada altar ga"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (Untar) menyediakan fasilitas ibadah yang lengkap dan beragam untuk mendukung kebutuhan spiritual mahasiswa, dosen, dan staf, termasuk masjid atau musholla bagi umat Muslim, gereja bagi umat Katolik, dan altar Buddha untuk umat Buddha."
+      ]
+    },
+    {
+      "tag": "jadwal_wisuda",
+      "patterns": [
+        "kapan wisuda dilaksanakan?",
+        "berapa kali wisuda dilaksanakan dalam satu tahun?",
+        "kapan biasanya wisuda?",
+        "Kapan biasanya Untar mengadakan wisuda?",
+        "Berapa kali dalam setahun Untar menggelar wisuda?",
+        "Kapan jadwal wisuda di Untar?",
+        "Untar biasanya wisuda bulan apa aja?",
+        "Kapan sih acara wisuda di Untar diadakan?",
+        "Berapa kali Untar mengadakan wisuda setiap tahun?",
+        "Kapan waktu pelaksanaan wisuda di Untar?",
+        "Untar biasanya mengadakan wisuda pada bulan apa?",
+        "Kapan biasanya mahasiswa Untar diwisuda?",
+        "Berapa kali dalam setahun Untar melaksanakan wisuda?",
+        "wisuda kapan biasanya?",
+        "biasanya wisuda kapan",
+        "kapan wisuda dilakukan di untar?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara secara rutin menyelenggarakan upacara wisuda dua kali dalam setahun, biasanya pada bulan Mei dan Oktober. Sebagai contoh, Wisuda ke-83 dilaksanakan pada 25 Mei 2024 , dan Wisuda ke-84 pada 20 Oktober 2024. Jadwal ini dapat berubah sesuai dengan kebijakan universitas, sehingga disarankan bagi calon wisudawan untuk selalu memeriksa informasi resmi dari Untar terkait tanggal pelaksanaan wisuda."
+      ]
+    },
+    {
+      "tag": "identitas_untar",
+      "patterns": [
+        "Apa warna identitas untar?",
+        "apa warna untar?",
+        "warna simbolis apa yang digunakan untar?",
+        "apa warna almameter untar?",
+        "apa warna yang digunakan untar",
+        "Apa warna khas yang dipakai Untar?",
+        "Warna utama Untar itu apa ya?",
+        "Identitas warna Untar itu warna apa?",
+        "Seragam almamater Untar warnanya apa?",
+        "Logo Untar pakai warna apa?",
+        "Di Untar warna simbolisnya apa?",
+        "Warna resmi Untar itu apa?",
+        "Warna apa yang jadi ciri khas Untar?",
+        "Apakah Untar pakai warna merah marun sebagai identitas?",
+        "Warna apa yang mewakili Untar?"
+      ],
+      "responses": [
+        "Halo! Terima kasih atas pertanyaannya. Warna identitas Universitas Tarumanagara adalah merah marun. Warna ini digunakan dalam logo dan berbagai elemen branding kampus untuk mencerminkan semangat dan karakter Untar."
+      ]
+    },
+    {
+      "tag": "fasilitas_kamarmandi",
+      "patterns": [
+        "bagaimana fasilitas kamar mandi di universitas tarumanagara?",
+        "apakah ada kamar mandi di untar?",
+        "ada kamar mandi ga di untar?",
+        "bagaimana fasilitas toilet di universitas tarumanagara?",
+        "apakah ada toilet di untar?",
+        "ada toilet ga di untar?",
+        "Fasilitas kamar mandi di Untar gimana ya?",
+        "Toilet di Untar bersih nggak?",
+        "Apakah toilet di Untar terawat dengan baik?",
+        "Seperti apa sih kondisi toilet di Untar?",
+        "Ada fasilitas toilet khusus di kampus Untar?",
+        "Toilet di Untar letaknya ada di mana aja?",
+        "Toilet di Untar nyaman nggak?",
+        "Di Untar ada toilet untuk mahasiswa nggak?",
+        "Di tiap gedung Untar ada toilet nggak ya?",
+        "Toilet di Untar lengkap nggak fasilitasnya?",
+        "ada toilet ga?",
+        "ada kamar mandi ga?"
+      ],
+      "responses": [
+        "Universitas Tarumanagara (Untar) menyediakan fasilitas toilet yang bersih dan terawat di setiap gedung kampus untuk kenyamanan mahasiswa, dosen, dan staf."
+      ]
+    },
+    {
+      "tag": "pengabdian_dosen_untar",
+      "patterns": [
+        "apa saja pengabdian dosen untar yang dilakukan terhadap masyarakat?",
+        "apa saja pengabdian yang sudah dilakukan dosen untar?",
+        "apakah dosen untar melakukan pengabdian masyuarakat?",
+        "Apa saja bentuk pengabdian masyarakat yang dilakukan oleh dosen Untar?",
+        "Dosen Untar terlibat dalam kegiatan pengabdian masyarakat apa saja?",
+        "Bagaimana dosen Untar berkontribusi dalam pengabdian kepada masyarakat?",
+        "Kegiatan pengabdian masyarakat apa yang telah dilaksanakan oleh dosen Untar?",
+        "Apakah dosen Untar aktif dalam program pengabdian masyarakat?",
+        "Pengabdian masyarakat seperti apa yang dilakukan oleh dosen di Untar?",
+        "Dosen Untar berpartisipasi dalam program pengabdian masyarakat apa saja?",
+        "Apa kontribusi dosen Untar dalam kegiatan pengabdian kepada masyarakat?",
+        "Kegiatan pengabdian masyarakat apa yang menjadi fokus dosen Untar?",
+        "Bagaimana peran dosen Untar dalam pengabdian kepada masyarakat?"
+      ],
+      "responses": [
+        "Untuk informasi lengkap mengenai kegiatan pengabdian dosen Universitas Tarumanagara (Untar), Anda dapat langsung mengunjungi situs resmi <a href='https://dosen.untar.ac.id/pkm/home-ind.html' target='_blank'>klik di sini</a>. Di sana, Anda akan menemukan berbagai program pengabdian kepada masyarakat yang dilakukan dosen Untar, mencakup pelatihan, pendampingan usaha, pengembangan teknologi, penyuluhan hukum, dan inovasi produk yang bermanfaat bagi masyarakat luas."
+      ]
+    },
+    {
+      "tag": "prestasi_mahasiswa_untar",
+      "patterns": [
+        "Apa saja prestasi mahasiswa untar?",
+        "apakah mahasiswa untar berprestasi?",
+        "Tunjukin dong prestasi mahasiswa Untar!",
+        "Mahasiswa Untar pernah juara di lomba apa aja?",
+        "Prestasi apa yang pernah diraih mahasiswa Untar?",
+        "Mahasiswa Untar pernah dapat penghargaan apa aja?",
+        "Apa aja pencapaian mahasiswa Untar selama ini?",
+        "Di bidang apa aja mahasiswa Untar punya prestasi?",
+        "Mahasiswa Untar pernah menang lomba internasional nggak?",
+        "Untar punya mahasiswa berprestasi di bidang apa?",
+        "Ada nggak mahasiswa Untar yang berprestasi nasional?",
+        "Prestasi mahasiswa Untar akhir-akhir ini apa aja sih?",
+        "apa prestasi mahasiswa untar?"
+      ],
+      "responses": [
+        "Mahasiswa Universitas Tarumanagara telah meraih berbagai prestasi di tingkat nasional dan internasional. Berikut adalah beberapa prestasi yang didapatkan:\n<ul> <li><strong>Penghargaan Internasional di Bidang IPTEK:</strong> Pada tahun 2021, mahasiswa Untar meraih delapan penghargaan dalam konferensi internasional yang diselenggarakan oleh Industrial Engineering and Operations Management (IEOM) Society, termasuk kategori presentasi terbaik dan makalah ilmiah unggulan.</li> <li><strong>Partisipasi dalam Pameran Desain Internasional:</strong> Mahasiswa Desain Interior Untar menampilkan karya mereka dalam Indonesia Furniture & Craft Fair (IFFINA) 2024, menunjukkan kreativitas di bidang desain interior.</li> <li><strong>Medali di Pekan Olahraga Nasional (PON):</strong> Trithalia Triarso, alumnus Fakultas Ekonomi dan Bisnis Untar, meraih tiga medali dalam PON XXI yang berlangsung pada Agustus 2024 di Sumatera Utara, membawa nama baik kampus di bidang olahraga.</li> <li><strong>Penghargaan dalam Kompetisi Bisnis:</strong> Mahasiswa Untar meraih gelar Best Speaker dalam ICAEW Indonesia Business Challenge 2023, membuktikan keunggulan dalam bisnis dan akuntansi.</li> <li><strong>Medali Emas dalam World Invention Technology Expo:</strong> Mahasiswa Untar berhasil meraih medali emas dalam World Invention Technology Expo 2022, memperlihatkan kemampuan mereka dalam inovasi dan teknologi.</li> </ul>"
+      ]
+    },
+    {
+      "tag": "wakil_rektor",
+      "patterns": [
+        "Siapa wakil rektor untar saat ini?",
+        "wakil rektor untar siapa sih",
+        "sia[a wakil rektor untar?",
+        "Siapa yang menjabat sebagai wakil rektor di Untar?",
+        "Wakil rektor di Untar sekarang siapa ya?",
+        "Siapa nama wakil rektor Untar sekarang?",
+        "Ada info tentang wakil rektor Untar?",
+        "Siapa aja wakil rektor di Untar?",
+        "Untar punya wakil rektor siapa sih?",
+        "Jabatan wakil rektor di Untar dipegang siapa?",
+        "Siapa yang jadi wakil rektor Untar sekarang?",
+        "Informasi wakil rektor Untar siapa?",
+        "Siapa wakil rektor I di Untar?"
+      ],
+      "responses": [
+        "Wakil Rektor I Universitas Tarumanagara (Untar) adalah Prof. Dr. Rasji, S.H., M.H. Beliau juga menjabat sebagai Sekretaris dan Anggota Senat Untar. Prof. Rasji memiliki pengalaman panjang di bidang akademik dan administratif, terutama di Fakultas Hukum Untar."
+      ]
+    }
+  ]
+}

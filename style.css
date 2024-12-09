@@ -1,0 +1,692 @@
+:root {
+  --body-bg: #fff;
+  --msger-bg: #fff;
+  --border: 2px solid #ddd;
+  --left-msg-bg: #701414;
+  --right-msg-bg: #808080;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/* Styling umum untuk semua unordered (ul) dan ordered (ol) list */
+ul,
+ol {
+  margin-left: 20px; /* Memberikan indentasi pada list */
+  padding-left: 0; /* Menghilangkan padding default */
+  line-height: 1.6; /* Memberikan jarak antar baris agar lebih nyaman dibaca */
+}
+
+/* Styling setiap item dalam list */
+ul li,
+ol li {
+  margin-bottom: 10px; /* Memberikan jarak antar item */
+}
+
+/* Custom bullet untuk unordered list */
+ul {
+  list-style-type: disc; /* Menggunakan bullet lingkaran */
+}
+
+/* Custom numbering untuk ordered list */
+ol {
+  list-style-type: decimal; /* Menggunakan angka untuk ordered list */
+}
+
+/* Styling tambahan untuk list saat digunakan di message/chatbox */
+.chatbox ul,
+.chatbox ol {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+body {
+  font-family: "Museo Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: var(--left-msg-bg);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  position: fixed; /* Tetap di bagian atas */
+  top: 0; /* Pastikan berada di bagian atas halaman */
+  left: 0; /* Mulai dari sisi kiri */
+  width: 100%; /* Agar navbar mencakup seluruh lebar halaman */
+  z-index: 100; /* Agar selalu berada di atas elemen lain */
+}
+
+.logo {
+  height: 120px; /* Ubah ukuran logo sesuai kebutuhan */
+  margin-right: 0px;
+  display: flex;
+  margin-left: 150px;
+  justify-content: center; /* Memusatkan logo */
+  flex-grow: 1; /* Mengizinkan logo untuk mengambil ruang yang tersedia */
+}
+
+.hero-section {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 50px;
+  animation: gradientAnimation 8s ease infinite;
+}
+
+.hero-section h1 {
+  animation: fadeIn 2s ease-out forwards;
+  opacity: 0; /* Awalnya tidak terlihat */
+}
+
+/* Animasi pada tombol */
+
+.content {
+  text-align: left;
+}
+
+.content h1 {
+  position: relative;
+  z-index: 2; /* Pastikan teks berada di depan logo */
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-chat {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  margin-top: 20px; /* Berikan jarak antara teks dan tombol */
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #b55666;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-chat:hover {
+  transform: scale(1.05);
+  background-color: #d9d9d9;
+  color: #a80c2c;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.chat-navbar .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Memusatkan konten di dalam navbar */
+  padding: 0;
+  background-color: #701414;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-navbar .nav-left {
+  position: absolute; /* Mengatur nav-left agar tidak mempengaruhi tata letak */
+  left: 20px; /* Menempatkan tombol HOME di sisi kiri */
+}
+
+.chat-navbar .logo img {
+  height: 120px;
+  margin: 0;
+}
+
+.chat-navbar .nav-left .btn-home {
+  color: #fff;
+  background-color: #b55666;
+  padding: 12px 25px; /* Padding lebih besar */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem; /* Ukuran font lebih besar */
+  text-decoration: none;
+  margin-left: 20px; /* Tambahkan margin */
+}
+
+.nav-left .btn-home:hover {
+  background-color: white;
+  color: #701414;
+}
+
+.nav-right .btn-about {
+  text-decoration: none;
+  color: white;
+  background-color: #b55666;
+  padding: 10px 16px; /* Kecilkan padding untuk mengecilkan ukuran */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem; /* Kecilkan ukuran font */
+}
+
+.nav-right {
+  margin-right: 20px; /* Jarak untuk elemen di kanan */
+}
+
+.msger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  height: calc(100% - 50px);
+  border: var(--border);
+  border-radius: 5px;
+  background: var(--msger-bg);
+}
+
+.msger-header {
+  /* display: flex; */
+  font-size: medium;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  border-bottom: var(--border);
+  background: #eee;
+  color: #666;
+}
+
+.msger-chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  padding-top: 70px;
+}
+.msger-chat::-webkit-scrollbar {
+  width: 6px;
+}
+.msger-chat::-webkit-scrollbar-track {
+  background: #ddd;
+}
+.msger-chat::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.msg-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background: #ddd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.msg-bubble {
+  max-width: 800px;
+  color: white;
+  padding: 10px 15px;
+  word-wrap: break-word;
+  border-radius: 15px;
+  background: var(--left-msg-bg);
+  z-index: 3;
+}
+
+.msg-text {
+  margin-top: 20px; /* Tambahan jarak antara nama dan isi pesan */
+  font-size: 1rem; /* Memperbesar ukuran font teks pesan */
+}
+
+.msg-text a {
+  color: white; /* Warna teks putih */
+  font-style: italic; /* Teks miring */
+  text-decoration: none; /* Hilangkan garis bawah */
+  transition: color 0.3s ease; /* Animasi transisi saat hover */
+}
+
+/* Efek saat di hover */
+.msg-text a:hover {
+  color: #ffcccb; /* Warna sedikit berbeda saat di hover */
+  text-decoration: underline; /* Tambahkan garis bawah saat di hover */
+}
+
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.msg-info-name {
+  font-size: 1.1rem; /* Memperbesar ukuran font nama pengirim */
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+}
+.msg-info-time {
+  font-size: 0.9rem;
+}
+
+.left-msg .msg-bubble {
+  border-bottom-left-radius: 0;
+}
+
+.right-msg {
+  flex-direction: row-reverse;
+}
+.right-msg .msg-bubble {
+  background: var(--right-msg-bg);
+  color: #fff;
+  border-bottom-right-radius: 0;
+  min-width: 150px;
+}
+.right-msg .msg-img {
+  margin: 0 0 0 10px;
+}
+
+.msger-inputarea {
+  display: flex;
+  padding: 10px;
+  border-top: 2px solid #ddd;
+  background-color: #f9f9f9;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+.msger-inputarea * {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+.msger-input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.msger-input::placeholder {
+  color: #b0b0b0;
+  font-style: italic;
+}
+
+.msger-input:focus {
+  border-color: #a80c2c;
+  box-shadow: 0 0 5px rgba(168, 12, 44, 0.3);
+}
+
+.msger-send-btn {
+  margin-left: 10px;
+  background-color: #701414;
+  border: none;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.msger-send-btn:hover {
+  background-color: #b55666;
+  transform: scale(1.1);
+}
+
+.send-icon {
+  width: 50%; /* Ukuran ikon */
+  height: 50%;
+  filter: brightness(0) invert(1); /* Ubah warna menjadi putih */
+  transition: filter 0.3s ease;
+}
+
+.msger-send-btn:hover .send-icon {
+  filter: brightness(0) invert(2); /* Sedikit modifikasi saat hover */
+}
+
+.msger-chat {
+  background-color: #fcfcfe; /* Warna latar belakang */
+  background-size: cover; /* Menyesuaikan ukuran gambar */
+  background-repeat: no-repeat; /* Tidak mengulang gambar */
+  background-position: center; /* Memusatkan gambar */
+  position: relative; /* Pastikan elemen bisa menjadi kontaineruntuk elemen lain */
+  overflow-y: auto; /* Memastikan konten chat dapat di-scroll */
+}
+
+/* Menambahkan gambar transparan menggunakan pseudo-element */
+
+.msger-chat::before {
+  content: "";
+  position: fixed; /* Mengunci posisi gambar latar agar tidak scroll */
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background-image: url("../img/logountar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+  z-index: 1;
+  pointer-events: none; /* Agar elemen ini tidak menghalangi klik pada konten chat */
+}
+
+/* Styling untuk halaman About Us */
+
+.about-page {
+  font-family: "Museo Sans", sans-serif;
+  display: flex;
+  flex-direction: column; /* Atur elemen anak dalam kolom */
+  min-height: 100vh; /* Minimal tinggi body adalah 100% viewport */
+  align-items: stretch;
+  position: relative; /* Tambahkan ini */
+  color: white;
+}
+
+.about-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/whitebg.png"); /* Sesuaikan path gambar */
+  background-size: cover; /* Memastikan gambar mengisi seluruh area */
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8; /* Atur transparansi sesuai kebutuhan */
+  z-index: -1; /* Pastikan background berada di belakang semua konten */
+}
+.about-navbar .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Memusatkan konten di dalam navbar */
+  padding: 0;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.about-navbar .nav-left {
+  position: absolute; /* Mengatur nav-left agar tidak mempengaruhi tata letak */
+  left: 20px; /* Menempatkan tombol HOME di sisi kiri */
+}
+
+.about-navbar .logo {
+  margin: 0; /* Pastikan logo berada di tengah secara otomatis */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-navbar .logo img {
+  height: 120px;
+}
+
+.about-navbar .nav-left .btn-home {
+  color: #fff;
+  background-color: #701414;
+  padding: 12px 25px; /* Padding lebih besar */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem; /* Ukuran font lebih besar */
+  text-decoration: none;
+  margin-left: 20px; /* Tambahkan margin */
+}
+
+.about-navbar .nav-left .btn-home:hover {
+  background-color: #b55666;
+  color: white;
+}
+
+.about-section {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px 20px;
+  margin-top: 100px;
+  color: #701414;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-section h1 {
+  z-index: 5;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0; /* Atur margin di atas dan bawah */
+  color: #701414;
+  animation: fadeInDown 0.8s ease-in-out; /* Perbaiki typo: menambahkan 's' pada durasi */
+}
+
+.about-section p {
+  z-index: 5;
+  font-size: 1.2rem;
+  color: #666666;
+  line-height: 1.8;
+  max-width: 800px;
+  margin-bottom: 20px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+.about-section p:last-child {
+  margin-bottom: 0px; /* Tambahkan jarak sebelum footer */
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about-footer {
+  background-color: transparent; /* Warna latar belakang putih untuk footer */
+  color: black; /* Warna teks hitam untuk kontras yang baik */
+  padding: 20px; /* Ruang di dalam footer */
+  text-align: center; /* Teks berada di tengah */
+  position: relative; /* Agar footer tidak melanggar batas konten */
+  width: 100%; /* Memastikan footer melebar penuh */
+  margin-top: auto;
+}
+
+.footer-icon {
+  font-size: 1.2rem;
+  color: #701414; /* Warna ikon */
+}
+
+.about-footer .footer-content {
+  margin: 0 auto; /* Memastikan konten footer terpusat */
+}
+
+/* Media query untuk perangkat dengan lebar layar maksimum 768px */
+@media screen and (max-width: 768px) {
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Pastikan navbar menggunakan flex-start */
+    padding: 0; /* Hilangkan padding agar elemen menempel ke tepi */
+  }
+
+  /* Memastikan logo berada di pojok kiri */
+  .hero-navbar .logo {
+    margin: 0; /* Hilangkan semua margin */
+    margin-left: 30px; /* Tambahkan margin kiri agar tidak terlalu mepet */
+    padding: 0; /* Hilangkan padding */
+    display: flex; /* Pastikan logo mengikuti tata letak flex */
+    width: auto; /* Setel lebar otomatis agar sesuai konten */
+    align-items: center; /* Pusatkan gambar secara vertikal */
+    justify-content: flex-start;
+  }
+
+  .hero-navbar .logo img {
+    height: 90px; /* Pertahankan ukuran logo */
+    margin-left: 0; /* Hilangkan margin kiri untuk menempel ke tepi */
+  }
+
+  /* Menyesuaikan tampilan tombol "ABOUT US" agar proporsional dan sejajar */
+  .nav-right .btn-about {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-right: 10px; /* Jarak dari tepi kanan agar proporsional */
+  }
+
+  /* Konten Hero Section */
+  .hero-section {
+    padding-left: 20px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+  .btn-chat {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  /* CHAT */
+
+  .chat-navbar .nav-left .btn-home {
+    padding: 8px 18px; /* Kurangi padding untuk membuat tombol lebih kecil */
+    font-size: 1rem; /* Perkecil ukuran font */
+    margin-left: 10px; /* Kurangi margin kiri jika perlu */
+  }
+  .chat-navbar .logo img {
+    height: 100px;
+    margin: 0;
+  }
+
+  .msg-bubble {
+    max-width: 80%; /* Kurangi max-width untuk layar kecil */
+    padding: 8px 12px; /* Sesuaikan padding */
+  }
+
+  .about-navbar .logo img {
+    height: 100px; /* Perkecil ukuran logo */
+  }
+
+  .about-navbar .nav-left .btn-home {
+    padding: 8px 15px; /* Sesuaikan padding */
+    font-size: 1rem; /* Perkecil ukuran font */
+  }
+
+  .about-section {
+    padding: 30px 15px; /* Sesuaikan padding */
+    margin-top: 80px; /* Kurangi margin-top untuk layar kecil */
+  }
+
+  .about-section h1 {
+    font-size: 2.5rem; /* Perkecil ukuran font heading */
+  }
+
+  .about-section p {
+    font-size: 1rem; /* Perkecil ukuran font paragraf */
+    line-height: 1.6; /* Sesuaikan line-height */
+  }
+
+  .about-footer {
+    padding: 15px; /* Sesuaikan padding di dalam footer */
+  }
+}
+
+/* Media query untuk perangkat dengan lebar layar maksimum 480px */
+@media screen and (max-width: 480px) {
+  .hero-navbar .logo img {
+    margin: 0; /* Pastikan margin dihilangkan */
+    height: 100px; /* Tetap 80px untuk layar kecil */
+  }
+
+  .nav-right .btn-about {
+    padding: 6px 8px;
+    font-size: 0.9rem;
+  }
+  /* CHAT */
+  .chat-navbar .nav-left .btn-home {
+    padding: 6px 15px; /* Padding lebih kecil untuk layar yang lebih kecil */
+    font-size: 0.9rem; /* Ukuran font lebih kecil */
+    margin-left: 5px; /* Margin lebih kecil untuk layar kecil */
+  }
+  .msg-bubble {
+    max-width: 70%; /* Kurangi lebih banyak untuk layar sangat kecil */
+    padding: 6px 10px; /* Sesuaikan padding */
+  }
+  .about-footer {
+    padding: 10px; /* Padding footer lebih kecil */
+  }
+
+  .footer-icon {
+    font-size: 1rem; /* Perkecil ukuran ikon */
+  }
+}

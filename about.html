@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us - Tarubot</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/style.css') }}"
+    />
+  </head>
+  <body class="about-page">
+    <header class="about-navbar">
+      <div class="navbar">
+        <div class="nav-left">
+          <a href="{{ url_for('home') }}" class="btn-home active">BERANDA</a>
+        </div>
+        <div class="logo">
+          <img src="./static/img/tarumabotredlogo.png" alt="Tarubot Logo" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-section">
+        <h1>TENTANG KAMI</h1>
+        <p>
+          Tarumabot adalah asisten virtual yang dirancang untuk memudahkan calon
+          mahasiswa, mahasiswa, dan masyarakat dalam mengakses informasi
+          mengenai Universitas Tarumanagara. Dengan kehadiran Tarumabot, kami
+          berusaha menghadirkan solusi inovatif untuk memenuhi kebutuhan
+          informasi akademik yang semakin meningkat.
+        </p>
+        <p>
+          Tujuan kami adalah menyediakan informasi secara cepat dan akurat
+          mengenai pertanyaan umum seputar Universitas Tarumanagara. Dengan
+          chatbot ini, pengguna dapat memperoleh informasi tanpa harus menunggu
+          jam kerja. Kami percaya bahwa akses informasi yang mudah adalah kunci
+          untuk membantu pengguna dalam membuat keputusan yang tepat mengenai
+          pendidikan mereka.
+        </p>
+        <p>
+          Kami berkomitmen untuk terus memperbarui dan meningkatkan layanan
+          Tarumabot agar tetap relevan dan bermanfaat bagi semua pengguna. Untuk
+          pertanyaan lebih lanjut atau umpan balik, silakan hubungi kami melalui
+          kontak yang tertera. Kami sangat menghargai masukan Anda untuk terus
+          menyempurnakan layanan kami.
+        </p>
+      </section>
+    </main>
+
+    <footer class="about-footer">
+      <div class="footer-content">
+        <p>
+          Contact Us: dhiwa.535210087@untar.ac.id | Phone: +62 812 1942 8854
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
