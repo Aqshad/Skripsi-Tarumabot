@@ -1,2 +1,2 @@
 # Skripsi-Tarumabot
-Chatbot Layanan Informasi Universitas Tarumanagara
+Chatbot Layanan Informasi Universitas Tarumanagara by Dhiwa Aqsha
